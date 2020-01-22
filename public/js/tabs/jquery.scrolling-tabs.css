@@ -1,0 +1,88 @@
+#chatTab .scrtabs-tab-container * {
+    box-sizing: border-box;
+}
+
+#chatTab .scrtabs-tab-container {
+    padding: 0 100px 0 30px;
+    padding-top: 10px;
+    height: 55px;
+    background-color: #efeff5;
+    width: 100%;
+    display: flex;
+}
+
+@media (max-width:1076px) {
+    #chatTab .scrtabs-tab-container {
+        padding: 0 100px 0 5px;
+    }
+}
+
+#chatTab .scrtabs-tab-container .tab-content {
+    clear: left;
+}
+
+#chatTab .scrtabs-tab-container.scrtabs-bootstrap4 .scrtabs-tabs-movable-container > .navbar-nav {
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+
+#chatTab .scrtabs-tabs-fixed-container {
+    float: left;
+    height: 45px;
+    padding-top: 7px;
+    overflow: hidden;
+    /*width: 97.5% !important;*/
+}
+
+#chatTab .scrtabs-tabs-movable-container {
+    position: relative;
+}
+
+    #chatTab .scrtabs-tabs-movable-container .tab-content {
+        display: none;
+    }
+
+#chatTab .scrtabs-tab-container.scrtabs-rtl .scrtabs-tabs-movable-container > ul.nav-tabs {
+    padding-right: 0;
+}
+
+/*.scrtabs-tab-scroll-arrow {
+    border: 1px solid #dddddd;
+    border-top: none;
+    color: #428bca;
+    display: none;
+    float: left;
+    font-size: 12px;
+    height: 42px;
+    margin-bottom: -1px;
+    padding-left: 2px;
+    padding-top: 13px;
+    width: 20px;
+}*/
+
+#chatTab .scrtabs-tab-scroll-arrow:hover {
+    background-color: #bbb;
+}
+
+#chatTab .scrtabs-tab-scroll-arrow,
+#chatTab .scrtabs-tab-scroll-arrow .scrtabs-click-target {
+    cursor: pointer;
+}
+
+    #chatTab .scrtabs-tab-scroll-arrow.scrtabs-with-click-target {
+        cursor: default;
+    }
+
+    #chatTab .scrtabs-tab-scroll-arrow.scrtabs-disable,
+    #chatTab .scrtabs-tab-scroll-arrow.scrtabs-disable .scrtabs-click-target {
+        color: #ddd;
+        cursor: default;
+    }
+
+        #chatTab .scrtabs-tab-scroll-arrow.scrtabs-disable:hover {
+            background-color: initial;
+        }
+
+#chatTab .scrtabs-tabs-fixed-container ul.nav-tabs > li {
+    white-space: nowrap;
+}

@@ -1,0 +1,32 @@
+﻿<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example of HTML5 Local Storage</title>
+ 
+</head>
+<body>
+    <button class="themeColor" id="darkTheme">Dark</button>
+    <button class="themeColor" id="lightTheme">Light</button>
+    <img class="imagePath" src="theme-01/theme-chat-icon.png" alt="">
+    <img class="imagePath" src="theme-01/theme-chat-icon.png" alt="">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $('.themeColor').click(function () {
+            alert('call');
+            $('.themeColor').removeClass('themeActive');
+            var getId = $(this).attr('id');
+            var imagePath = $('.imagePath');
+            if (getId === 'darkTheme') {
+                imagePath.attr('src', imagePath.attr('src').replace('theme-01/', 'theme-02/'));
+            } else if (getId === 'lightTheme') {
+                imagePath.attr('src', imagePath.attr('src').replace('theme-02/', 'theme-01/'));
+            }
+
+            $('.imagePath').each(function (index, val) {
+                console.log('You changed the image(' + (index + 1) + ') path to:' + $(this).attr('src'))
+            });
+        });
+    </script>
+</body>
+</html>                            

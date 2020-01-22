@@ -1,0 +1,48 @@
+/* Background color and resizes */
+
+.webPlayer .controls { display: flex; position: relative; height: 100px;  color: #FFFFFF; padding: 0px; z-index: 996; border: 0px solid rgba(88, 81, 75, 0.52); align-items: flex-end;}
+/* Background color and resizes */
+
+.webPlayer { display: inline-block; background: #dee5ee; position: relative; clear: both; margin-bottom: 0px; line-height: 1.4; font-size: 13px; text-align: center; /* Chrome FIX for full screen */ }
+.webPlayer a.smooth { transition: all 0.1s linear; -webkit-transition: all 0.1s linear; -moz-transition: all 0.1s linear; -o-transition: all 0.1s linear; }
+.webPlayer.jp-video-full > .controls { position: absolute; left: 0; right: 0; bottom: 0; opacity: 0.8; z-index: 1000; }
+.webPlayer.jp-video-full, .webPlayer.jp-video-full object, .webPlayer.jp-video-full video { position: fixed; top: 0; left: 0; right: 0; bottom: 0; display: block; z-index: 999; }
+.webPlayer.jp-video-full > .playerScreen, .webPlayer.jp-video-full > .playerScreen > .video-play { z-index: 1000; }
+.webPlayer .playerScreen { cursor: pointer; }
+/* .webPlayer .playerScreen .video-play { display: block; position: absolute; z-index: 990; width: 100%; top: 0; left: 0; right: 0; bottom: 50px; background: url("../img/preimg.png") no-repeat center center; opacity: 0.4; background-color: rgba(0, 0, 0, 0.4); } */
+
+
+
+.webPlayer .controls .leftblock {     display: flex;justify-content: center;align-content: center;}
+.webPlayer .controls .leftblock .play { display: block; width: 42px; height: 42px; opacity: 1;}
+.webPlayer .controls .leftblock .play:hover { opacity: 1; }
+.webPlayer .controls .leftblock .pause { display: block; width: 42px; height: 42px; opacity: 1;}
+.webPlayer .controls .leftblock .pause:hover { opacity: 1; }
+.webPlayer .controls .progress { position: relative; display: block; margin: 0 0px 10px 10px; text-align: left; }
+.webPlayer .controls .progress span { font-size: 12px; font-weight:500; margin-left: 1px; color: var(--main-theme-color); }
+.webPlayer .controls .progress .progressbar { display: none; height: 4px; background-color: #3C3C3C; background: rgba(255, 255, 255, 0.05); margin: 2.5px 0; }
+.webPlayer .controls .progress .progressbar .seekBar { position: relative; display: block; cursor: pointer; padding: 1px; background: rgba(255, 255, 255, 0.1); }
+.webPlayer .controls .progress .progressbar .seekBar .playBar { display: block; height: 2px; padding: 0; background: #FFFFFF; }
+.webPlayer .controls .progress .progressbar .seekBar a { display: block; position: absolute; top: -2px; width: 8px; height: 8px; border-radius: 5px; background: #ffffff; margin-left: -3px; }
+.webPlayer .controls .progress .progressbar .seekBar a div { width: 8px; height: 8px; }
+.webPlayer .controls .progress .time { display: block; font-size: 11px; }
+.webPlayer .controls .progress .time.current { left: 1px; text-align: left; font-size:12px;    color: #333; color: #000;margin-left:5px; }
+.webPlayer .controls .progress .time.duration { right: 0px; text-align: right; }
+.webPlayer .controls .rightblock .volumeText { display: block; position: absolute; bottom: -12px; text-align: center; width: 80px; font-size: 11px; }
+.webPlayer .controls .rightblock .volumeBar { display: block; height: 5px; background: #999; width: 80px; top: 19px; left: 0; cursor: pointer; }
+.webPlayer .controls .rightblock .volumeBar .currentVolume { position: relative; height: 2px; }
+.webPlayer .controls .rightblock .volumeBar .currentVolume .curvol { display: block; height: 5px; padding: 0; background: #999; }
+.webPlayer .controls .rightblock .volumeBar .currentVolume a { display: block; position: absolute; top: -2px; padding:0; margin-left: -3px; width: 10px; height: 10px; border-radius: 10px; background: #333; }
+.webPlayer .controls .rightblock .volumeBar .currentVolume a div { display: block; width: 8px; height: 8px; }
+.webPlayer .controls .rightblock .fullScreen { display: block; float: right; width: 16px; height: 16px; background: url("../images/jplayer.blue.png") no-repeat 0 -50px; margin-top: 12px; opacity: 0.4; }
+.webPlayer .controls .rightblock .fullScreen:hover { opacity: 0.8; }
+.webPlayer .controls .rightblock .fullScreenOFF { display: block; float: right; width: 16px; height: 16px; background: url("../images/jplayer.blue.png") no-repeat 0 -68px; margin-top: 12px; opacity: 0.4; }
+.webPlayer .controls .rightblock .fullScreenOFF:hover { opacity: 0.8; }
+.webPlayer.audioPlayer .progress { background: none; height:auto; width:100%;}
+.webPlayer.audioPlayer .rightblock {display: flex;width: 100%;align-items: center; }
+.webPlayer.audioPlayer .rightblock .volumeText { bottom: -42px; }
+.webPlayer.audioPlayer .fullScreen { display: none; }
+.webPlayer.audioPlayer .fullScreenOFF { display: none; }
+.videoPlayer{width:240px !important}
+.jp-mute,.jp-unmute {margin: 0 5px 0 0;cursor:pointer}
+.byname{display:flex;margin:3px 0;color:#666 !important;font-size:12px;margin-bottom:5px;}

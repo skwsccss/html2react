@@ -1,0 +1,469 @@
+:root {
+    --main-theme-color: #f3631d;
+    --main-themelight-color: #fb7432;
+    --main-theme-hover-color: #d24c0b;
+    --main-light-color: rgba(243, 99, 29, 0.8);
+    --extra-light-color: #FAB99A;
+}
+
+
+
+.orange-theme {
+    background: var(--main-theme-color) !important;
+    color: #fff;
+}
+
+.theme-light-bg {
+    background: var(--main-light-color);
+    -ieVar-background: var(--main-theme-color) !important;
+}
+
+.theme-bg {
+    background: var(--main-theme-color) !important;
+    -ieVar-background: var(--main-theme-color) !important;
+    color: #fff !important;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+    .theme-bg:hover {
+        background: var(--main-theme-hover-color) !important;
+        -ieVar-background: var(--main-theme-color) !important;
+    }
+
+.theme-txt-color {
+    color: var(--main-theme-color) !important;
+    -ieVar-background: var(--main-theme-color) !important;
+}
+
+.purple-txt {
+    color: #9b3ec7;
+}
+
+.gray-bg {
+    background: #cdd4de;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+    .gray-bg:hover {
+        background: #bec7d4;
+        color: #fff;
+    }
+
+.dark-gray-bg {
+    background: #999;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+    .dark-gray-bg:hover {
+        background: #4d4d4d;
+        color: #fff;
+    }
+
+.gray-light-bg {
+    background: #efeff5;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    /*&:hover {
+        background: darken($gray-bg,5%);
+        color: $black-color;
+    }*/
+}
+
+/*change sprite image path*/
+
+.sprite {
+    background: url(../images/sprite.png) no-repeat;
+}
+
+
+
+/*room option sprite*/
+.room-sprite {
+    background: url(../images/room-option-sprite.png) no-repeat;
+}
+
+
+
+.openchat-ico {
+    background: url(../images/openchat.png) no-repeat;
+}
+
+.first-page {
+    background: url(../images/first-page.png)no-repeat;
+}
+
+.prev-page {
+    background: url(../images/prev-page.png)no-repeat;
+}
+
+.next-page {
+    background: url(../images/next-page.png)no-repeat;
+}
+
+.last-page {
+    background: url(../images/last-page.png)no-repeat;
+}
+
+.back-icon {
+    background: url(../images/back-arrow.png)no-repeat;
+}
+
+.right-arrow-ico {
+    background: url(../images/right-arrow.png)no-repeat;
+}
+
+.chat-menu-icon {
+    background: url(../images/chat-menu-icon.png)no-repeat;
+}
+
+.more-profile-menu {
+    background: url(../images/more-profile-menu.png)no-repeat;
+}
+
+
+/*added on 13-06-2019*/
+
+.duration-select:after {
+    content: url(../images/select-down.png);
+}
+
+.toggle-radio .jp-controls {
+    background: url(../images/video-bg.png)no-repeat;
+}
+
+.share-icon {
+    background: url(../images/share.png)no-repeat;
+}
+
+.theme-fullscreen {
+    background: url(../images/full-screen-theme.png)no-repeat;
+}
+
+#chatTab .nav-tabs > li > a:before {
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+}
+
+.gray-bg-line:before {
+    background-image: url(../images/gray-trail.png);
+    background-repeat: no-repeat;
+}
+
+.white-bg-line:before {
+    background-image: url(../images/white-trail.png);
+    background-repeat: no-repeat;
+}
+
+.dataTables_filter label:before {
+    content: url(../images/search-ico.png);
+}
+
+.video-calling .voice-pics.video-bg {
+    background: url(../images/video-calling.png)no-repeat;
+}
+
+@media (max-width: 768px) {
+    .room-dropdown:before {
+        background-image: url(../images/sprite.png);
+        background-repeat: no-repeat;
+    }
+
+    .room-dropdown:after {
+        background-image: url(../images/sprite.png);
+        background-repeat: no-repeat;
+    }
+
+    .down-arrow:after {
+        content: url(../images/down-arrow.png);
+        background-repeat: no-repeat;
+    }
+
+    .upgrade-model .modal-body {
+        background: url(../images/upgrade-bg.jpg)no-repeat;
+    }
+
+    .duration-select:after {
+        content: url(../images/down-arrow01.jpg);
+        background-repeat: no-repeat;
+    }
+
+    .view-profile-dropdown .profile-section {
+        background: url(../images/profile-info-bg.jpg) no-repeat !important;
+    }
+
+        .view-profile-dropdown .profile-section:hover {
+            background: url(../images/profile-info-bg.jpg) !important;
+        }
+
+    .login-popup .duration-select.gender:before {
+        content: url(../images/gender-icon.png);
+    }
+
+    .login-mob-bg {
+        background: url(../images/login-bg.png) no-repeat !important;
+    }
+
+    .video-bg {
+        background: url(../images/full-videocall.jpg)no-repeat;
+    }
+
+    .half-video {
+        background: url(../images/video-bg.png)no-repeat;
+    }
+
+    .full-video {
+        background: url(../images/video-bg.png)no-repeat;
+    }
+}
+
+
+.jp-play {
+    background: url("../images/jplayer.blue.png")no-repeat;
+}
+
+    .jp-play:focus {
+        background: url("../images/jplayer.blue.png")no-repeat;
+    }
+
+.jp-state-playing .jp-play {
+    background: url("../images/jplayer.blue.png")no-repeat;
+}
+
+    .jp-state-playing .jp-play:focus {
+        background: url("../images/jplayer.blue.png")no-repeat;
+    }
+
+.jp-stop {
+    background: url("../images/jplayer.blue.png")no-repeat;
+    margin-left: 10px;
+}
+
+    .jp-stop:focus {
+        background: url("../images/jplayer.blue.png")no-repeat;
+    }
+
+.jp-previous {
+    background: url("../images/jplayer.blue.png")no-repeat;
+}
+
+    .jp-previous:focus {
+        background: url("../images/jplayer.blue.png")no-repeat;
+    }
+
+.jp-next {
+    background: url("../images/jplayer.blue.png")no-repeat;
+}
+
+    .jp-next:focus {
+        background: url("../images/jplayer.blue.png")no-repeat;
+    }
+
+
+
+.jp-seek-bar {
+    background: url("../images/jplayer.blue.png")no-repeat;
+    width: 0px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.jp-play-bar {
+    background: url("../images/jplayer.blue.png") no-repeat;
+    width: 0px;
+    height: 100%;
+}
+
+/* The seeking class is added/removed inside jPlayer */
+.jp-seeking-bg {
+    background: url("../images/jplayer.blue.monday.seeking.gif") no-repeat;
+}
+
+.jp-mute {
+    background: url("../images/jplayer.blue.png") no-repeat;
+}
+
+    .jp-mute:focus {
+        background: url("../images/jplayer.blue.png") no-repeat;
+    }
+
+.jp-state-muted .jp-mute {
+    background: url("../images/jplayer.blue.png") no-repeat;
+}
+
+    .jp-state-muted .jp-mute:focus {
+        background: url("../images/jplayer.blue.png") no-repeat;
+    }
+
+.jp-volume-max {
+    background: url("../images/jplayer.blue.png") no-repeat;
+}
+
+    .jp-volume-max:focus {
+        background: url("../images/jplayer.blue.png") no-repeat;
+    }
+
+
+.jp-volume-bar {
+    background: url("../images/jplayer.blue.png") no-repeat;
+}
+
+.jp-volume-bar-value {
+    background: url("../images/jplayer.blue.png") no-repeat;
+}
+
+.jp-video-play-icon {
+    background: url("../image/jplayer.blue.monday.video.play.png") no-repeat;
+}
+
+    .jp-video-play-icon:focus {
+        background: url("../image/jplayer.blue.monday.video.play.png") no-repeat;
+    }
+
+.jp-full-screen {
+    background: url("../images/jplayer.blue.png") 0 -310px no-repeat;
+}
+
+    .jp-full-screen:focus {
+        background: url("../images/jplayer.blue.png") -30px -310px no-repeat;
+    }
+
+.jp-state-full-screen .jp-full-screen {
+    background: url("../images/jplayer.blue.png") -60px -310px no-repeat;
+}
+
+    .jp-state-full-screen .jp-full-screen:focus {
+        background: url("../images/jplayer.blue.png") -90px -310px no-repeat;
+    }
+
+.jp-repeat {
+    background: url("../images/jplayer.blue.png") 0 -290px no-repeat;
+}
+
+    .jp-repeat:focus {
+        background: url("../images/jplayer.blue.png") -30px -290px no-repeat;
+    }
+
+.jp-state-looped .jp-repeat {
+    background: url("../images/jplayer.blue.png") -60px -290px no-repeat;
+}
+
+    .jp-state-looped .jp-repeat:focus {
+        background: url("../images/jplayer.blue.png") -90px -290px no-repeat;
+    }
+
+.jp-shuffle {
+    background: url("../images/jplayer.blue.png") 0 -270px no-repeat;
+    margin-left: 5px;
+}
+
+    .jp-shuffle:focus {
+        background: url("../images/jplayer.blue.png") -30px -270px no-repeat;
+    }
+
+.jp-state-shuffled .jp-shuffle {
+    background: url("../images/jplayer.blue.png") -60px -270px no-repeat;
+}
+
+    .jp-state-shuffled .jp-shuffle:focus {
+        background: url("../images/jplayer.blue.png") -90px -270px no-repeat;
+    }
+
+
+
+.room-ico-sprite {
+    background: url(../images/room-chat-option.png) no-repeat;
+}
+
+.theme-user-group-ico {
+    background: url(../images/theme-user-group.png) no-repeat;
+}
+
+
+.login-user {
+    background: url(../images/m-user-icon.png)no-repeat;
+}
+
+.m-lock-icon {
+    background: url(../images/m-lock-icon.png)no-repeat;
+}
+
+.m-gender-icon {
+    background: url(../images/m-gender-icon.png)no-repeat;
+}
+
+.login-popup .duration-select.gender::before {
+    background: url(../images/m-gender-icon.png)no-repeat;
+}
+
+.login-popup .duration-select.location::before {
+    background: url(../images/m-location-icon.png)no-repeat;
+}
+
+.m-email-icon {
+    background: url(../images/m-email-icon.png)no-repeat;
+}
+
+.m-location-icon {
+    background: url(../images/m-location-icon.png)no-repeat;
+}
+
+.whatsapp-ico {
+    background: url(../images/whatsapp.png)no-repeat;
+}
+
+.facebook-ico {
+    background: url(../images/facebook.png)no-repeat;
+}
+
+.c-user-ico {
+    background: url(../images/c-user.png)no-repeat;
+}
+
+.c-envelope-ico {
+    background: url(../images/c-envelope.png)no-repeat;
+}
+
+.c-support-ico {
+    background: url(../images/c-support.png)no-repeat;
+}
+
+.webPlayer .controls .leftblock .play {
+    background: url("../images/jplayer.blue.png") no-repeat -138px -1px;
+}
+
+.webPlayer .controls .leftblock .pause {
+    background: url("../images/jplayer.blue.png") no-repeat -138px -44px;
+}
+
+.bg-radio .leftblock {
+    background: url(../images/video-bg.png)no-repeat;
+}
+
+.jp-unmute {
+    background: url("../images/jplayer.blue.png") no-repeat;
+}
+
+    .jp-unmute:focus {
+        background: url("../images/jplayer.blue.png") no-repeat;
+    }
+
+
+
+.minimize-tab-ico {
+    background: url(../images/maximize-icon-black.png) no-repeat;
+}
