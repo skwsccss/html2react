@@ -9,9 +9,7 @@ import MainContent from './mainContent/mainContent';
 
 class MainPage extends Component {
 
-    componentWillMount() {
-        // this.props.fetchPosts()
-    }
+    
 
     render() {
         return (

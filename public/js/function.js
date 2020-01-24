@@ -622,80 +622,9 @@ $(document).ready(function () {
     }
 
     //audio player function
-    $("#jquery_jplayer_1").jPlayer({
-        ready: function (event) {
-            $(this).jPlayer("setMedia", {
-                title: "Bubble",
-                //m4a: "http://jplayer.org/audio/m4a/Miaow-07-Bubble.m4a",
-                //oga: "http://jplayer.org/audio/ogg/Miaow-07-Bubble.ogg"
-                m4a: "js/audio-player/Miaow-07-Bubble.m4a",
-                oga: "js/audio-player/Miaow-07-Bubble.ogg"
-            });
-        },
-        swfPath: "../js/audio-player/jquery.jplayer.swf",
-        supplied: "m4a, oga",
-        wmode: "window",
-        useStateClassSkin: true,
-        autoBlur: false,
-        smoothPlayBar: true,
-        keyEnabled: true,
-        remainingDuration: true,
-        toggleDuration: true
-    });
-    //mobile radio player
-
-
-
-    var promise2 = new Promise(function (resolve, reject) {
-        $("#radio_player").jPlayer({
-            ready: function (event) {
-                $(this).jPlayer("setMedia", {
-                    mp3: "https://s2.radio.co/s79d5660a8/listen",
-                });
-            },
-            swfPath: "../../dist/jplayer",
-                supplied: "m4a, oga, mp3",
-                wmode: "window",
-                cssSelectorAncestor: '#jp_container_2',
-                useStateClassSkin: true,
-                autoBlur: false,
-                smoothPlayBar: true,
-                keyEnabled: true,
-                remainingDuration: true,
-                toggleDuration: true,
   
-        });
-        resolve();
-    });
-
-    promise2.then(function (value) {
-        //console.log(value);
-    });
-    var promise1 = new Promise(function (resolve, reject) {
-        //$("#radio_player1").jPlayer({
-        //    ready: function (event) {
-        //        $(this).jPlayer("setMedia", {
-        //            mp3: "https://s2.radio.co/s79d5660a8/listen"
-        //        });
-        //    },
-        //    swfPath: "../../dist/jplayer",
-        //    supplied: "m4a, oga, mp3",
-        //    wmode: "window",
-        //    cssSelectorAncestor: '#jp_container_3',
-        //    useStateClassSkin: true,
-        //    autoBlur: false,
-        //    smoothPlayBar: true,
-        //    keyEnabled: true,
-        //    remainingDuration: true,
-        //    toggleDuration: true
-        //});
-        //resolve();
-    });
-
-    promise1.then(function (value) {
-        //console.log(value);
-    });
-
+    
+   
     var viewPortWidth = jQuery(window).width();
     //if (viewPortWidth < 768) {
     //    $('.notification-list').removeClass('header-popup');
@@ -951,7 +880,7 @@ function UpgradeDataTableResponsive() {
             "language": {
                 search: "",
                 oPaginate: {
-                    sNext: '<i class="next-page"></i>',
+                    sNext: '<i class="next- "></i>',
                     sPrevious: '<i class="prev-page"></i>',
                     sFirst: '<i class="first-page"></i>',
                     sLast: '<i class="last-page"></i>'
@@ -989,7 +918,7 @@ function UpgradeDataTableResponsive() {
                 $("." + optionValue).show().addClass('show');
                 $("#chat-area .tab-pane").scrollTop($('#chat-area .tab-pane').height() + 500);
                 var myDiv = document.getElementById("room1");
-                myDiv.scrollTop = myDiv.scrollHeight;
+                // myDiv.scrollTop = myDiv.scrollHeight;
                 if (optionType) {
                     $('.user-list-scroll').addClass('visible-talk');
                     $('.mobile-user-list').addClass('talk-mode');

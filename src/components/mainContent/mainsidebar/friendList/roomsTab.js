@@ -1,20 +1,13 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types'
+import React, { Component } from 'react'
 
-
-// import 
-
-
-
-class MobRoomList extends Component {
-    
+export default class RoomsTab extends Component {
     render() {
         const { rooms } = this.props;
-        const mobList = rooms.rooms.map((item, index) => (
+        const roomList = rooms.map((item, index) => (
             <li key={index}>
                 <span className="arrow-right-caret"></span>
                 <span className="room-avtar">
-                    <span className="room-thumb"><img src={require('../../../../../assets/images/room-pics.png')} className="img-fluid mCS_img_loaded" alt="group" /></span>
+                    <span className="room-thumb"><img src={require('../../../../assets/images/room-pics.png')} className="img-fluid mCS_img_loaded" alt="group" /></span>
                     <span className="room-detail">
                         <span className="room-head">
                             {item.name}
@@ -39,32 +32,13 @@ class MobRoomList extends Component {
                 </span>
             </li>
         ));
-
         return (
-            <div className="mobile-room-list popup-box remove-overflow" id="room-mob">
-                <div className="row align-items-center justify-content-between theme-light-bg no-gutter">
-                    <div className="col-12 search-bar">
-                        <div className="search-input show">
-                            <input placeholder="Room search" type="text" />
-                            <button title="Search Menu"><i className="sprite search-ico"></i></button>
-                        </div>
-                        <span className="roomlist-close">X</span>
-                    </div>
-                </div>
-
-                <div className="user-list-scroll">
-                    <div className="m-l-sm m-t-sm"> ROOM LIST</div>
-                    <ul className="room-listing">
-                        {mobList}
-                    </ul>
-                </div>
+            <div className="tab-pane" id="room" role="tabpanel" aria-labelledby="room-tab">
+                <div className="list-tabpane-ttl"> ROOM LIST</div>
+                <ul className="room-listing scroll-listing">
+                    {roomList}
+                </ul>
             </div>
         )
     }
 }
-
-MobRoomList.propTypes = {
-    rooms: PropTypes.object.isRequired
-}
-
-export default MobRoomList;

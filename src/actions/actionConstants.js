@@ -8,20 +8,16 @@ export const FETCH_USER = 'FETCH_USER';
 export const FETCH_USER_FAILED = 'FETCH_USER_FAILED';
 export const FETCH_USER_SUCCESS = 'FETCH_USER_SUCCESS';
 
-// Tree Table
-export const TOGGLE_TREE = 'TOGGLE_TREE';
 
-// Redux Form
-export const INIT = 'INIT';
-export const CLEAR = 'CLEAR';
+// Friend
+export const FETCH_FRIEND = 'FETCH_FRIEND';
+export const FETCH_FRIEND_FAILED = 'FETCH_FRIEND_FAILED';
+export const FETCH_FRIEND_SUCCESS = 'FETCH_FRIEND_SUCCESS';
 
-// Crud Table
-export const FETCH_DATA = 'FETCH_DATA';
-export const ADD_EMPTY_ROW = 'ADD_EMPTY_ROW';
-export const UPDATE_ROW = 'UPDATE_ROW';
-export const REMOVE_ROW = 'REMOVE_ROW';
-export const EDIT_ROW = 'EDIT_ROW';
-export const SAVE_ROW = 'SAVE_ROW';
+// Friend
+export const FETCH_ROOM_TABS = 'FETCH_ROOM_TABS';
+export const FETCH_ROOM_TABS_FAILED = 'FETCH_ROOM_TABS_FAILED';
+export const FETCH_ROOM_TABS_SUCCESS = 'FETCH_ROOM_TABS_SUCCESS';
 
 // Crud Form Table
 export const FETCH_DATA_FORM = 'FETCH_DATA_FORM';

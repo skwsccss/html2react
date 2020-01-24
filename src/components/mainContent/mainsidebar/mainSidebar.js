@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ProfileHeader from './profileHeader'
 import SidebarSearch from './search'
-import FriendList from './friendList'
+import FriendList from './friendList/friendList'
 import RadioPlayer from './radioPlayer'
 import PressTalk from './pressTalk'
 
