@@ -8,19 +8,19 @@ export default class PressTalk extends Component {
                     <span className="btn-title">Press to talk</span>
                     <span className="sm-video-btn lock-btn">
                         <span className="voice-option mic-action" title="Mic">
-                            <img alt="press" src="../../../assets/images/lg-mic-icon.png" className="img-fluid lock-mic" />
-                            <img alt="press" src="../../../assets/images/lg-mic-on.png" className="img-fluid unlock-mic" />
+                            <img alt="press" src={"/images/lg-mic-icon.png"} className="img-fluid lock-mic" />
+                            <img alt="press" src={"/images/lg-mic-on.png"} className="img-fluid unlock-mic" />
                         </span>
                         <span className="voice-lock lock-action" title="Lock">
-                            <img alt="press" src="../../../assets/images/lg-lock-icon.png" className="img-fluid lock-mic" />
-                            <img alt="press" src="../../../assets/images/lg-unlock.png" className="img-fluid unlock-mic" />
+                            <img alt="press" src={"/images/lg-lock-icon.png"} className="img-fluid lock-mic" />
+                            <img alt="press" src={"/images/lg-unlock.png"} className="img-fluid unlock-mic" />
                         </span>
                     </span>
                 </div>
                 <div className="text-center">
                     <span className="btn-title">Rais Hand</span>
                     <span className="sm-video-btn hand">
-                        <span className="voice-option" title="Mic"><img alt="press" src="../../../assets/images/hand.png" className="img-fluid" /></span>
+                        <span className="voice-option" title="Mic"><img alt="press" src={"/hand.png"} className="img-fluid" /></span>
                     </span>
                 </div>
             </div>

@@ -8,7 +8,7 @@ export default class MsgInput extends Component {
                     <div className="col-12">
                         <span className="photo-frame">
                             <a href="#change-avtar-popup">
-                                <img src={require("../../../../../../assets/images/chat-photo.jpg")} className="img-fluid" alt="msginput" />
+                                <img src={"/images/chat-photo.jpg"} className="img-fluid" alt="msginput" />
                                 <span className="status-signal">&nbsp;</span>
                             </a>
                         </span>

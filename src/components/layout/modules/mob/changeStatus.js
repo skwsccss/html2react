@@ -12,7 +12,7 @@ class ChangeStatus extends Component {
                                 <span className="user-detail">
                                     <span className="d-flex align-items-center">
                                         <span>
-                                            <img src={require("../../../../assets/images/crown.png")} className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="error" />
+                                            <img src={"/images/crown.png"} className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="error" />
                                         </span>
                                         <span>
                                             <span className="user-name-sm">Heng liang</span><br />
@@ -21,7 +21,7 @@ class ChangeStatus extends Component {
                                     </span>
                                 </span>
                                 <span className="credit-txt">
-                                    <img src={require("../../../../assets/images/credit.png")} className="img-fluid m-l-sm m-r-sm m-w-14" alt="error" />1000<img src={require("../../../../assets/images/cart.png")} className="img-fluid m-l-sm m-r-sm m-w-14" alt="error" />
+                                    <img src={"/images/credit.png"} className="img-fluid m-l-sm m-r-sm m-w-14" alt="error" />1000<img src={"/images/cart.png"} className="img-fluid m-l-sm m-r-sm m-w-14" alt="error" />
                                 </span>
                             </span>
                             <span>
@@ -36,10 +36,10 @@ class ChangeStatus extends Component {
                         <a className="dropdown-item" href="#a"><span className="status-ico in-visible"></span>Invisible</a>
                     </li>
                     <li className="seprator account-link">
-                        <a className="dropdown-item z-disable" href="#myaccount-popup" onClick={console.log('sss')} title="My account"><img src={require("../../../../assets/images/right-icon.png")} className="img-fluid" alt="error" />My Account</a>
-                        <a className="dropdown-item z-disable" href="#change-avtar-popup" onClick={console.log('ss')} title="Change Avatar"><img src={require("../../../../assets/images/right-icon.png")} className="img-fluid" alt="error" />Change Avatar</a>
+                        <a className="dropdown-item z-disable" href="#myaccount-popup" onClick={console.log('sss')} title="My account"><img src={"/images/right-icon.png"} className="img-fluid" alt="error" />My Account</a>
+                        <a className="dropdown-item z-disable" href="#change-avtar-popup" onClick={console.log('ss')} title="Change Avatar"><img src={"/images/right-icon.png"} className="img-fluid" alt="error" />Change Avatar</a>
                     </li>
-                    <li><a className="dropdown-item logout z-disable" href="#logout-popup" onClick={console.log('aaa')}><img src={require("../../../../assets/images/logout.png")} className="img-fluid" alt="error" />Logout</a></li>
+                    <li><a className="dropdown-item logout z-disable" href="#logout-popup" onClick={console.log('aaa')}><img src={"/images/logout.png"} className="img-fluid" alt="error" />Logout</a></li>
                 </ul>
             </div>
         )

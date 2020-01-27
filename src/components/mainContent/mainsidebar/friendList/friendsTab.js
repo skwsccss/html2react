@@ -7,18 +7,18 @@ export default class FriendsTab extends Component {
             <li key={index} className={index % 2 === 0 ? 'blue-text' : 'pink-text'}>
                 <span className="arrow-right-caret"></span>
                 <span>
-                    <img alt="avatar" src={require(`../../../../assets/images/${friend.userLevel}.png`)} className="img-fluid imagePath" title={`User-${friend.userLevel}`} />
+                    <img alt="avatar" src={`/images/${friend.userLevel}.png`} className="img-fluid imagePath" title={`User-${friend.userLevel}`} />
                 </span>
                 <span className="profile-avtar">
-                    <img alt="avatar" src={require("../../../../assets/images/chat-photo.jpg")} className="img-fluid" />
+                    <img alt="avatar" src={"/images/chat-photo.jpg"} className="img-fluid" />
                     <span className={`${friend.status}-signal`}>&nbsp;</span>
                 </span>
                 <span>{friend.name}</span>
                 <span className="float-right">
                     <a href="#video01-popup" className="calling-icon">
-                        <img alt="avatar" src={require(`../../../../assets/images/${friend.actionTitle}.png`)} title={friend.actionTitle} className="img-fluid m-t-xs m-r-sm call-popup imagePath" />
+                        <img alt="avatar" src={`/images/${friend.actionTitle}.png`} title={friend.actionTitle} className="img-fluid m-t-xs m-r-sm call-popup imagePath" />
                     </a>
-                    <img alt="avatar" src={require(`../../../../assets/images/${friend.gender === 'Men' ? 'men' : 'women'}.png`)} title={friend.gender} className="img-fluid m-t-xs imagePath" />
+                    <img alt="avatar" src={`/images/${friend.gender === 'Men' ? 'men' : 'women'}.png`} title={friend.gender} className="img-fluid m-t-xs imagePath" />
                 </span>
             </li>
         ))

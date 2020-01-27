@@ -11,13 +11,13 @@ class MobUserList extends Component {
                     user.userLevel && user.userLevelImg ?
                         <span>
                             <img
-                                src={require("../../../../../assets/images/blue-taj.png")}
+                                src={"/blue-taj.png"}
                                 className="img-fluid imagePath" title={user.userLevel} alt="userlist"/>
                         </span> :
                         <span>&nbsp;</span>
                 }
                 <span className="profile-avtar">
-                    <img src={require("../../../../../assets/images/chat-photo.jpg")} className="img-fluid" alt="userlist" />
+                    <img src={"/images/chat-photo.jpg"} className="img-fluid" alt="userlist" />
                     {/* <img src={require(user.userAvatar)} className="img-fluid" /> */}
                     <span className="away-signal">&nbsp;</span>
                 </span>
@@ -25,16 +25,16 @@ class MobUserList extends Component {
                 <span className="float-right">
                     {user.actionImg ?
                         <a href="#1" className="calling-icon">
-                            <img src={require("../../../../../assets/images/hand.png")}
+                            <img src={"/images/hand.png"}
                                 title="Raise Hand"
                                 className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" alt="userlist" />
                         </a> :
                         ''}
                     {/* {user.actionImg ? <a href="#1" className="calling-icon"> <img src={require(user.actionImg)} title="Raise Hand" className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" /></a> : ''} */}
                     <img src={
-                        user.gender === 'Men' ?
-                            require("../../../../../assets/images/men.png") :
-                            require("../../../../../assets/images/women.png")}
+                        `/images${user.gender === 'Men' ?
+                            "/men.png" :
+                            "/women.png"}`}
                         title={user.gender}
                         className="img-fluid m-t-xs imagePath" alt="userlist" />
                 </span>

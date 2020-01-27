@@ -23,7 +23,7 @@ export default class ChatBoard extends Component {
                 <div className="col-12 m-b-sm d-flex align-items-end" key={index}>
                     <div className="profile-pics btn-group dropright">
                         <span className="dropdown-open">
-                            <img src={require(`../../../../../assets/images/profile-pics/0${index % 2 === 0 ? 1 : 2}.png`)} className="img-fluid rounded-circle b-user-pics" alt="userImg" />
+                            <img src={`/images/profile-pics/0${index % 2 === 0 ? 1 : 2}.png`} className="img-fluid rounded-circle b-user-pics" alt="userImg" />
                             <span className="arrow-left-caret"></span>
                         </span>
                     </div>
@@ -46,7 +46,7 @@ export default class ChatBoard extends Component {
                             {
                                 item.accoption.map((option, key) => (
                                     <button className="chat-accept-btn" title={option} key={key}>
-                                        <img src={require(`../../../../../assets/images/${option !== 'Rejection' ? 'accept' : 'reject'}-icon.png`)} alt="butnimage" /><span className="action-txt"> {option}</span>
+                                        <img src={`/images/${option !== 'Rejection' ? 'accept' : 'reject'}-icon.png`} alt="butnimage" /><span className="action-txt"> {option}</span>
                                     </button>
                                 ))}
                         </span>

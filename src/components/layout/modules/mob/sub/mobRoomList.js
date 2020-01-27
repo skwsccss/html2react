@@ -14,7 +14,7 @@ class MobRoomList extends Component {
             <li key={index}>
                 <span className="arrow-right-caret"></span>
                 <span className="room-avtar">
-                    <span className="room-thumb"><img src={require('../../../../../assets/images/room-pics.png')} className="img-fluid mCS_img_loaded" alt="group" /></span>
+                    <span className="room-thumb"><img src={"/images/room-pics.png"} className="img-fluid mCS_img_loaded" alt="group" /></span>
                     <span className="room-detail">
                         <span className="room-head">
                             {item.name}

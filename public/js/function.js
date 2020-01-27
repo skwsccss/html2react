@@ -1617,6 +1617,86 @@ $('#changeavatar').click(() => {
     openReceiveUpgradePopup('change-avatar-popup');
 })
 
+$('#private-message-request').click(()=>{
+    openReceiveUpgradePopup('private-message-request')
+})
+
+$('#gift-popup').click(()=>{
+    openReceiveUpgradePopup('gift-popup')
+})
+$('#upgrade-popup').click(()=>{
+    openReceiveUpgradePopup('upgrade-popup')
+})
+$('#ignore-list-popup').click(()=>{
+    openReceiveUpgradePopup('ignore-list-popup')
+})
+$('#friend-request-popup').click(()=>{
+    openReceiveUpgradePopup('friend-request-popup')
+})
+$('#mute-window-popup').click(()=>{
+    openReceiveUpgradePopup('mute-window-popup')
+})
+$('#silent-mute-window-popup').click(()=>{
+    openReceiveUpgradePopup('mute-window-popup')
+})
+$('#kick-window-popup').click(()=>{
+    openReceiveUpgradePopup('kick-window-popup')
+})
+$('#ban-popup').click(()=>{
+    openReceiveUpgradePopup('ban-popup')
+})
+$('#OpenRealPopup').click(()=>{
+    OpenRealPopup()
+})
+$('#OpenReal').click(()=>{
+    OpenRealPopup()
+})
+$('#view-profile').click(()=>{
+    MobFullDisplay('view-profile')
+})
+$('#myaccount-popup').click(()=>{
+    openReceiveUpgradePopup('myaccount-popup')
+})
+$('#change-avtar-popup').click(()=>{
+    openReceiveUpgradePopup('change-avtar-popup')
+})
+$('.gift-popup').click(()=>{
+    openReceiveUpgradePopup('gift-popup')
+})
+$('.upgrade-popup').click(()=>{
+    openReceiveUpgradePopup('upgrade-popup')
+})
+
+$('.ignore-list-popup').click(()=>{
+    openReceiveUpgradePopup('ignore-list-popup')
+})
+
+$('.view-full-user').click(()=>{
+    openReceiveUpgradePopup('view-full-user')
+})
+
+$('.myaccount-popup').click(()=>{
+    openReceiveUpgradePopup('myaccount-popup')
+})
+
+$('.change-avtar-popup').click(()=>{
+    openReceiveUpgradePopup('change-avtar-popup')
+})
+
+$('.logout-popup').click(()=>{
+    openReceiveUpgradePopup('logout-popup')
+})
+
+$('#id').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('#id').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+
+
 $('#closeAllPopup').click(() => {
     $('.modal01').removeClass('show');
     var myDiv = document.getElementsByClassName("mob-bottom-scroll")[0];
@@ -1903,7 +1983,6 @@ function CloseUserList() {
     $('.mobile-user-list').removeClass('show');
     $('.mob-header-btn').removeClass('active');
     $('.user-list li.show-box').removeClass('current');
-
 }
 
 

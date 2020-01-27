@@ -8,7 +8,7 @@ export default class FooterTop extends Component {
                     <div className="position-left">
                         <span className="photo-frame">
                             <a href="#change-avtar-popup" className="z-disable" id='changeavatar'>
-                                <img src={require("../../../../../../assets/images/chat-photo.jpg")} className="img-fluid z-disable" alt="ss" />
+                                <img src={"/images/chat-photo.jpg"} className="img-fluid z-disable" alt="ss" />
                                 <span className="status-signal">&nbsp;</span>
                             </a>
                         </span>
@@ -37,7 +37,7 @@ export default class FooterTop extends Component {
                     <div className="position-left">
                         <span className="photo-frame">
                             <a href="#change-avtar-popup" className="z-disable" id='changeavatar'>
-                                <img src={require("../../../../../../assets/images/chat-photo.jpg")} className="img-fluid z-disable" alt="ss" />
+                                <img src={"/images/chat-photo.jpg"} className="img-fluid z-disable" alt="ss" />
                                 <span className="status-signal">&nbsp;</span>
                             </a>
                         </span>
@@ -66,7 +66,7 @@ export default class FooterTop extends Component {
                     <div className="position-left">
                         <span className="photo-frame">
                             <a href="#change-avtar-popup" className="z-disable" id='changeavatar'>
-                                <img src={require("../../../../../../assets/images/chat-photo.jpg")} className="img-fluid z-disable" alt="ss" />
+                                <img src={"/images/chat-photo.jpg"} className="img-fluid z-disable" alt="ss" />
                                 <span className="status-signal">&nbsp;</span>
                             </a>
                         </span>

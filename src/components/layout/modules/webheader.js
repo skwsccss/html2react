@@ -24,7 +24,7 @@ class WebHeader extends Component {
     render() {
         return (
             <div className="navbar row top-header align-items-center">
-                <div className="col-auto mr-auto"><img src={require("../../../assets/images/logo.png")} className="img-fluid" alt="logo" /></div>
+                <div className="col-auto mr-auto"><img src="/images/logo.png" className="img-fluid" alt="logo" /></div>
                 <div className='col-auto header-icons d-flex'>
                     <div className="btn-group hide-show-btn" id="status" data-toggle="buttons">
                         <label className={`btn btn-default btn-on btn-xs ${this.state.checked === '1' ? 'active' : ''}`}>

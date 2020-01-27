@@ -21,7 +21,7 @@ export default class ProfileHeader extends Component {
                         <span className="btn-group dropleft">
                             <span className="sidebar-status-dropdown">
                                 <span className="profile-avtar lg-image">
-                                    <img src={require("../../../assets/images/chat-photo.jpg")} className="img-fluid" alt="avatar" />
+                                    <img src={"/images/chat-photo.jpg"} className="img-fluid" alt="avatar" />
                                     <span className="status-signal">&nbsp;</span>
                                 </span>
                                 <span className="arrow-right-caret"></span>
