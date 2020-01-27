@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
+import FooterTop from './footerTop'
+import MobMsgInput from './msgInput'
 
 export default class MobileFooter extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+            <footer className="mob-display mob-footer">
+                <FooterTop />
+                <MobMsgInput />
+            </footer>
         )
     }
 }

@@ -6,7 +6,7 @@ var userListTop = 0;
 
 $(document).ready(function () {
     //added on 20-06-2019
-    
+
     $('#profile-listData').DataTable({
         "dom": '<"top"p>',
         "pagingType": "full_numbers",
@@ -554,13 +554,13 @@ $(document).ready(function () {
             $('#online-users').addClass('max-privateChat');
             $('.max-callOption').addClass('show');
         }
-  
+
 
     });
     $('#chatTab .nav-tabs a').on('shown.bs.tab', function (e) {
-            $('#chatTab .tab-pane.active' + $(e.target).attr('href') + ' .mCSB_container').css('top', '99999px');       
+        $('#chatTab .tab-pane.active' + $(e.target).attr('href') + ' .mCSB_container').css('top', '99999px');
         $(this).prev('.count-badge').addClass('hide');
-        
+
     });
 
     //mobile draggable
@@ -622,9 +622,9 @@ $(document).ready(function () {
     }
 
     //audio player function
-  
-    
-   
+
+
+
     var viewPortWidth = jQuery(window).width();
     //if (viewPortWidth < 768) {
     //    $('.notification-list').removeClass('header-popup');
@@ -1030,7 +1030,7 @@ function ScrollInit() {
         $("#online-users .friend-listing ").mCustomScrollbar({
             theme: "dark-3",
             scrollInertia: 200,
-            callbacks: {              
+            callbacks: {
                 whileScrolling: function () {
                     var getOfflineTitle = $('.calc-total-height').height();
                     var userListOffset = $('#online-users').offset();
@@ -1050,7 +1050,7 @@ function ScrollInit() {
                         $('.offline-ttl-fixed').css('top', 0);
                     }
                     //$("#mcs-top").text(this.mcs.top);
-                   
+
                 },
                 //onScrollStart: function () {
                 //     $('.user-list-dropdown').removeClass('show');
@@ -1080,7 +1080,7 @@ function ScrollInit() {
             callbacks: {
             }
         });
-       
+
 
         $(".user-reported-model tbody").mCustomScrollbar({
             theme: "dark-3",
@@ -1613,6 +1613,15 @@ function ScrollInit() {
 //    DataTableResponsive();
 //});
 
+$('#changeavatar').click(() => {
+    openReceiveUpgradePopup('change-avatar-popup');
+})
+
+$('#closeAllPopup').click(() => {
+    $('.modal01').removeClass('show');
+    var myDiv = document.getElementsByClassName("mob-bottom-scroll")[0];
+    myDiv.scrollTop = myDiv.scrollHeight;
+})
 
 function openReceiveUpgradePopup(popupId) {
     if (popupId == 'groupconversation-popup') {
@@ -1630,15 +1639,15 @@ function openReceiveUpgradePopup(popupId) {
                     768: {
                         items: 1
                     },
-                     1000: {
-                items: 4
-            }
+                    1000: {
+                        items: 4
+                    }
                 }
             });
         }, 200);
     }
 
-  
+
 
     if (popupId == 'upgrade-popup') {
         setTimeout(function () {
@@ -2030,7 +2039,7 @@ function OpenHeaderPopup(popupId, menuId) {
     var offset = $('#' + menuId).offset();
     var boxwidth = $('#' + popupId).width();
     $('#' + popupId).css('top', offset.top + 30).css('left', offset.left - boxwidth + 50);
-    
+
     setOtherModelZIndex(popupId);
     CloseUserList();
 }
@@ -2729,23 +2738,19 @@ $(window).resize(function () {
 
 
 //room-page link  change without reload
-function closeAllPopup() {
-    $('.modal01').removeClass('show');
-    var myDiv = document.getElementsByClassName("mob-bottom-scroll")[0];
-    myDiv.scrollTop = myDiv.scrollHeight;
-}
 
-//private call options change
-(function ($) {
-    $('.private-video-call').click(function () {
-        $(this).parent().parent().find('.private-video').removeClass('hide');
-        $(this).parent().parent().find('.private-audio-call').addClass('hide');
-    });
-    $('.private-voice-call').click(function () {
-        $(this).parent().parent().find('.private-audio-call').removeClass('hide');
-        $(this).parent().parent().find('.private-video').addClass('hide');
-    });
-})(jQuery);
+
+    //private call options change
+    (function ($) {
+        $('.private-video-call').click(function () {
+            $(this).parent().parent().find('.private-video').removeClass('hide');
+            $(this).parent().parent().find('.private-audio-call').addClass('hide');
+        });
+        $('.private-voice-call').click(function () {
+            $(this).parent().parent().find('.private-audio-call').removeClass('hide');
+            $(this).parent().parent().find('.private-video').addClass('hide');
+        });
+    })(jQuery);
 
 //on outside click close status menu
 $(document).on("click", ".chat-window, .top-header, .friend-list-tab, .search-bar ", function () {
@@ -2820,7 +2825,7 @@ if (viewPortWidth <= 768) {
     });
 
     $('.hide-other-model').click(function () {
-            $('#user-reported-popup').removeClass('show');
+        $('#user-reported-popup').removeClass('show');
     });
 
 } else {
@@ -2840,5 +2845,5 @@ $(function () {
 
 
 function mobileFriendPopup() {
-        $('#friends-popup').removeClass('show');
+    $('#friends-popup').removeClass('show');
 }

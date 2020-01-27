@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Emojis from './emojis'
+import Emojis from '../emojis'
 
 export default class MsgTool extends Component {
     render() {
