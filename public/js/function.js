@@ -1617,173 +1617,214 @@ $('#changeavatar').click(() => {
     openReceiveUpgradePopup('change-avatar-popup');
 })
 
-$('#private-message-request').click(()=>{
+$('#private-message-request').click(() => {
     openReceiveUpgradePopup('private-message-request')
 })
 
-$('#gift-popup').click(()=>{
+$('#gift-popup').click(() => {
     openReceiveUpgradePopup('gift-popup')
 })
-$('#upgrade-popup').click(()=>{
+$('#upgrade-popup').click(() => {
     openReceiveUpgradePopup('upgrade-popup')
 })
-$('#ignore-list-popup').click(()=>{
+$('#ignore-list-popup').click(() => {
     openReceiveUpgradePopup('ignore-list-popup')
 })
-$('#friend-request-popup').click(()=>{
+$('#friend-request-popup').click(() => {
     openReceiveUpgradePopup('friend-request-popup')
 })
-$('#mute-window-popup').click(()=>{
+$('#mute-window-popup').click(() => {
     openReceiveUpgradePopup('mute-window-popup')
 })
-$('#silent-mute-window-popup').click(()=>{
+$('#silent-mute-window-popup').click(() => {
     openReceiveUpgradePopup('mute-window-popup')
 })
-$('#kick-window-popup').click(()=>{
+$('#kick-window-popup').click(() => {
     openReceiveUpgradePopup('kick-window-popup')
 })
-$('#ban-popup').click(()=>{
+$('#ban-popup').click(() => {
     openReceiveUpgradePopup('ban-popup')
 })
-$('#OpenRealPopup').click(()=>{
+$('#OpenRealPopup').click(() => {
     OpenRealPopup()
 })
-$('#OpenReal').click(()=>{
+$('#OpenReal').click(() => {
     OpenRealPopup()
 })
-$('#view-profile').click(()=>{
+$('#view-profile').click(() => {
     MobFullDisplay('view-profile')
 })
-$('#myaccount-popup').click(()=>{
+$('#myaccount-popup').click(() => {
     openReceiveUpgradePopup('myaccount-popup')
 })
-$('#change-avtar-popup').click(()=>{
+$('#change-avtar-popup').click(() => {
     openReceiveUpgradePopup('change-avtar-popup')
 })
-$('.gift-popup').click(()=>{
+$('.gift-popup').click(() => {
     openReceiveUpgradePopup('gift-popup')
 })
-$('.upgrade-popup').click(()=>{
+$('.upgrade-popup').click(() => {
     openReceiveUpgradePopup('upgrade-popup')
 })
 
-$('.ignore-list-popup').click(()=>{
+$('.ignore-list-popup').click(() => {
     openReceiveUpgradePopup('ignore-list-popup')
 })
 
-$('.view-full-user').click(()=>{
+$('.view-full-user').click(() => {
     openReceiveUpgradePopup('view-full-user')
 })
 
-$('.myaccount-popup').click(()=>{
+$('.myaccount-popup').click(() => {
     openReceiveUpgradePopup('myaccount-popup')
 })
 
-$('.change-avtar-popup').click(()=>{
+$('.change-avtar-popup').click(() => {
     openReceiveUpgradePopup('change-avtar-popup')
 })
 
-$('.logout-popup').click(()=>{
+$('.logout-popup').click(() => {
     openReceiveUpgradePopup('logout-popup')
 })
 
-$('.notification-popup').click(()=>{
+$('.notification-popup').click(() => {
     openReceiveUpgradePopup('notification-popup')
 })
 
-$('.send-announcement-popup').click(()=>{
+$('.send-announcement-popup').click(() => {
     openReceiveUpgradePopup('send-announcement-popup')
 })
 
-$('.user-reported-popup').click(()=>{
+$('.user-reported-popup').click(() => {
     openReceiveUpgradePopup('user-reported-popup')
 })
 
-$('.settingbox-popup').click(()=>{
+$('.settingbox-popup').click(() => {
     openReceiveUpgradePopup('settingbox-popup')
 })
 
-$('.banmanagment-popup').click(()=>{
+$('.banmanagment-popup').click(() => {
     openReceiveUpgradePopup('banmanagment-popup')
 })
 
-$('.create-group-popup').click(()=>{
+$('.create-group-popup').click(() => {
     openReceiveUpgradePopup('create-group-popup')
 })
 
-$('.about-app-popup').click(()=>{
+$('.about-app-popup').click(() => {
     openReceiveUpgradePopup('about-app-popup')
 })
 
-$('.contactus-popup').click(()=>{
+$('.contactus-popup').click(() => {
     openReceiveUpgradePopup('contactus-popup')
 })
 
-$('.help-popup').click(()=>{
+$('.help-popup').click(() => {
     openReceiveUpgradePopup('help-popup')
 })
 
-$('.terms-popup').click(()=>{
+$('.terms-popup').click(() => {
     openReceiveUpgradePopup('terms-popup')
 })
 
-$('.virtual-currency-popup').click(()=>{
+$('.virtual-currency-popup').click(() => {
     openReceiveUpgradePopup('virtual-currency-popup')
 })
 
-$('.saythanks-popup').click(()=>{
+$('.saythanks-popup').click(() => {
     openReceiveUpgradePopup('saythanks-popup')
 })
 
-$('.upgrade-room-popup').click(()=>{
+$('.upgrade-room-popup').click(() => {
     openReceiveUpgradePopup('upgrade-room-popup')
 })
 
-$('.purchase-popup').click(()=>{
+$('.purchase-popup').click(() => {
     openReceiveUpgradePopup('purchase-popup')
 })
 
-$('.country-ban-popup').click(()=>{
+$('.country-ban-popup').click(() => {
     openReceiveUpgradePopup('country-ban-popup')
 })
 
-$('.mute-system-popup').click(()=>{
+$('.mute-system-popup').click(() => {
     openReceiveUpgradePopup('mute-system-popup')
 })
 
-$('.kick-system-popup').click(()=>{
+$('.kick-system-popup').click(() => {
     openReceiveUpgradePopup('kick-system-popup')
 })
 
-$('.list-ban-tab').click(()=>{
+$('.list-ban-tab').click(() => {
     DataTableWidth('list-ban-tab')
 })
 
-$('.add-ban-tab').click(()=>{
+$('.add-ban-tab').click(() => {
     DataTableWidth('add-ban-tab')
 })
 
-$('.system-ban-popup').click(()=>{
+$('.system-ban-popup').click(() => {
     openReceiveUpgradePopup('system-ban-popup')
 })
 
-$('.isdfsdfd').click(()=>{
+$('.mute-window-popup').click(() => {
+    openReceiveUpgradePopup('mute-window-popup')
+})
+
+$('.kick-window-popup').click(() => {
+    openReceiveUpgradePopup('kick-window-popup')
+})
+
+$('.ban-popup').click(() => {
+    openReceiveUpgradePopup('ban-popup')
+})
+
+$('#theme01').click(() => {
+    changeTheme('theme01')
+})
+$('#blue').click(() => {
+    changeTheme('blue')
+})
+$('#dark-blue').click(() => {
+    changeTheme('dark-blue')
+})
+$('#purple').click(() => {
+    changeTheme('purple')
+})
+$('#vinous').click(() => {
+    changeTheme('vinous')
+})
+
+$('.notification-popup-notification-menu').click(() => {
+    OpenHeaderPopup('notification-popup','notification-menu')
+})
+
+$('.openchat-popup-opencaht-menu').click(() => {
+    OpenHeaderPopup('openchat-popup','opencaht-menu')
+})
+
+$('.video-popup').click(() => {
+    openReceiveUpgradePopup('video-popup')
+})
+
+
+$('.groupconversation-popup').click(() => {
+    openReceiveUpgradePopup('groupconversation-popup')
+})
+
+$('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
 
-$('.isdfsdfd').click(()=>{
+$('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
 
-$('.isdfsdfd').click(()=>{
+$('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
-})
-
-$('.isdfsdfd').click(()=>{
+$('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
 
@@ -1793,6 +1834,43 @@ $('#closeAllPopup').click(() => {
     myDiv.scrollTop = myDiv.scrollHeight;
 })
 
+function changeTheme(themeName) {
+    var links = $("head link[href*='css/dist']");
+    //console.log(links);
+    links.each(function (index, element) {
+        //console.log($(this).attr("href"));
+        var res = $(this).attr("href").split("/");
+        res[2] = themeName;
+        element.href = res.join('/');
+        //console.log($(this).attr("href"));
+    });
+    //$.each(links, function (index, item) {
+    //    var res = $(item).attr("href").split("/");
+    //    res[2] = themeName;
+    //    $(item).attr("href") = res.join('/');
+    //});
+    //links.forEach(function (item, index) {
+
+    //});
+    //$("head").find("link").attr("href", function (i, value) {
+    //    var n = value.startsWith("css/dist");
+    //    if (n) {
+    //        var res = value.split("/");
+    //        res[2] = themeName;
+    //        return res.join('/');
+    //    }
+    //    else {
+    //        return value;
+    //    }
+    //});
+    localStorage.setItem("current_theme", themeName);
+}
+$(function () {
+    var currentTheme = localStorage.getItem("current_theme");
+    if (currentTheme) {
+        changeTheme(currentTheme);
+    }
+});
 function openReceiveUpgradePopup(popupId) {
     if (popupId == 'groupconversation-popup') {
         setTimeout(function () {
@@ -2909,17 +2987,17 @@ $(window).resize(function () {
 //room-page link  change without reload
 
 
-    //private call options change
-    (function ($) {
-        $('.private-video-call').click(function () {
-            $(this).parent().parent().find('.private-video').removeClass('hide');
-            $(this).parent().parent().find('.private-audio-call').addClass('hide');
-        });
-        $('.private-voice-call').click(function () {
-            $(this).parent().parent().find('.private-audio-call').removeClass('hide');
-            $(this).parent().parent().find('.private-video').addClass('hide');
-        });
-    })(jQuery);
+//private call options change
+(function ($) {
+    $('.private-video-call').click(function () {
+        $(this).parent().parent().find('.private-video').removeClass('hide');
+        $(this).parent().parent().find('.private-audio-call').addClass('hide');
+    });
+    $('.private-voice-call').click(function () {
+        $(this).parent().parent().find('.private-audio-call').removeClass('hide');
+        $(this).parent().parent().find('.private-video').addClass('hide');
+    });
+})(jQuery);
 
 //on outside click close status menu
 $(document).on("click", ".chat-window, .top-header, .friend-list-tab, .search-bar ", function () {

@@ -3,7 +3,6 @@ import React, { Component } from 'react'
 export default class KickWindow extends Component {
     render() {
         return (
-            // <!--Kick window box-->
             <div className="modal01 fadeIn footer-links center-msg-box" id="kick-window-popup" tabIndex="-1" role="dialog" aria-labelledby="kick-popup" aria-hidden="true">
                 <div className="modal-dialog kick-window-model sm-modal" role="document">
                     <div className="modal-content">

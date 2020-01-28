@@ -38,20 +38,20 @@ class WebHeader extends Component {
                             />Hide
                         </label>
                     </div>
-                    <a className="icons-rounded target-menu" title="User Reported" href="#user-reported-popup" onClick={this.click}><i className="fa fa-user-times"></i></a>
-                    <a href="#create-group-popup" onClick={this.click} className="icons-rounded target-menu" title="Create Group"><i className="fa fa-user-plus"></i></a>
-                    <a href="#gift-popup" onClick={this.click} className="icons-rounded target-menu" title="Gift"><i className="fa fa-gift"></i></a>
+                    <a className="icons-rounded target-menu user-reported-popup" title="User Reported" href="#user-reported-popup"><i className="fa fa-user-times"></i></a>
+                    <a href="#create-group-popup" className="icons-rounded target-menu create-group-popup" title="Create Group"><i className="fa fa-user-plus"></i></a>
+                    <a href="#gift-popup" className="icons-rounded target-menu gift-popup" title="Gift"><i className="fa fa-gift"></i></a>
 
-                    <a className="icons-rounded target-menu notific-top" href="#notification-popup" id="notification-menu" title="Notification" onClick={this.click}>
+                    <a className="icons-rounded target-menu notific-top notification-popup-notification-menu" href="#notification-popup" id="notification-menu" title="Notification">
                         <i className="fa fa-bell"></i>
                     </a>
-                    <a href="#openchat-popup" id="opencaht-menu" onClick={this.click} className="icons-rounded target-menu openchat-list-box" title="Open Chat">
+                    <a href="#openchat-popup" id="opencaht-menu" className="icons-rounded target-menu openchat-list-box openchat-popup-opencaht-menu" title="Open Chat">
                         <i className="fa fa-comments"></i>
                     </a>
-                    <a href="#video01-popup" onClick={this.click} className="icons-rounded" title="Video Call"><i className="sprite video-ico"></i></a>
-                    <a href="#video01-popup" onClick={this.click} className="icons-rounded" title="Voice Call"><i className="fa fa-phone"></i></a>
-                    <a href="#settingbox-popup" className={"icons-rounded"} title="Settings" onClick={this.click}><i className="fa fa-cog"></i></a>
-                    <a href="#about-app-popup" className="icons-rounded" title="About App" onClick={this.click}><i className="fa fa-info-circle "></i></a>
+                    <a href="#video01-popup" className="icons-rounded video-popup" title="Video Call"><i className="sprite video-ico"></i></a>
+                    <a href="#video01-popup" className="icons-rounded video-popup" title="Voice Call"><i className="fa fa-phone"></i></a>
+                    <a href="#settingbox-popup" className={"icons-rounded settingbox-popup"} title="Settings"><i className="fa fa-cog"></i></a>
+                    <a href="#about-app-popup" className="icons-rounded about-app-popup" title="About App"><i className="fa fa-info-circle "></i></a>
                 </div>
             </div>
         )
