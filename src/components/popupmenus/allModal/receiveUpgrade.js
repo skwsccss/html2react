@@ -18,7 +18,7 @@ export default class ReceiveUpgrade extends Component {
                                 <div className="say-thanks-box d-flex">
                                     <div className="w-60 text-center m-b-xs">
                                         <div className="gift-image v-c-60">
-                                            <a title="Lolipop"><img src="/images/vip-upgrade.png" className="img-fluid" alt="no img" /></a>
+                                            <a href="#lolipop" title="Lolipop"><img src="/images/vip-upgrade.png" className="img-fluid" alt="no img" /></a>
                                         </div>
                                         <div className="gift-name visible-sm desk-hidden">Lolipop</div>
                                     </div>
@@ -28,9 +28,9 @@ export default class ReceiveUpgrade extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div clasName="modal-footer">
-                            <button type="button" clasName="btn sm-btn theme-bg mob-radius-btn z-disable purchase-popup" href="#purchase-popup" title="Say Thanks">Say Thanks</button>
-                            <button type="button" clasName="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" title="Close">Close</button>
+                        <div className="modal-footer">
+                            <button type="button" className="btn sm-btn theme-bg mob-radius-btn z-disable purchase-popup" href="#purchase-popup" title="Say Thanks">Say Thanks</button>
+                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" title="Close">Close</button>
                         </div>
                     </div>
                 </div>

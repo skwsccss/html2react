@@ -1743,8 +1743,8 @@ $('.purchase-popup').click(()=>{
     openReceiveUpgradePopup('purchase-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.country-ban-popup').click(()=>{
+    openReceiveUpgradePopup('country-ban-popup')
 })
 
 $('.isdfsdfd').click(()=>{
