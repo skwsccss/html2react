@@ -1687,15 +1687,109 @@ $('.logout-popup').click(()=>{
     openReceiveUpgradePopup('logout-popup')
 })
 
-$('#id').click(()=>{
+$('.myaccount-popup').click(()=>{
+    openReceiveUpgradePopup('myaccount-popup')
+})
+
+$('.notification-popup').click(()=>{
+    openReceiveUpgradePopup('notification-popup')
+})
+
+$('.send-announcement-popup').click(()=>{
+    openReceiveUpgradePopup('send-announcement-popup')
+})
+
+$('.user-reported-popup').click(()=>{
+    openReceiveUpgradePopup('user-reported-popup')
+})
+
+$('.settingbox-popup').click(()=>{
+    openReceiveUpgradePopup('settingbox-popup')
+})
+
+$('.banmanagment-popup').click(()=>{
+    openReceiveUpgradePopup('banmanagment-popup')
+})
+
+$('.create-group-popup').click(()=>{
+    openReceiveUpgradePopup('create-group-popup')
+})
+
+$('.about-app-popup').click(()=>{
+    openReceiveUpgradePopup('about-app-popup')
+})
+
+$('.contactus-popup').click(()=>{
+    openReceiveUpgradePopup('contactus-popup')
+})
+
+$('.help-popup').click(()=>{
+    openReceiveUpgradePopup('help-popup')
+})
+
+$('.terms-popup').click(()=>{
+    openReceiveUpgradePopup('terms-popup')
+})
+
+$('.isdfsdfd').click(()=>{
     openReceiveUpgradePopup('idsss')
 })
 
-$('#id').click(()=>{
+$('.isdfsdfd').click(()=>{
     openReceiveUpgradePopup('idsss')
 })
 
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
 
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
+
+$('.isdfsdfd').click(()=>{
+    openReceiveUpgradePopup('idsss')
+})
 
 $('#closeAllPopup').click(() => {
     $('.modal01').removeClass('show');

@@ -5,17 +5,19 @@ import React, { Component } from 'react'
 
 import Header from './layout/header';
 import MainContent from './mainContent/mainContent';
+import MoreMenuPopup from './popupmenus/allModal/moreMenuPopup';
 
 
 class MainPage extends Component {
 
-    
+
 
     render() {
         return (
             <div className='page_container' id="containment-wrapper">
                 <Header />
                 <MainContent />
+                <MoreMenuPopup />
             </div>
         )
     }
