@@ -1812,6 +1812,26 @@ $('.groupconversation-popup').click(() => {
     openReceiveUpgradePopup('groupconversation-popup')
 })
 
+$('.exceed-limit-popup').click(() => {
+    openReceiveUpgradePopup('exceed-limit-popup')
+})
+
+$('.wait-system-popup').click(() => {
+    openReceiveUpgradePopup('wait-system-popup')
+})
+
+$('.announcement-message-popup').click(() => {
+    openReceiveUpgradePopup('announcement-message-popup')
+})
+
+$('.privatechat-popup').click(() => {
+    openReceiveUpgradePopup('privatechat-popup')
+})
+
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
