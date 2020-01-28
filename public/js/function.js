@@ -1727,12 +1727,12 @@ $('.terms-popup').click(()=>{
     openReceiveUpgradePopup('terms-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.virtual-currency-popup').click(()=>{
+    openReceiveUpgradePopup('virtual-currency-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.saythanks-popup').click(()=>{
+    openReceiveUpgradePopup('saythanks-popup')
 })
 
 $('.isdfsdfd').click(()=>{

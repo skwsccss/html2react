@@ -156,35 +156,35 @@ export default class ChangeAvatar extends Component {
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="custom-avatar custom-avatar-box">
-                                            <div class="custom-avatar-txt">Custome Avatar</div>
-                                            <div class="row custom-avatar-img">
-                                                <div class="avatar-images text-center m-b-xs">
-                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/01.jpg" class="img-fluid" alt="noimg" /></a>
+                                        <div className="custom-avatar custom-avatar-box">
+                                            <div className="custom-avatar-txt">Custome Avatar</div>
+                                            <div className="row custom-avatar-img">
+                                                <div className="avatar-images text-center m-b-xs">
+                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/01.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
-                                                <div class="avatar-images text-center m-b-xs">
-                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/02.jpg" class="img-fluid" alt="noimg" /></a>
+                                                <div className="avatar-images text-center m-b-xs">
+                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/02.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
-                                                <div class="avatar-images text-center m-b-xs">
-                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/03.jpg" class="img-fluid" alt="noimg" /></a>
+                                                <div className="avatar-images text-center m-b-xs">
+                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/03.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
-                                                <div class="avatar-images text-center m-b-xs">
-                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/04.jpg" class="img-fluid" alt="noimg" /></a>
+                                                <div className="avatar-images text-center m-b-xs">
+                                                    <a href="#href" title="Avatar01"><img src="/images/avatar/04.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="modal-btn-group">
-                                            <button type="button" class="btn sm-btn theme-bg mob-radius-btn" title="Submit">Submit</button>
-                                            <button type="button" class="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" title="Cancel">Cancel</button>
+                                        <div className="modal-btn-group">
+                                            <button type="button" className="btn sm-btn theme-bg mob-radius-btn" title="Submit">Submit</button>
+                                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" title="Cancel">Cancel</button>
                                         </div>
                                     </div>
-                                    <div class="avatar-view-box order-2">
-                                        <div class="avtar-change-view">
-                                            <img src="/images/avtar-view.png" class="img-fluid" alt="noimg" />
+                                    <div className="avatar-view-box order-2">
+                                        <div className="avtar-change-view">
+                                            <img src="/images/avtar-view.png" className="img-fluid" alt="noimg" />
                                         </div>
-                                        <div class="modal-btn-links">
-                                            <button type="button" title="Upload Avatar" class="btn sm-btn center-btn theme-bg mob-radius-btn float-right">Upload avatar</button>
-                                            <button type="button" class="btn sm-btn dark-gray-bg mob-radius-btn" title="Webcam Avatar">Webcam avatar</button>
+                                        <div className="modal-btn-links">
+                                            <button type="button" title="Upload Avatar" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right">Upload avatar</button>
+                                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn" title="Webcam Avatar">Webcam avatar</button>
                                         </div>
                                     </div>
                                 </div>
