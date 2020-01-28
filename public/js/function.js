@@ -1687,10 +1687,6 @@ $('.logout-popup').click(()=>{
     openReceiveUpgradePopup('logout-popup')
 })
 
-$('.myaccount-popup').click(()=>{
-    openReceiveUpgradePopup('myaccount-popup')
-})
-
 $('.notification-popup').click(()=>{
     openReceiveUpgradePopup('notification-popup')
 })
