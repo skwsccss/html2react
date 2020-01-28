@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class MobileFriendList extends Component {
+export default class Help extends Component {
     render() {
         return (
             <div>
