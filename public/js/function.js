@@ -1739,8 +1739,8 @@ $('.upgrade-room-popup').click(()=>{
     openReceiveUpgradePopup('upgrade-room-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.purchase-popup').click(()=>{
+    openReceiveUpgradePopup('purchase-popup')
 })
 
 $('.isdfsdfd').click(()=>{
