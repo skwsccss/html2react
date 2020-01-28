@@ -58,11 +58,24 @@ export default class MobTopHeader extends Component {
                     <div className="section-title theme-txt-color">
                         {title}
                     </div>
-                    <div className="moremenu">
-                        <a href="#headermore">
-                            <i className="sprite header-more-ico"></i>
-                        </a>
-                    </div>
+                    {title ?
+                        <div className="moremenu">
+                            <a href="#headermore">
+                                <i className="sprite header-more-ico"></i>
+                            </a>
+                        </div> :
+                        <div className="moremenu d-flex align-items-center">
+                            <a href="#create-group-popup" className="icons-rounded create-group-popup" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
+                            <span className="theme-bg  video-call icons-rounded" title="Video Call"><i className="sprite video-ico z-disable"></i></span>
+                            <span className="icons-rounded voice-call" title="Voice Call"><i className="sprite call-ico z-disable"></i></span>
+                            <button className="mob-user-menu">
+                                <i className="sprite header-more-ico z-disable"></i>
+                                <span className="arrow-right-caret"></span>
+                            </button>
+                        </div>
+                    }
+
+
                 </div>
             </div>
         )

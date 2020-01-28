@@ -1828,22 +1828,34 @@ $('.privatechat-popup').click(() => {
     openReceiveUpgradePopup('privatechat-popup')
 })
 
+$('.change-groupname-popup').click(() => {
+    openReceiveUpgradePopup('change-groupname-popup')
+})
+
+$('.exit-group-popup').click(() => {
+    openReceiveUpgradePopup('exit-group-popup')
+})
+
+$('.video-broadcast').click(() => {
+    MininizePopup('video-broadcast')
+})
+
+$('.min-video-call').click(() => {
+    MininizePopup('video-call')
+})
+
+$('.chatbody-area').click(() => {
+    MininizePopup('chatbody-area')
+})
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
-
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
-
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
-
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
-})
-
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
 })
