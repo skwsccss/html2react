@@ -1747,24 +1747,24 @@ $('.country-ban-popup').click(()=>{
     openReceiveUpgradePopup('country-ban-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.mute-system-popup').click(()=>{
+    openReceiveUpgradePopup('mute-system-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.kick-system-popup').click(()=>{
+    openReceiveUpgradePopup('kick-system-popup')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.list-ban-tab').click(()=>{
+    DataTableWidth('list-ban-tab')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.add-ban-tab').click(()=>{
+    DataTableWidth('add-ban-tab')
 })
 
-$('.isdfsdfd').click(()=>{
-    openReceiveUpgradePopup('idsss')
+$('.system-ban-popup').click(()=>{
+    openReceiveUpgradePopup('system-ban-popup')
 })
 
 $('.isdfsdfd').click(()=>{

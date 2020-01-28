@@ -18,7 +18,7 @@ import MuteWindow from './popupmenus/allModal/muteWindow';
 import MuteSystem from './popupmenus/allModal/muteSystem';
 import KickWindow from './popupmenus/allModal/kickWindow';
 import KickSystem from './popupmenus/allModal/kickSystem';
-import BanManagement from './popupmenus/allModal/banManagement';
+import BanManagement from './popupmenus/allModal/ban/banManagement';
 import UserReported from './popupmenus/allModal/userReported';
 import SettingBox from './popupmenus/allModal/settingBox';
 import IgnoreList from './popupmenus/allModal/ignoreList';
