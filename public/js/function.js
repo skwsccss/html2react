@@ -1847,19 +1847,43 @@ $('.min-video-call').click(() => {
 $('.chatbody-area').click(() => {
     MininizePopup('chatbody-area')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.groupconversation-area').click(() => {
+    openReceiveUpgradePopup('groupconversation-area')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.delete-popup').click(() => {
+    openReceiveUpgradePopup('delete-popup')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.report-group-popup').click(() => {
+    openReceiveUpgradePopup('report-group-popup')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.full-groupconversation-popup').click(() => {
+    openReceiveUpgradePopup('full-groupconversation-popup')
 })
 
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
+$('.isdfsdfd').click(() => {
+    openReceiveUpgradePopup('idsss')
+})
 $('#closeAllPopup').click(() => {
     $('.modal01').removeClass('show');
     var myDiv = document.getElementsByClassName("mob-bottom-scroll")[0];
