@@ -90,3 +90,16 @@ body .ui-tooltip {
   top: -330px;
   padding: unset;
 }
+
+#chat-area .tab-pane {
+  padding: 0px !important;
+}
+
+#chat-area {
+  background: #cdd4de;
+}
+.friend-list-tab .nav-tabs .nav-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

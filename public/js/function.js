@@ -1621,6 +1621,15 @@ $('#private-message-request').click(() => {
     openReceiveUpgradePopup('private-message-request')
 })
 
+$(".dropdown-item").click(() => {
+    if ($(this).classList().hasClass("show")) {
+        $(this).classList().removeClass("show");
+    }
+    if ($(this).classList().hasClass("transform")) {
+        $(this).classList().removeClass("transform");
+    }
+})
+
 $('#gift-popup').click(() => {
     openReceiveUpgradePopup('gift-popup')
 })
@@ -1796,11 +1805,11 @@ $('#vinous').click(() => {
 })
 
 $('.notification-popup-notification-menu').click(() => {
-    OpenHeaderPopup('notification-popup','notification-menu')
+    OpenHeaderPopup('notification-popup', 'notification-menu')
 })
 
 $('.openchat-popup-opencaht-menu').click(() => {
-    OpenHeaderPopup('openchat-popup','opencaht-menu')
+    OpenHeaderPopup('openchat-popup', 'opencaht-menu')
 })
 
 $('.video-popup').click(() => {

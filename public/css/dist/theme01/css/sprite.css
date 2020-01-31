@@ -720,6 +720,7 @@
 
 .gray-bg-line:before {
     background-image: url(../images/gray-trail.png);
+    z-index: 1 !important;
 }
 
 .white-bg-line:before {

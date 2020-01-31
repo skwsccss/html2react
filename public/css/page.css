@@ -2989,7 +2989,7 @@ ul.user-list02 li:nth-child(2n+1) {
         left: -13px;
         width: 32px;
         height: 30px;
-        z-index: -1;
+        z-index: 1;
     }
 
 .white-bg-line {
