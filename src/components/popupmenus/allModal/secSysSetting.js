@@ -4,7 +4,7 @@ import MobTopHeader from './mobTopheader'
 export default class SecSysSetting extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links ui-widget ui-widget-content" id="security-setting-popup" tabIndex="-1" role="dialog" aria-labelledby="security-setting-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget" id="security-setting-popup" tabIndex="-1" role="dialog" aria-labelledby="security-setting-popup" aria-hidden="true">
                 <div className="modal-dialog security-setting-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">

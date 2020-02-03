@@ -1,0 +1,57 @@
+.orange-theme {
+  background: #38528F !important;
+  color: #fff; }
+
+.theme-light-bg {
+  background: #7B8FB8; }
+
+.theme-bg {
+  background: #38528F !important;
+  color: #fff !important;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  .theme-bg:hover {
+    background: #31477d !important; }
+
+.theme-txt-color {
+  color: #38528F !important; }
+
+.purple-txt {
+  color: #9b3ec7; }
+
+.gray-bg {
+  background: #cdd4de;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  .gray-bg:hover {
+    background: #bec7d4;
+    color: #fff; }
+
+.dark-gray-bg {
+  background: #999;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out; }
+  .dark-gray-bg:hover {
+    background: #4d4d4d;
+    color: #fff; }
+
+.gray-light-bg {
+  background: #efeff5;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -ms-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  /*&:hover {
+        background: darken($gray-bg,5%);
+        color: $black-color;
+    }*/ }

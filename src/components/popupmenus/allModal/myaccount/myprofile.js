@@ -47,7 +47,7 @@ export default class MyProfile extends Component {
                                     <span className="theme-txt-color">Credits:</span>
                                     <span className="xlg-txt">50,254,55</span>
                                 </span>
-                                <button type="submit" title="Buy-Credits" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup" href="#virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button>
+                                <button type="submit" title="Buy-Credits" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup" style={{fontSize: "small"}} href="#virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button>
                             </div>
                         </div>
                     </div>

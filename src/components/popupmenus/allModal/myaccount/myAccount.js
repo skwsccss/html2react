@@ -7,7 +7,7 @@ import CreditActivity from './creditActivity'
 export default class MyAccount extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links ui-widget ui-widget-content" id="myaccount-popup" tabIndex="-1" role="dialog" aria-labelledby="myaccount-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget" id="myaccount-popup" tabIndex="-1" role="dialog" aria-labelledby="myaccount-popup" aria-hidden="true">
                 <div className="modal-dialog myaccount-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">

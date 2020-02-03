@@ -46,8 +46,8 @@ export default class MainboardProfileHeader extends Component {
                                         <a className="dropdown-item" href="#1" title="Invisible"><span className="status-ico in-visible"></span>Invisible</a>
                                     </li>
                                     <li className="seprator account-link">
-                                        <a className="dropdown-item z-disable" href="#myaccount-popup" id="myaccount-popup" title="My Account"><img alt="right" src={"/images/right-icon.png"} className="img-fluid" />My Account</a>
-                                        <a className="dropdown-item z-disable" href="#change-avtar-popup" id="change-avtar-popup" title="Change Avatar"><img alt="right" src={"/images/right-icon.png"} className="img-fluid" />Change Avatar</a>
+                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup"  title="My Account"><img alt="right" src={"/images/right-icon.png"} className="img-fluid" />My Account</a>
+                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup"title="Change Avatar"><img alt="right" src={"/images/right-icon.png"} className="img-fluid" />Change Avatar</a>
                                     </li>
                                     <li><a className="dropdown-item logout" href="#1" title="Logout"><img alt="logout" src={"/images/logout.png"} className="img-fluid" />Logout</a></li>
                                 </ul>

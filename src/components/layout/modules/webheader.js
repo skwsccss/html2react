@@ -38,20 +38,20 @@ class WebHeader extends Component {
                             />Hide
                         </label>
                     </div>
-                    <a className="icons-rounded target-menu user-reported-popup" title="User Reported" href="#user-reported-popup"><i className="fa fa-user-times"></i></a>
-                    <a href="#create-group-popup" className="icons-rounded target-menu create-group-popup" title="Create Group"><i className="fa fa-user-plus"></i></a>
-                    <a href="#gift-popup" className="icons-rounded target-menu gift-popup" title="Gift"><i className="fa fa-gift"></i></a>
+                    <a className="icons-rounded target-menu user-reported-popup" title="User Reported" href="#user-reported-popup"><i className="sprite ban-user-ico"></i></a>
+                    <a href="#create-group-popup" className="icons-rounded target-menu create-group-popup" title="Create Group"><i className="sprite user-add-ico"></i></a>
+                    <a href="#gift-popup" className="icons-rounded target-menu gift-popup" title="Gift"><i className="sprite  gift-box-ico"></i></a>
 
                     <a className="icons-rounded target-menu notific-top notification-popup-notification-menu" href="#notification-popup" id="notification-menu" title="Notification">
-                        <i className="fa fa-bell"></i>
+                        <i className="sprite notification-ico"></i>
                     </a>
                     <a href="#openchat-popup" id="opencaht-menu" className="icons-rounded target-menu openchat-list-box openchat-popup-opencaht-menu" title="Open Chat">
-                        <i className="fa fa-comments"></i>
+                        <i className="openchat-ico"></i>
                     </a>
-                    <a href="#video01-popup" className="icons-rounded video-popup" title="Video Call"><i className="sprite video-ico"></i></a>
-                    <a href="#video01-popup" className="icons-rounded video-popup" title="Voice Call"><i className="fa fa-phone"></i></a>
-                    <a href="#settingbox-popup" className={"icons-rounded settingbox-popup"} title="Settings"><i className="fa fa-cog"></i></a>
-                    <a href="#about-app-popup" className="icons-rounded about-app-popup" title="About App"><i className="fa fa-info-circle "></i></a>
+                    <a href="#video01-popup" className="theme-bg icons-rounded video-popup" title="Video Call"><i className="sprite video-ico"></i></a>
+                    <a href="#video01-popup" className="icons-rounded video-popup" title="Voice Call"><i className="sprite call-ico"></i></a>
+                    <a href="#settingbox-popup" className={"icons-rounded settingbox-popup"} title="Settings"><i className="sprite setting-ico"></i></a>
+                    <a href="#about-app-popup" className="icons-rounded about-app-popup" title="About App"><i className="sprite aboutapp-ico"></i></a>
                 </div>
             </div>
         )

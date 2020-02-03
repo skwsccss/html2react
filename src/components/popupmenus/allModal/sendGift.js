@@ -1,10 +1,15 @@
 import React, { Component } from 'react'
 import MobTopHeader from './mobTopheader'
+import Gift from './gift';
 
 export default class SendGift extends Component {
     render() {
+        const gifts = ['Lolipop', 'Heart', 'Claps', 'Flower', 'Lolipop', 'Heart', 'Claps', 'Flower', 'Lolipop', 'Heart', 'Claps', 'Flower']
+        const result = gifts.map((item, index) => (
+            <Gift name={item} index={index % 4} key={index} />
+        ))
         return (
-            <div className="modal01 fadeIn footer-links ui-widget ui-widget-content" id="gift-popup" tabIndex="-1" role="dialog" aria-labelledby="gift-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget" id="gift-popup" tabIndex="-1" role="dialog" aria-labelledby="gift-popup" aria-hidden="true">
                 <div className="modal-dialog gift-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
@@ -54,58 +59,18 @@ export default class SendGift extends Component {
                                             {/* <!--gift paggination container--> */}
                                             <div className="pagination-container hide five-row show fadeIn" id="page01">
                                                 <div className="row">
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Lolipop">
-                                                            <a href="#ref"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Lolipop</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/02.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Heart</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/03.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Claps</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
+                                                    {result}
                                                 </div>
                                             </div>
                                             <div className="pagination-container hide five-row fadeIn" id="page02">
                                                 <div className="row">
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Lolipop">
-                                                            <a href="#ref"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Lolipop</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/02.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Heart</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/03.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Claps</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
+                                                    {result}
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="tab-pane" id="jewelry" role="tabpanel" aria-labelledby="jewelry-tab">
                                             {/* <!--paggination--> */}
-                                            <ul id="default-gift" className="pagination justify-content-end">
+                                            <ul id="jewelry-gift" className="pagination justify-content-end">
                                                 <li className="page-item z-disable">
                                                     <a href="#page01" className="page-link bg-none"><i className="first-page"></i></a>
                                                 </li>
@@ -130,59 +95,19 @@ export default class SendGift extends Component {
                                             {/* <!--gift paggination container--> */}
                                             <div className="pagination-container hide five-row show fadeIn" id="page01">
                                                 <div className="row">
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Lolipop">
-                                                            <a href="#ref"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Lolipop</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/02.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Heart</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/03.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Claps</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
+                                                    {result}
                                                 </div>
                                             </div>
                                             <div className="pagination-container hide five-row fadeIn" id="page02">
                                                 <div className="row">
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Lolipop">
-                                                            <a href="#ref"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Lolipop</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/02.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Heart</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/03.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Claps</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
+                                                    {result}
                                                 </div>
                                             </div>
                                         </div>
 
                                         <div className="tab-pane" id="luxurious" role="tabpanel" aria-labelledby="luxurious-tab">
                                             {/* <!--paggination--> */}
-                                            <ul id="default-gift" className="pagination justify-content-end">
+                                            <ul id="luxurious-gift" className="pagination justify-content-end">
                                                 <li className="page-item z-disable">
                                                     <a href="#page01" className="page-link bg-none"><i className="first-page"></i></a>
                                                 </li>
@@ -207,52 +132,12 @@ export default class SendGift extends Component {
                                             {/* <!--gift paggination container--> */}
                                             <div className="pagination-container hide five-row show fadeIn" id="page01">
                                                 <div className="row">
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Lolipop">
-                                                            <a href="#ref"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Lolipop</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/02.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Heart</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/03.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Claps</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
+                                                    {result}
                                                 </div>
                                             </div>
                                             <div className="pagination-container hide five-row fadeIn" id="page02">
                                                 <div className="row">
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Lolipop">
-                                                            <a href="#ref"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Lolipop</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/02.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Heart</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
-                                                    <div className="col-2 text-center m-b-xs">
-                                                        <div className="gift-image" title="Heart">
-                                                            <a href="#ref"><img src="/images/gifts/03.png" className="img-fluid" alt="noimg" /></a>
-                                                        </div>
-                                                        <div className="gift-name">Claps</div>
-                                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
-                                                    </div>
+                                                    {result}
                                                 </div>
                                             </div>
                                         </div>
@@ -271,8 +156,8 @@ export default class SendGift extends Component {
                                     <div className="col-sm-10 col-9">
                                         <form className="gift-send-form">
                                             <div className="form-group">
-                                                <label htmlFor="friendname">Receiver<em>*</em></label>
-                                                <input type="text" className="form-control z-disable" id="friendname" placeholder="Sun Zhu" />
+                                                <label htmlFor="friendname1">Receiver<em>*</em></label>
+                                                <input type="text" className="form-control z-disable" id="friendname1" placeholder="Sun Zhu" />
                                             </div>
                                             <div className="form-group">
                                                 <label htmlFor="amount">Amount<em>*</em></label>
@@ -282,14 +167,12 @@ export default class SendGift extends Component {
                                                 <div className="sm-fonts"><span className="credit-ttl">You need to pay :</span><span><i className="sprite gift-credit-ico" title="Credits-ico"></i> 1000 Credits</span></div>
                                                 <div className="sm-fonts d-100-between mob-full-width">
                                                     <div><span className="credit-ttl">Your credits :</span><span><i className="sprite gift-credit-ico" title="Credits-ico"></i> 0</span></div>
-                                                    <button type="submit" title="Buy-Credits" href="#virtual-currency-popup" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button>
+                                                    <a title="Buy-Credits" href="#virtual-currenc-popup" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</a>
                                                 </div>
                                             </div>
-
                                         </form>
                                     </div>
                                 </div>
-
                             </div>
                             <div className="modal-btn-group modal-btn-links">
                                 <a className="btn sm-btn theme-bg mob-radius-btn z-disabe saythanks-popup" href="#saythanks-popup" title="Send">Send</a>

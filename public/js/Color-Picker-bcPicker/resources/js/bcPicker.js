@@ -35,7 +35,6 @@ $(document).ready(function(){
 	* Color picker assembly
 	**/
 	$.fn.bcPicker = function (options) {
-
 		return this.each(function () {
 			var elem 			= $(this),
 				colorSet		= $.extend({}, $.fn.bcPicker.defaults, options),

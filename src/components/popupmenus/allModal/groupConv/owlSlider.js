@@ -10,9 +10,7 @@ export default class OwlSlider extends Component {
         ))
         return (
             <div id="owl-videoslider" className="owl-carousel owl-theme video-slider">
-                <div className="item">
                     {result}
-                </div>
             </div>
         )
     }

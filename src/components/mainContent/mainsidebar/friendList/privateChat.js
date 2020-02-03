@@ -7,7 +7,7 @@ export default class PrivateChat extends Component {
                 <div className="modal-body">
                     <div className="private-call-block show">
                         <div className="d-flex align-items-center justify-content-end mb-3">
-                            <a href="#create-group-popup" onClick={console.log('clicke')} className="icons-rounded z-" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
+                            <a href="#create-group-popup" className="icons-rounded z- create-group-popup" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
                             <a href="#camera-request-popup" className="theme-bg icons-rounded private-video-call" title="Video Call"><i className="sprite video-ico z-disable"></i></a>
                             <a href="#i" className="icons-rounded private-voice-call" title="Voice Call"><i className="sprite call-ico z-disable"></i></a>
                         </div>

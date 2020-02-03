@@ -36,10 +36,10 @@ class ChangeStatus extends Component {
                         <a className="dropdown-item" href="#a"><span className="status-ico in-visible"></span>Invisible</a>
                     </li>
                     <li className="seprator account-link">
-                        <a className="dropdown-item z-disable" href="#myaccount-popup" onClick={console.log('sss')} title="My account"><img src={"/images/right-icon.png"} className="img-fluid" alt="error" />My Account</a>
-                        <a className="dropdown-item z-disable" href="#change-avtar-popup" onClick={console.log('ss')} title="Change Avatar"><img src={"/images/right-icon.png"} className="img-fluid" alt="error" />Change Avatar</a>
+                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My account"><img src={"/images/right-icon.png"} className="img-fluid" alt="error" />My Account</a>
+                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src={"/images/right-icon.png"} className="img-fluid" alt="error" />Change Avatar</a>
                     </li>
-                    <li><a className="dropdown-item logout z-disable" href="#logout-popup" onClick={console.log('aaa')}><img src={"/images/logout.png"} className="img-fluid" alt="error" />Logout</a></li>
+                    <li><a className="dropdown-item logout z-disable ogout-popup" href="#logout-popup"><img src={"/images/logout.png"} className="img-fluid" alt="error" />Logout</a></li>
                 </ul>
             </div>
         )

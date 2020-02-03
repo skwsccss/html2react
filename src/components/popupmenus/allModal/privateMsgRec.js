@@ -5,7 +5,7 @@ export default class PrivateMsgRec extends Component {
         return (
             // <!--private message request popup-->
             <div className="modal01 fadeIn footer-links  center-msg-box" id="private-message-request" tabIndex="-1" role="dialog" aria-labelledby="private-message-request" aria-hidden="true">
-                <div className="modal-dialog private-message-request sm-modal" role="document">
+                <div className="modal-dialog sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Private Message</strong><span className="mark-read-btn">

@@ -66,6 +66,9 @@ export default class OwlSliderList extends Component {
                             </div>
                         </div>
                     </div>
+                    <div className="network-signal">
+                        <a href="#network" title="Network" className="hidden-mob"><img src="/images/network-icon.png" className="img-fluid" alt="no" /></a>
+                    </div>
                 </div>
             </div>
         )

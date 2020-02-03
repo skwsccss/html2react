@@ -880,7 +880,7 @@ function UpgradeDataTableResponsive() {
             "language": {
                 search: "",
                 oPaginate: {
-                    sNext: '<i class="next- "></i>',
+                    sNext: '<i class="next-page"></i>',
                     sPrevious: '<i class="prev-page"></i>',
                     sFirst: '<i class="first-page"></i>',
                     sLast: '<i class="last-page"></i>'
@@ -1574,7 +1574,7 @@ function ScrollInit() {
 
 (function ($) {
     $('.box-title .close').on('click', function (event) {
-        $(this).parent().closest('div.footer-links.show').removeClass('show');
+        $(this).parent().closest('.footer-links.show').removeClass('show');
         $('.user-list01 li.show-box').removeClass('current');
         $('.backdrop').removeClass('show');
     });
@@ -1617,60 +1617,38 @@ $('#changeavatar').click(() => {
     openReceiveUpgradePopup('change-avatar-popup');
 })
 
-$('#private-message-request').click(() => {
+$('.private-message-request').click(() => {
     openReceiveUpgradePopup('private-message-request')
 })
 
-$(".dropdown-item").click(() => {
-    if ($(this).classList().hasClass("show")) {
-        $(this).classList().removeClass("show");
-    }
-    if ($(this).classList().hasClass("transform")) {
-        $(this).classList().removeClass("transform");
-    }
-})
-
-$('#gift-popup').click(() => {
-    openReceiveUpgradePopup('gift-popup')
-})
-$('#upgrade-popup').click(() => {
-    openReceiveUpgradePopup('upgrade-popup')
-})
-$('#ignore-list-popup').click(() => {
+$('.ignore-list-popup').click(() => {
     openReceiveUpgradePopup('ignore-list-popup')
 })
-$('#friend-request-popup').click(() => {
+$('.friend-request-popup').click(() => {
     openReceiveUpgradePopup('friend-request-popup')
 })
-$('#mute-window-popup').click(() => {
+
+$('.silent-mute-window-popup').click(() => {
     openReceiveUpgradePopup('mute-window-popup')
 })
-$('#silent-mute-window-popup').click(() => {
-    openReceiveUpgradePopup('mute-window-popup')
-})
-$('#kick-window-popup').click(() => {
+$('.kick-window-popup').click(() => {
     openReceiveUpgradePopup('kick-window-popup')
 })
-$('#ban-popup').click(() => {
+$('.ban-popup').click(() => {
     openReceiveUpgradePopup('ban-popup')
 })
-$('#OpenRealPopup').click(() => {
+$('.OpenRealPopup').click(() => {
     OpenRealPopup()
 })
-$('#OpenReal').click(() => {
+$('.OpenReal').click(() => {
     OpenRealPopup()
 })
-$('#view-profile').click(() => {
+$('.view-profile').click(() => {
     MobFullDisplay('view-profile')
 })
-$('#myaccount-popup').click(() => {
-    openReceiveUpgradePopup('myaccount-popup')
-})
-$('#change-avtar-popup').click(() => {
-    openReceiveUpgradePopup('change-avtar-popup')
-})
+
 $('.gift-popup').click(() => {
-    openReceiveUpgradePopup('gift-popup')
+    openReceiveUpgradePopup('gift-popup');
 })
 $('.upgrade-popup').click(() => {
     openReceiveUpgradePopup('upgrade-popup')
@@ -1869,8 +1847,8 @@ $('.full-groupconversation-popup').click(() => {
     openReceiveUpgradePopup('full-groupconversation-popup')
 })
 
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.camera-request-popup').click(() => {
+    openReceiveUpgradePopup('camera-request-popup')
 })
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
@@ -1992,8 +1970,6 @@ function openReceiveUpgradePopup(popupId) {
         $('.group-chatscroll .mCSB_container').css('top', '9999px');
     }
 
-
-
     $('#' + popupId).addClass('show');
 
     var width = jQuery(window).width();
@@ -2007,7 +1983,26 @@ function openReceiveUpgradePopup(popupId) {
     var width = jQuery(window).width();
     var height = jQuery(window).height();
     $('#' + popupId).css('top', height / 2).css('left', width / 2).css('z-index', allZindex).addClass('transform');
-    setOtherModelZIndex(popupId);
+    if (popupId == 'virtual-currency-popup') {
+        $('#gift-popup').removeClass('show')
+        $('#upgrade-popup').removeClass('show')
+
+        setTimeout(() => {
+            setOtherModelZIndex(popupId)
+        }, 50)
+    } else if (popupId == 'purchase-popup') {
+        setTimeout(() => {
+            setOtherModelZIndex(popupId)
+            $('#virtual-currency-popup').removeClass('show')
+        }, 50)
+    } else if (popupId == 'saythanks-popup') {
+        setTimeout(() => {
+            setOtherModelZIndex(popupId)
+        }, 50)
+    } 
+    else {
+        setOtherModelZIndex(popupId);
+    }
     CloseUserList();
     $('.show-box').removeClass('current');
     $('.mob-profile-window.show-box').removeClass('current');
@@ -2016,16 +2011,25 @@ function openReceiveUpgradePopup(popupId) {
 
 
 function setOtherModelZIndex(popupId) {
+    console.log(popupId)
     $(".footer-links.show").each(function () {
+
         if (this.id != popupId) {
             var c = $(this).css("z-index") - 1;
+            console.log(c)
             if (c < 1) {
                 c = 1;
-
             }
             $(this).css('z-index', c);
         }
+        if (this.id == 'change-avtar-popup' || this.id=='upgrade-popup') {
+
+            var c = $(this).css("z-index")
+            $(this).css('z-index', parseInt(c) + 1);
+        }
+
     });
+
 }
 
 //on resize more menu hide in desktop
@@ -2775,11 +2779,13 @@ $(function () {
                 localStorage.setItem("bg_color", color);
                 $('.bcPicker-palette').hide();
                 $('body').css('background', localStorage.getItem("bg_color"));
+                $('#chat-area').css('background', localStorage.getItem("bg_color"));
                 $('.bcPicker-picker').css('background-color', localStorage.getItem("bg_color"));
                 $(this).parent().parent().next().children().text(localStorage.getItem("bg_color"));
                 $(this).parent().parent().next().next().children().text(localStorage.getItem("bg_color"));
             })
             $('.bcPicker-picker').css('background-color', localStorage.getItem("bg_color"));
+            $('#chat-area').css('background', localStorage.getItem("bg_color"));
             $('body').css('background', localStorage.getItem("bg_color"));
         });
     } else {

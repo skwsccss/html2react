@@ -6,7 +6,7 @@ export default class MsgInput extends Component {
             <div className="footer-middle">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-12">
-                        <span className="photo-frame">
+                        <span className="photo-frame change-avtar-popup">
                             <a href="#change-avtar-popup">
                                 <img src={"/images/chat-photo.jpg"} className="img-fluid" alt="msginput" />
                                 <span className="status-signal">&nbsp;</span>

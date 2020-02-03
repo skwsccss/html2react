@@ -1,6 +1,7 @@
 .fa {
   color: var(--main-theme-color);
 }
+
 .user-more-menu .dropdown-menu {
   position: absolute;
   transform: translate3d(-185px, 59px, 0px);
@@ -17,6 +18,7 @@
   -webkit-box-shadow: 0 0 5px #aaa;
   box-shadow: 0 0 5px #aaa;
 }
+
 body .ui-tooltip {
   border-width: 2px;
 }
@@ -66,25 +68,27 @@ body .ui-tooltip {
   padding-left: 5px !important;
 }
 
-#chatTab .nav > li > a {
+#chatTab .nav>li>a {
   padding: 5px 50px 5px 35px !important;
 }
-#chatTab .nav-tabs > li {
+
+#chatTab .nav-tabs>li {
   background: transparent !important;
   border-color: transparent !important;
 }
+
 #chatTab .nav {
   background: transparent !important;
 }
+
 /* //////// */
+
 /* .chat-room-tabs {
   border-top: none !important;
   padding: 0px !important;
 } */
-.dropdown-menu.emojis-list,
-.dropdown-menu.emojis-list01,
-.dropdown-menu.emojis-list02,
-.dropdown-menu.mob-emojis-list {
+
+.dropdown-menu.emojis-list, .dropdown-menu.emojis-list01, .dropdown-menu.emojis-list02, .dropdown-menu.mob-emojis-list {
   width: 280px;
   height: 320px;
   top: -330px;
@@ -98,8 +102,14 @@ body .ui-tooltip {
 #chat-area {
   background: #cdd4de;
 }
+
 .friend-list-tab .nav-tabs .nav-link {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+#security-setting-popup {
+  top: 180px;
+  left: 415px;
 }
