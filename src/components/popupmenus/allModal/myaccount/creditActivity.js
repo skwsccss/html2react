@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class CreditActivity extends Component {
     render() {
-        const data = [1, 1, 11, 11, 1, 1, , 1, 2, 23, 2];
+        const data = [1, 1, 11, 11, 1, 1, 1, 2, 23, 2]
         const regard = data.map((item, index) => (
             <tr key={index}>
                 <td><b className="tablesaw-cell-label">Order Id</b><span className="tablesaw-cell-content">a2a2a2a2:4444:0000:dddd:44 </span></td>
