@@ -88,11 +88,22 @@ body .ui-tooltip {
   padding: 0px !important;
 } */
 
-.dropdown-menu.emojis-list, .dropdown-menu.emojis-list01, .dropdown-menu.emojis-list02, .dropdown-menu.mob-emojis-list {
+.dropdown-menu.emojis-list, .dropdown-menu.emojis-list01, .dropdown-menu.mob-emojis-list {
   width: 280px;
   height: 320px;
   top: -330px;
   padding: unset;
+}
+
+.dropdown-menu.emojis-list02{
+  width: 280px;
+  height:260px;
+  top: -270px;
+  padding: unset;
+}
+
+.dropdown-menu.emojis-list02 aside.emoji-picker-react {
+  height: 260px !important;
 }
 
 #chat-area .tab-pane {

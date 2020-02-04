@@ -8,7 +8,7 @@ export default class PrivateFooter extends Component {
                 <div className="fixed-footer">
                     <div className="row no-gutters mb-01 align-items-center justify-content-between white-bg">
                         <div className="col-auto ">
-                            <Emojis />
+                            <Emojis index='01' />
                             <a href="/" title="Photo"><i className="sprite photo-ico"></i></a>
                             <a href="/" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
                             <a href="/" title="Attachment"><i className="sprite attachment-ico"></i></a>

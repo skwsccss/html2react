@@ -7,7 +7,7 @@ export default class MsgTool extends Component {
             <div className="footer-top ">
                 <div className="row align-items-center justify-content-between">
                     <div className="col-auto ">
-                        <Emojis />
+                        <Emojis index={''}/>
                         <a href="#1" title="Photo"><i className="sprite photo-ico"></i></a>
                         <a href="#1" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
                         <a href="#1" title="Attachment"><i className="sprite attachment-ico"></i></a>

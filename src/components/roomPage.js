@@ -49,6 +49,8 @@ import TermsAndCondition from './popupmenus/allModal/terms';
 import ContactUs from './popupmenus/allModal/contactUs';
 import Help from './popupmenus/allModal/help';
 import OpenChatMenu from './popupmenus/allModal/openChatMenu';
+import Login from './popupmenus/allModal/login';
+import Register from './popupmenus/allModal/Register';
 
 class RoomPage extends Component {
     render() {
@@ -104,6 +106,8 @@ class RoomPage extends Component {
                 <ContactUs />
                 <Help />
                 <OpenChatMenu />
+                <Login />
+                <Register />
             </div>
         );
     }

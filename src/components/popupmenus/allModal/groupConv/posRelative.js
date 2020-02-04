@@ -56,7 +56,31 @@ export default class PositionRelative extends Component {
                         <div className="fixed-footer">
                             <div className="row no-gutters mb-01 align-items-center justify-content-between white-bg">
                                 <div className="col-auto ">
-                                    <Emojis />
+                                    <Emojis index='02' />
+                                    <a href="#Photo" title="Photo"><i className="sprite photo-ico"></i></a>
+                                    <a href="#Text-Editor" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
+                                    <a href="#Attachmen" title="Attachment"><i className="sprite attachment-ico"></i></a>
+                                    <a href="#Voice" title="Voice"><i className="sprite voice-ico"></i></a>
+                                </div>
+                                <div className="col-auto float-right d-flex">
+                                    <a href="#create-group-popup" className="gicons-rounded hide create-group-popup" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
+                                    <a href="#camera-request-popup" className="theme-bg gicons-rounded hide camera-request-popup" title="Video Call"><i className="sprite video-ico z-disable"></i></a>
+                                    <a href="#voice" className="gicons-rounded hide" title="Voice Call"><i className="sprite call-ico z-disable"></i></a>
+                                    <button className="groupconversation-window" title="Show Video"><i className="sprite right-ico"></i></button>
+                                </div>
+                            </div>
+                            <div className="row no-gutters align-items-center justify-content-between white-bg input-area">
+                                <div className="col-12">
+                                    <span className="photo-frame">
+                                        <a href="#change-avtar-popup" className="z-disable change-avtar-popup">
+                                            <img src="/images/chat-photo.jpg" className="img-fluid z-disable" alt="noimg" />
+                                            <span className="status-signal">&nbsp;</span>
+                                        </a>
+                                    </span>
+                                    <textarea className="chat-input" typeof="text"></textarea>
+                                    <button className="sendbtn theme-bg">
+                                        <span>SEND<img src="/images/send-arrow.png" className="img-fluid ml-2" alt="noimg" /></span>
+                                    </button>
                                 </div>
                             </div>
                         </div>

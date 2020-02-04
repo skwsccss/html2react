@@ -3,16 +3,13 @@ import EmojiPicker from 'emoji-picker-react';
 
 export default class Emojis extends Component {
     render() {
-        // const [chosenEmoji, setChosenEmoji] = useState(null);
-        // const onEmojiClick = (event, emojiObject) => {
-        //     setChosenEmoji(emojiObject);
-        // }
+        const {index} = this.props;
         return (
             <div className="btn-group dropup emojis">
-                <span className="emojis-toggle" aria-haspopup="true" aria-expanded="false" title="Emojis">
+                <span className={`emojis-toggle${index}`} aria-haspopup="true" aria-expanded="false" title="Emojis">
                     <i className="sprite emojis-ico"></i>
                 </span>
-                <div className="dropdown-menu emojis-list">
+                <div className={`dropdown-menu emojis-list${index}`}>
                     <EmojiPicker />
                 </div>
             </div>

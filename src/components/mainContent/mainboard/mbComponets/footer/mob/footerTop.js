@@ -71,7 +71,7 @@ export default class FooterTop extends Component {
                             </a>
                         </span>
                         {/* <!--emojis dropup--> */}
-                        <div className="btn-group dropup emojis ">
+                        <div className="btn-group dropup emojis">
                             <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" title="Emojis">
                                 <i className="sprite emojis-ico"></i>
                             </span>

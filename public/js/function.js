@@ -1989,17 +1989,21 @@ function openReceiveUpgradePopup(popupId) {
 
         setTimeout(() => {
             setOtherModelZIndex(popupId)
-        }, 50)
+        }, 25)
     } else if (popupId == 'purchase-popup') {
         setTimeout(() => {
             setOtherModelZIndex(popupId)
             $('#virtual-currency-popup').removeClass('show')
-        }, 50)
+        }, 25)
     } else if (popupId == 'saythanks-popup') {
         setTimeout(() => {
             setOtherModelZIndex(popupId)
-        }, 50)
-    } 
+        }, 25)
+    } else if (popupId == 'groupconversation-popup') {
+        setTimeout(() => {
+            setOtherModelZIndex(popupId)
+        }, 25)
+    }
     else {
         setOtherModelZIndex(popupId);
     }
@@ -2011,7 +2015,7 @@ function openReceiveUpgradePopup(popupId) {
 
 
 function setOtherModelZIndex(popupId) {
-    // console.log(popupId)
+    console.log(popupId)
     $(".footer-links.show").each(function () {
 
         if (this.id != popupId) {
@@ -2022,7 +2026,7 @@ function setOtherModelZIndex(popupId) {
             }
             $(this).css('z-index', c);
         }
-        if (this.id == 'change-avtar-popup' || this.id=='upgrade-popup') {
+        if (this.id == 'change-avtar-popup' || this.id == 'upgrade-popup') {
 
             var c = $(this).css("z-index")
             $(this).css('z-index', parseInt(c) + 1);
@@ -2396,6 +2400,7 @@ function OpenHeaderPopup(popupId, menuId) {
 //login popup close function
 (function ($) {
     $('.login-back').on('click', function () {
+        console.log('logingbakc')
         $('.login-register').removeClass('show').hide();
         $('.login-mob-bg').removeClass('show');
     });
