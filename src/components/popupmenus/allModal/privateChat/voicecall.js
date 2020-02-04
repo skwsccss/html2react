@@ -24,7 +24,6 @@ export default class VoiceCall extends Component {
                         <img src="/images/mic-off.png" className="img-fluid enable-icon" alt="no img"  />
                         <img src="/images/mic-on.png" className="img-fluid disable-icon"  alt="no img" />
                     </a>
-
                 </div>
             </div>
         )

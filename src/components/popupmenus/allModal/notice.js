@@ -31,8 +31,8 @@ export default class Notice extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center justify-content-center">
-                                <a href="#yes" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" title="Yes">Yes</a>
-                                <a href="#no" className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" title="No">NO</a>
+                                <button href="#yes" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" title="Yes">Yes</button>
+                                <button className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" title="No">NO</button>
                             </div>
                         </div>
 

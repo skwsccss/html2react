@@ -1850,11 +1850,11 @@ $('.full-groupconversation-popup').click(() => {
 $('.camera-request-popup').click(() => {
     openReceiveUpgradePopup('camera-request-popup')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.loginpopup').click(() => {
+    openLoginRregisterPopup('login')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
+$('.register-popup').click(() => {
+    openLoginRregisterPopup('register')
 })
 $('.isdfsdfd').click(() => {
     openReceiveUpgradePopup('idsss')
@@ -2011,12 +2011,12 @@ function openReceiveUpgradePopup(popupId) {
 
 
 function setOtherModelZIndex(popupId) {
-    console.log(popupId)
+    // console.log(popupId)
     $(".footer-links.show").each(function () {
 
         if (this.id != popupId) {
             var c = $(this).css("z-index") - 1;
-            console.log(c)
+            // console.log(c)
             if (c < 1) {
                 c = 1;
             }

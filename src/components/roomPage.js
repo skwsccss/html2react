@@ -1,11 +1,6 @@
-import React, { Component } from 'react'
-// import { connect } from "react-redux";
-// import { fetchPosts } from "../actions/postActions";
-// import PropTypes from "prop-types";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-
-import Header from './layout/header';
-import MainContent from './mainContent/mainContent';
+import React, { Component } from 'react';
+import RoomHeader from './layout/roomHeader';
+import RoomMain from './rooms/roomMain';
 import MoreMenuPopup from './popupmenus/allModal/moreMenuPopup';
 import MobileFriendList from './popupmenus/allModal/mobFriendListP';
 import ChangeAvatar from './popupmenus/allModal/changeAvatar';
@@ -36,7 +31,6 @@ import BannedSysMsg from './popupmenus/allModal/bannedSysMsg';
 import Notification from './popupmenus/allModal/notification';
 import PrivateMsgRec from './popupmenus/allModal/privateMsgRec';
 import MyAccount from './popupmenus/allModal/myaccount/myAccount';
-import Notice from './popupmenus/allModal/notice';
 import VCurrencyShop from './popupmenus/allModal/virtualCurrency/vCurrencyShop';
 import OpenChatPopup from './popupmenus/allModal/chatpopup/chatPopup';
 import VideoBox1 from './popupmenus/allModal/videoBox1';
@@ -56,76 +50,63 @@ import ContactUs from './popupmenus/allModal/contactUs';
 import Help from './popupmenus/allModal/help';
 import OpenChatMenu from './popupmenus/allModal/openChatMenu';
 
-
-class MainPage extends Component {
-
-
-
+class RoomPage extends Component {
     render() {
         return (
-            <Router>
-                <div className='page_container' id="containment-wrapper">
-                    <Header />
-                    <MainContent />
-                    {/* <Switch>
-                        <Route path="/sendgift" component={SendGift} />
-                        <Route component={Header} />
-                    </Switch> */}
-
-
-                    <MoreMenuPopup />
-                    <MobileFriendList />
-                    <Notification />
-                    <ChangeAvatar />
-                    <SendGift />
-                    <UpgradeMembership />
-                    <SayThanks />
-                    <Purchase />
-                    <ReceiveUpgrade />
-                    <BanWindow />
-                    <MuteWindow />
-                    <MuteSystem />
-                    <KickWindow />
-                    <KickSystem />
-                    <BanManagement />
-                    <UserReported />
-                    <SettingBox />
-                    <IgnoreList />
-                    <CreateGroup />
-                    <SecSysSetting />
-                    <ExceedLimit />
-                    <SecWaitSystem />
-                    <SendAnnouncement />
-                    <AnnouncementMsg />
-                    <FriendRequest />
-                    <CameraMic />
-                    <CountryBan />
-                    <BannedSysMsg />
-                    <PrivateMsgRec />
-                    <MyAccount />
-                    <Notice />
-                    <VCurrencyShop />
-                    <OpenChatPopup />
-                    <VideoBox1 />
-                    <VideoBox />
-                    <PrivateChatPopup />
-                    <GroupConversation />
-                    <GroupConverstationFull />
-                    <UpgradeRoom />
-                    <Delete />
-                    <Report />
-                    <Exit />
-                    <ChangeGroupName />
-                    <Logout />
-                    <AboutApp />
-                    <TermsAndCondition />
-                    <ContactUs />
-                    <Help />
-                    <OpenChatMenu />
-                </div>
-            </Router>
-        )
+            <div className="page_container" id="containment-wrapper">
+                <RoomHeader />
+                <RoomMain />
+                <MoreMenuPopup />
+                <MobileFriendList />
+                <Notification />
+                <ChangeAvatar />
+                <SendGift />
+                <UpgradeMembership />
+                <SayThanks />
+                <Purchase />
+                <ReceiveUpgrade />
+                <BanWindow />
+                <MuteWindow />
+                <MuteSystem />
+                <KickWindow />
+                <KickSystem />
+                <BanManagement />
+                <UserReported />
+                <SettingBox />
+                <IgnoreList />
+                <CreateGroup />
+                <SecSysSetting />
+                <ExceedLimit />
+                <SecWaitSystem />
+                <SendAnnouncement />
+                <AnnouncementMsg />
+                <FriendRequest />
+                <CameraMic />
+                <CountryBan />
+                <BannedSysMsg />
+                <PrivateMsgRec />
+                <MyAccount />
+                <VCurrencyShop />
+                <OpenChatPopup />
+                <VideoBox1 />
+                <VideoBox />
+                <PrivateChatPopup />
+                <GroupConversation />
+                <GroupConverstationFull />
+                <UpgradeRoom />
+                <Delete />
+                <Report />
+                <Exit />
+                <ChangeGroupName />
+                <Logout />
+                <AboutApp />
+                <TermsAndCondition />
+                <ContactUs />
+                <Help />
+                <OpenChatMenu />
+            </div>
+        );
     }
 }
 
-export default MainPage;
+export default RoomPage;
