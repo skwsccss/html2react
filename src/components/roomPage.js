@@ -107,6 +107,7 @@ class RoomPage extends Component {
                 <Help />
                 <OpenChatMenu />
                 <Login />
+                <div className="login-mob-bg">&nbsp;</div>
                 <Register />
             </div>
         );
