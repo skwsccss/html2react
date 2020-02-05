@@ -67,10 +67,9 @@ class MainPage extends Component {
                 <div className='page_container' id="containment-wrapper">
                     <Header />
                     <MainContent />
-                    {/* <Switch>
+                    <Switch>
                         <Route path="/sendgift" component={SendGift} />
-                        <Route component={Header} />
-                    </Switch> */}
+                    </Switch>
 
 
                     <MoreMenuPopup />

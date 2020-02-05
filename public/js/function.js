@@ -1613,9 +1613,6 @@ function ScrollInit() {
 //    DataTableResponsive();
 //});
 
-$('#changeavatar').click(() => {
-    openReceiveUpgradePopup('change-avatar-popup');
-})
 
 $('.private-message-request').click(() => {
     openReceiveUpgradePopup('private-message-request')
@@ -1856,21 +1853,7 @@ $('.loginpopup').click(() => {
 $('.register-popup').click(() => {
     openLoginRregisterPopup('register')
 })
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
-})
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
-})
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
-})
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
-})
-$('.isdfsdfd').click(() => {
-    openReceiveUpgradePopup('idsss')
-})
+
 $('#closeAllPopup').click(() => {
     $('.modal01').removeClass('show');
     var myDiv = document.getElementsByClassName("mob-bottom-scroll")[0];
