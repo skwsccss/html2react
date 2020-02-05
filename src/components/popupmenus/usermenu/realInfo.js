@@ -18,7 +18,7 @@ export default class ShowRealInfo extends Component {
                                 Country
                                 </span>
                             <span className="col-7 real-info-detail">
-                                <img src="/images/country-flag.jpg" className="mr-1" alt="no-img" /> Jordan
+                                <img src="/css/dist/theme01/images/country-flag.jpg" className="mr-1" alt="no-img" /> Jordan
                                 </span>
                         </span>
                         <span className="row d-flex justify-content-center">

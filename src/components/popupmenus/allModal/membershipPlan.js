@@ -8,9 +8,9 @@ export default class MembershipPlan extends Component {
                 <div className={`membership-box ${color}`}>
                     <div className="plan-header">
                         <span className="d-flex align-items-center">
-                            <img src="/images/vip.png" className="img-fluid plan-icon" alt="noimg" />{title}
+                            <img src="/css/dist/theme01/images/vip.png" className="img-fluid plan-icon" alt="noimg" />{title}
                         </span>
-                        <span className="pointer-icon" title="VIP Membership plans"><img src="/images/info.png" className="img-fluid" alt="no img" /></span>
+                        <span className="pointer-icon" title="VIP Membership plans"><img src="/css/dist/theme01/images/info.png" className="img-fluid" alt="no img" /></span>
                     </div>
                     <div className="select-plans">
                         <label className="radio-container">

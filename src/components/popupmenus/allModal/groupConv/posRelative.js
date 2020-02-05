@@ -9,7 +9,7 @@ export default class PositionRelative extends Component {
             <div className="col-12 m-b-sm d-flex align-items-start" key={index}>
                 <div className="profile-pics btn-group dropright">
                     <span className="dropdown-open">
-                        <img src="/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="no" />
+                        <img src="/css/dist/theme01/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="no" />
                         <span className="arrow-left-caret"></span>
                     </span>
                 </div>
@@ -31,18 +31,18 @@ export default class PositionRelative extends Component {
             <li className="blue-text" key={index}>
                 <span className="arrow-right-caret"></span>
                 <span>
-                    <img src="/images/gold-taj.png" className="img-fluid imagePath" title="User-Level1" alt="no" />
+                    <img src="/css/dist/theme01/images/gold-taj.png" className="img-fluid imagePath" title="User-Level1" alt="no" />
                 </span>
                 <span className="profile-avtar">
-                    <img src="/images/chat-photo.jpg" className="img-fluid" alt="no" />
+                    <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="no" />
                     <span className="away-signal">&nbsp;</span>
                 </span>
                 <span>kanyo cube</span>
                 <span className="float-right">
                     <a href="#video01-popup" className="calling-icon">
-                        <img src="/images/video.png" title="Video-Call" className="img-fluid m-t-xs m-r-sm call-popup imagePath" alt="no" />
+                        <img src="/css/dist/theme01/images/video.png" title="Video-Call" className="img-fluid m-t-xs m-r-sm call-popup imagePath" alt="no" />
                     </a>
-                    <img src="/images/men.png" title="Men" className="img-fluid m-t-xs imagePath" alt="no" />
+                    <img src="/css/dist/theme01/images/men.png" title="Men" className="img-fluid m-t-xs imagePath" alt="no" />
                 </span>
             </li>
         ))
@@ -73,13 +73,13 @@ export default class PositionRelative extends Component {
                                 <div className="col-12">
                                     <span className="photo-frame">
                                         <a href="#change-avtar-popup" className="z-disable change-avtar-popup">
-                                            <img src="/images/chat-photo.jpg" className="img-fluid z-disable" alt="noimg" />
+                                            <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid z-disable" alt="noimg" />
                                             <span className="status-signal">&nbsp;</span>
                                         </a>
                                     </span>
                                     <textarea className="chat-input" typeof="text"></textarea>
                                     <button className="sendbtn theme-bg">
-                                        <span>SEND<img src="/images/send-arrow.png" className="img-fluid ml-2" alt="noimg" /></span>
+                                        <span>SEND<img src="/css/dist/theme01/images/send-arrow.png" className="img-fluid ml-2" alt="noimg" /></span>
                                     </button>
                                 </div>
                             </div>

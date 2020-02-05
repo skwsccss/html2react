@@ -18,50 +18,50 @@ export default class Purchase extends Component {
                         <div className="modal-body">
                             <div className="row align-items-center mob-box-white">
                                 <div className="col-6 font-20 theme-txt-color bold-500">
-                                    <span>Plan :</span><span className="mob-black-txt"><img src="/images/lg-credit.png" className="img-fluid m-l-sm m-r-sm" alt="noimg" />1000</span>
+                                    <span>Plan :</span><span className="mob-black-txt"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid m-l-sm m-r-sm" alt="noimg" />1000</span>
                                 </div>
                                 <div className="col-6">
-                                    <span className="theme-txt-color bold-500">Price :</span><span className="mob-black-txt"><img src="/images/lg-credit.png" className="img-fluid m-l-sm m-r-sm" alt="noimg" /><strong className="bold-500">50</strong> USD</span>
+                                    <span className="theme-txt-color bold-500">Price :</span><span className="mob-black-txt"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid m-l-sm m-r-sm" alt="noimg" /><strong className="bold-500">50</strong> USD</span>
                                 </div>
                             </div>
                             <p>You can complete your purchase with the following payment methods</p>
                             <em>By click and ‘checkout’ , i agree with terms of services</em>
                             <div className="row align-items-center justify-content-center m-t-sm m-b-sm hidden-sm">
-                                <img src="/images/payment.png" className="img-fluid" alt="noimg" />
+                                <img src="/css/dist/theme01/images/payment.png" className="img-fluid" alt="noimg" />
                             </div>
                             <div className="row align-items-center justify-content-center m-t-sm m-b-sm visible-sm desk-hidden">
                                 <ul className="payment-options">
                                     <li>
                                         <label className="radio-container">
-                                            <img src="css/dist/theme01/images/paypal.png" className="img-fluid" alt="noimg" />
+                                            <img src="/css/dist/theme01css/dist/theme01/images/paypal.png" className="img-fluid" alt="noimg" />
                                             <input type="radio" name="radio" className="z-disable" />
                                             <span className="checkmark theme-bg"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label className="radio-container">
-                                            <img src="css/dist/theme01/images/master-card.png" className="img-fluid" alt="noimg" />
+                                            <img src="/css/dist/theme01css/dist/theme01/images/master-card.png" className="img-fluid" alt="noimg" />
                                             <input type="radio" name="radio" className="z-disable" />
                                             <span className="checkmark theme-bg"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label className="radio-container">
-                                            <img src="css/dist/theme01/images/visa.png" className="img-fluid" alt="noimg" />
+                                            <img src="/css/dist/theme01css/dist/theme01/images/visa.png" className="img-fluid" alt="noimg" />
                                             <input type="radio" name="radio" className="z-disable" />
                                             <span className="checkmark theme-bg"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label className="radio-container">
-                                            <img src="css/dist/theme01/images/maestro.png" className="img-fluid" alt="noimg" />
+                                            <img src="/css/dist/theme01css/dist/theme01/images/maestro.png" className="img-fluid" alt="noimg" />
                                             <input type="radio" name="radio" className="z-disable" />
                                             <span className="checkmark theme-bg"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label className="radio-container">
-                                            <img src="css/dist/theme01/images/american-express.png" className="img-fluid" alt="noimg" />
+                                            <img src="/css/dist/theme01css/dist/theme01/images/american-express.png" className="img-fluid" alt="noimg" />
                                             <input type="radio" name="radio" className="z-disable" />
                                             <span className="checkmark theme-bg"></span>
                                         </label>

@@ -9,7 +9,7 @@ export default class IgnoreUsers extends Component {
                     <input type="checkbox" className="custom-control-input z-disable" id={`${username}${index}`} name={`${username}${index}`} />
                     <label className="custom-control-label" htmlFor={`${username}${index}`}>
                         <span className="profile-avtar">
-                            <img src="/images/chat-photo.jpg" className="img-fluid mCS_img_loaded" alt="no img" />
+                            <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid mCS_img_loaded" alt="no img" />
                             <span className="status-signal">&nbsp;</span>
                         </span>
                         <span className="xs-text">{username}</span>

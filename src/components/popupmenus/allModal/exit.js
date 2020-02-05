@@ -17,7 +17,7 @@ export default class Exit extends Component {
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-2 m-text-center d-flex align-items-center justify-content-center mob-col-12">
                                     <div className="img-box">
-                                        <img src="/images/exit-group.png" className="img-fluid image-34" alt="exit img" />
+                                        <img src="/css/dist/theme01/images/exit-group.png" className="img-fluid image-34" alt="exit img" />
                                     </div>
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Exit Group</div></div>
                                 </div>

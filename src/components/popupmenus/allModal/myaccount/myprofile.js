@@ -8,14 +8,14 @@ export default class MyProfile extends Component {
                     <div className="row no-gutters align-items-start m-tb-15">
                         <div className="col-12 col-md-2 text-right chg-account-avatar">
                             <div className="photo-frame d-flex">
-                                <img src="/images/chat-photo.jpg" className="img-fluid" alt="noimg" />
+                                <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="noimg" />
                                 <span className="status-signal">&nbsp;</span>
                             </div>
                         </div>
                         <div className="col-12 col-md-10 pl-3 m-pl-0">
                             <div className="profile-user-name">
-                                <span className="mr-1 hidden-mob"><img src="/images/xlg-taj.png" alt="noimg" /></span>
-                                <span className="mr-1 desk-hidden mob-display"><img src="/images/crown.png" title="User-Level1" alt="noimg" /></span>
+                                <span className="mr-1 hidden-mob"><img src="/css/dist/theme01/images/xlg-taj.png" alt="noimg" /></span>
+                                <span className="mr-1 desk-hidden mob-display"><img src="/css/dist/theme01/images/crown.png" title="User-Level1" alt="noimg" /></span>
                                 <span className="xlg-txt theme-txt-color">Username</span>
                             </div>
                             <div className="profile-user-details">

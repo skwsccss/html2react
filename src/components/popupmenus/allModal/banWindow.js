@@ -17,7 +17,7 @@ export default class BanWindow extends Component {
                             <div className="row desk-hidden visible-sm">
                                 <div className="w-60 text-center m-b-xs">
                                     <div className="gift-image v-c-60">
-                                        <a href="#lolipop" title="Lolipop"><img src="/images/ban-icon.png" className="img-fluid p-2" alt="noimg" /></a>
+                                        <a href="#lolipop" title="Lolipop"><img src="/css/dist/theme01/images/ban-icon.png" className="img-fluid p-2" alt="noimg" /></a>
                                     </div>
                                     <div className="gift-name">Ban Windows</div>
                                 </div>

@@ -23,7 +23,7 @@ export default class SecSysSetting extends Component {
                                             <div className="lg-space border-seprator">
                                                 <div className="row no-gutters align-items-center justify-content-center mob-content-start bor-btm">
                                                     <div className="col-10 text-left d-flex align-items-center justify-content-center mob-content-start">
-                                                        <span className="float-left m-r-xs"><img className="shield-image" src="/images/security-shield.png" alt="no img" /></span>
+                                                        <span className="float-left m-r-xs"><img className="shield-image" src="/css/dist/theme01/images/security-shield.png" alt="no img" /></span>
                                                         <span className="lg-txt float-left">Security Settings for</span>
                                                         <div className="duration-select m-l-xs">
                                                             <select className="z-disable">

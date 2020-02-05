@@ -7,7 +7,7 @@ export default class ChatPopupList extends Component {
             <div className="swipeable">
                 <div className="chat-list inner">
                     <span className="openchat-avtar-pics">
-                        <img src="/images/opechat-pic.png" className="img-fluid" alt="no img" />
+                        <img src="/css/dist/theme01/images/opechat-pic.png" className="img-fluid" alt="no img" />
                         <span className="status-signal">&nbsp;</span>
                     </span>
                     <a className="latest-openchat" href="#openchat">

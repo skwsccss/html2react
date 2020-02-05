@@ -13,7 +13,7 @@ class MainChatSection extends Component {
                     <div className="row no-gutters align-items-center main-top-section">
                         <div className="col-auto mr-auto">
                             <input className="search-group" type="text" placeholder="search group" />
-                            <a href="#groupsearch" className="group-search-icon">  <img className="img-fluid" src="/images/search-black-ico.png" alt="noimg" /></a>
+                            <a href="#groupsearch" className="group-search-icon">  <img className="img-fluid" src="/css/dist/theme01/images/search-black-ico.png" alt="noimg" /></a>
                         </div>
                         <div className="col-auto header-icons room-page-header">
                             <div className="online-user-data">

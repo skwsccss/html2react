@@ -17,7 +17,7 @@ export default class ChangeGroupName extends Component {
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-2 m-text-center d-flex align-items-center justify-content-center mob-col-12">
                                     <div className="img-box">
-                                        <img src="/images/chage-group-name.png" className="img-fluid image-34" alt="change Groupname" />
+                                        <img src="/css/dist/theme01/images/chage-group-name.png" className="img-fluid image-34" alt="change Groupname" />
                                     </div>
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Change Group Name</div></div>
                                 </div>

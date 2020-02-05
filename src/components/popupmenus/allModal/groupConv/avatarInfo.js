@@ -5,7 +5,7 @@ export default class AvatarInfo extends Component {
         return (
             <div className="avtar-info">
                 <div className="float-left profile-avtar">
-                    <img src="/images/chat-photo.jpg" className="img-fluid" alt="noimg" />
+                    <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="noimg" />
                     <span className="status-signal">&nbsp;</span>
                 </div>
                 <div className="status-dropdown">
@@ -16,7 +16,7 @@ export default class AvatarInfo extends Component {
                                     <span className="user-detail">
                                         <span className="d-flex align-items-center">
                                             <span>
-                                                <img src="/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="noimg" />
+                                                <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="noimg" />
                                             </span>
                                             <span>
                                                 <span className="user-name-sm">Heng liang</span><br />
@@ -25,7 +25,7 @@ export default class AvatarInfo extends Component {
                                         </span>
                                     </span>
                                     <span className="credit-txt">
-                                        <img src="/images/credit.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="noimg" />1000<img src="/images/cart.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="noimg" />
+                                        <img src="/css/dist/theme01/images/credit.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="noimg" />1000<img src="/css/dist/theme01/images/cart.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="noimg" />
                                     </span>
                                 </span>
                                 <span>
@@ -40,10 +40,10 @@ export default class AvatarInfo extends Component {
                             <a className="dropdown-item" href="#href"><span className="status-ico in-visible"></span>Invisible</a>
                         </li>
                         <li className="seprator account-link">
-                            <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/images/right-icon.png" className="img-fluid" alt="noimg" />My Account</a>
-                            <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/images/right-icon.png" className="img-fluid" alt="noimg" />Change Avatar</a>
+                            <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="noimg" />My Account</a>
+                            <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="noimg" />Change Avatar</a>
                         </li>
-                        <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/images/logout.png" className="img-fluid" alt="noimg" />Logout</a></li>
+                        <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="noimg" />Logout</a></li>
                     </ul>
                 </div>
             </div>

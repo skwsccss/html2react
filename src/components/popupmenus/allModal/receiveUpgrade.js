@@ -18,7 +18,7 @@ export default class ReceiveUpgrade extends Component {
                                 <div className="say-thanks-box d-flex">
                                     <div className="w-60 text-center m-b-xs">
                                         <div className="gift-image v-c-60">
-                                            <a href="#lolipop" title="Lolipop"><img src="/images/vip-upgrade.png" className="img-fluid" alt="no img" /></a>
+                                            <a href="#lolipop" title="Lolipop"><img src="/css/dist/theme01/images/vip-upgrade.png" className="img-fluid" alt="no img" /></a>
                                         </div>
                                         <div className="gift-name visible-sm desk-hidden">Lolipop</div>
                                     </div>

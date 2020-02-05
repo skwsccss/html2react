@@ -18,7 +18,7 @@ export default class SayThanks extends Component {
                                 <div className="say-thanks-box d-flex">
                                     <div className="w-60 text-center m-b-xs">
                                         <div className="gift-image v-c-60">
-                                            <a href="#ref" title="Lolipop"><img src="/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
+                                            <a href="#ref" title="Lolipop"><img src="/css/dist/theme01/images/gifts/01.png" className="img-fluid" alt="noimg" /></a>
                                         </div>
                                         <div className="gift-name">Lolipop</div>
                                     </div>

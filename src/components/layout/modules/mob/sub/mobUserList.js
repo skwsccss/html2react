@@ -17,7 +17,7 @@ class MobUserList extends Component {
                         <span>&nbsp;</span>
                 }
                 <span className="profile-avtar">
-                    <img src={"/images/chat-photo.jpg"} className="img-fluid" alt="userlist" />
+                    <img src={"/css/dist/theme01/images/chat-photo.jpg"} className="img-fluid" alt="userlist" />
                     {/* <img src={require(user.userAvatar)} className="img-fluid" /> */}
                     <span className="away-signal">&nbsp;</span>
                 </span>
@@ -25,14 +25,14 @@ class MobUserList extends Component {
                 <span className="float-right">
                     {user.actionImg ?
                         <a href="#1" className="calling-icon">
-                            <img src={"/images/hand.png"}
+                            <img src={"/css/dist/theme01/images/hand.png"}
                                 title="Raise Hand"
                                 className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" alt="userlist" />
                         </a> :
                         ''}
                     {/* {user.actionImg ? <a href="#1" className="calling-icon"> <img src={require(user.actionImg)} title="Raise Hand" className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" /></a> : ''} */}
                     <img src={
-                        `/images${user.gender === 'Men' ?
+                        `/css/dist/theme01/images${user.gender === 'Men' ?
                             "/men.png" :
                             "/women.png"}`}
                         title={user.gender}

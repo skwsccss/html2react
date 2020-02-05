@@ -9,7 +9,7 @@ class GroupChatComponent extends Component {
                         <i className="theme-user-group-ico mr-2"></i><span className="sm-theme-txt">60/1000</span>
                     </div>
                     <div className="d-flex align-items-center">
-                        <span className="room-thumb"><img src="/images/room-pics.png" className="img-fluid mCS_img_loaded" alt="noimg"/></span>
+                        <span className="room-thumb"><img src="/css/dist/theme01/images/room-pics.png" className="img-fluid mCS_img_loaded" alt="noimg"/></span>
                         <span className="room-detail">
                             <span className="room-head">
                                 UI/UX Team

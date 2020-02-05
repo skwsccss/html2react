@@ -5,7 +5,7 @@ export default class ReportedAction extends Component {
         const { username, reason, } = this.props;
         return (
             <tr>
-                <td className="ban-user"><span className="user-reported-pics"><img src="/images/ban-profile-pic.png" className="mr-1" alt="no img" /><span className="status-signal">&nbsp;</span></span>{username}</td>
+                <td className="ban-user"><span className="user-reported-pics"><img src="/css/dist/theme01/images/ban-profile-pic.png" className="mr-1" alt="no img" /><span className="status-signal">&nbsp;</span></span>{username}</td>
                 <td>{reason}</td>
                 <td className="action-center">
                     <div>

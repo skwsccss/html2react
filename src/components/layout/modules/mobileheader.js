@@ -22,7 +22,7 @@ class MobileHeader extends Component {
                         </div>
                         <div className="avtar-info">
                             <div className="float-left profile-avtar">
-                                <img src={"/images/chat-photo.jpg"} className="img-fluid" alt="chat" />
+                                <img src={"/css/dist/theme01/images/chat-photo.jpg"} className="img-fluid" alt="chat" />
                                 <span className="status-signal">&nbsp;</span>
                             </div>
                             {/* <!--change status--> */}

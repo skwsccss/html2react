@@ -41,7 +41,7 @@ class MobileFriendList extends Component {
                                         <div className="m-l-sm col-auto pl-2 "> ONLINE FRIENDS</div>
                                         <div className="col-auto ml-auto  pr-2">
                                             <input className="search-group" type="text" placeholder="search" />
-                                            <a href="#search" className="group-search-icon">  <img className="img-fluid" src="/images/search-black-ico.png" alt="searchblckico" /></a>
+                                            <a href="#search" className="group-search-icon">  <img className="img-fluid" src="/css/dist/theme01/images/search-black-ico.png" alt="searchblckico" /></a>
                                         </div>
                                     </div>
                                 </div>

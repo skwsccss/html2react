@@ -14,7 +14,7 @@ export default class MoreMenuPopup extends Component {
                                     </div>
                                     <div className="avtar-info pt-2">
                                         <div className="float-left profile-avtar">
-                                            <img src="/images/chat-photo.jpg" className="img-fluid" alt="no-img" />
+                                            <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="no-img" />
                                             <span className="status-signal">&nbsp;</span>
                                         </div>
                                         <span className="d-flex align-items-center">
@@ -24,10 +24,10 @@ export default class MoreMenuPopup extends Component {
                                                     <span>
                                                         <span className="user-name-sm d-flex align-items-center">
                                                             <span className="d-flex align-items-center">
-                                                                <img src="/images/crown.png" className="img-fluid mr-2 m-w-14" title="User-Level1" alt="no-img" />
+                                                                <img src="/css/dist/theme01/images/crown.png" className="img-fluid mr-2 m-w-14" title="User-Level1" alt="no-img" />
                                                             </span>Heng liang
                                                     </span>
-                                                        <span className="d-flex align-items-center"><span className="d-flex align-items-center"><img src="/images/my-account.png" className="img-fluid mr-2 m-w-14" title="my-account" alt="no-img" /></span>My Account </span>
+                                                        <span className="d-flex align-items-center"><span className="d-flex align-items-center"><img src="/css/dist/theme01/images/my-account.png" className="img-fluid mr-2 m-w-14" title="my-account" alt="no-img" /></span>My Account </span>
                                                     </span>
                                                 </span>
                                             </span>
@@ -41,10 +41,10 @@ export default class MoreMenuPopup extends Component {
                                                     <a className="dropdown-item" href="#dropdown"><span className="status-ico in-visible"></span>Invisible</a>
                                                 </li>
                                                 <li className="seprator account-link">
-                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/images/right-icon.png" className="img-fluid" alt="no-img" />My Account</a>
-                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/images/right-icon.png" className="img-fluid" alt="no-img" />Change Avatar</a>
+                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />My Account</a>
+                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />Change Avatar</a>
                                                 </li>
-                                                <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup"><img src="/images/logout.png" className="img-fluid" alt="no-img" />Logout</a></li>
+                                                <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="no-img" />Logout</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -79,7 +79,7 @@ export default class MoreMenuPopup extends Component {
                                         <span className="float-right">
                                             <span className="badge badge-secondary theme-bg">10</span>
                                             <i className="right-arrow-ico"></i>
-                                            {/* <!--<img src="css/dist/theme01/images/right-arrow.png" className="img-fluid m-w-10" />--> */}
+                                            {/* <!--<img src="/css/dist/theme01css/dist/theme01/images/right-arrow.png" className="img-fluid m-w-10" />--> */}
                                         </span>
                                     </a>
                                 </li>

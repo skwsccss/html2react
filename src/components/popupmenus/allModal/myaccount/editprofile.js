@@ -11,15 +11,15 @@ export default class EditProfile extends Component {
                                 <a className="z-disable change-avtar-popup" href="#change-avtar-popup">Change Avatar <i className="arrow down"></i></a>
                             </div>
                             <div className="photo-frame d-flex">
-                                <img src="/images/chat-photo.jpg" className="img-fluid" alt="no img" />
+                                <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="no img" />
                                 <span className="status-signal">&nbsp;</span>
                             </div>
                         </div>
                         <div className="col-12 col-md-10 pl-3">
                             <div className="profile-user-name mb-3">
                                 <span className="d-flex">
-                                    <span className="mr-1 hidden-mob"><img src="/images/xlg-taj.png" title="User-Level1" alt="no img" /></span>
-                                    <span className="mr-1 desk-hidden mob-display"><img src="/images/crown.png" title="User-Level1" alt="no img" /></span>
+                                    <span className="mr-1 hidden-mob"><img src="/css/dist/theme01/images/xlg-taj.png" title="User-Level1" alt="no img" /></span>
+                                    <span className="mr-1 desk-hidden mob-display"><img src="/css/dist/theme01/images/crown.png" title="User-Level1" alt="no img" /></span>
                                     <span className="xlg-txt">
                                         Username <span className="theme-txt-color member-txt">Member</span>
                                     </span>

@@ -12,10 +12,10 @@ export default class ChangeStatus extends Component {
                     <a className="dropdown-item" href="#1"><span className="status-ico in-visible"></span>Invisible</a>
                 </span>
                 <span className="seprator account-link">
-                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/images/right-icon.png" className="img-fluid" alt="no-img" />My Account</a>
-                    <a className="dropdown-item change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/images/right-icon.png" className="img-fluid" alt="no-img" />Change Avatar</a>
+                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />My Account</a>
+                    <a className="dropdown-item change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />Change Avatar</a>
                 </span>
-                <a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/images/logout.png" className="img-fluid" alt="no-img" />Logout</a>
+                <a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="no-img" />Logout</a>
             </span>
         )
     }

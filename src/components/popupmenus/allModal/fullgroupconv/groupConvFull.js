@@ -8,7 +8,7 @@ export default class GroupConverstationFull extends Component {
                 <div className="modal-dialog full-groupconversation-model sm-modal" role="document">
                     <div className="modal-content">
                         <div className="back-btn ">
-                            <span><img src="/images/white-back-arrow.png" className="img-fluid back-arrow" alt="no" /></span>
+                            <span><img src="/css/dist/theme01/images/white-back-arrow.png" className="img-fluid back-arrow" alt="no" /></span>
                         </div>
                         <div className="col-h-4">
                             <HalfVideo />

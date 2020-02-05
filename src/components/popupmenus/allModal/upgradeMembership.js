@@ -72,7 +72,7 @@ export default class UpgradeMembership extends Component {
                         <div className="modal-body">
                             <div className="white-bg upgrade-details">
                                 <div className="transparent-bg">
-                                    <span><img src="/images/vip-tag.png" className="img-fluid" alt="no img" /></span><span className="upgrade-msg">Upgrade membership to stand out from the crowd!</span>
+                                    <span><img src="/css/dist/theme01/images/vip-tag.png" className="img-fluid" alt="no img" /></span><span className="upgrade-msg">Upgrade membership to stand out from the crowd!</span>
                                 </div>
                                 <div className="plans-slider">
                                     <div id="owl-plans" className="owl-carousel owl-theme">

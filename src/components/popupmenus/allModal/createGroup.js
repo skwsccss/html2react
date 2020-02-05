@@ -6,7 +6,7 @@ export default class CreateGroup extends Component {
         const data = ['a', 'a', 'a', 'a', 'a', 'a']
         const memberlist = data.map((item, index) => (
             <span className="group-members" key={index}>
-                <img src="/images/group-pics.png" alt="nno" />
+                <img src="/css/dist/theme01/images/group-pics.png" alt="nno" />
                 <a href="#member" className="remove-friend">X</a>
             </span>
         ))
@@ -14,7 +14,7 @@ export default class CreateGroup extends Component {
             <li className={index % 2 === 0 ? `pink-text` : 'blue-text'} key={index}>
                 <div>
                     <span className="profile-avtar">
-                        <img src="/images/chat-photo.jpg" className="img-fluid mCS_img_loaded" alt="noimg" />
+                        <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid mCS_img_loaded" alt="noimg" />
                         <span className="status-signal">&nbsp;</span>
                     </span>
                     <span className="xs-text">kanyo cube</span>
@@ -49,7 +49,7 @@ export default class CreateGroup extends Component {
                                 <div className="sm-10-pad">
                                     <div className="group-top-section d-flex">
                                         <span className="gallery-icon">
-                                            <a href="#none"><img src="/images/camera.png" alt="cameraimg" /></a>
+                                            <a href="#none"><img src="/css/dist/theme01/images/camera.png" alt="cameraimg" /></a>
                                         </span>
                                         <span className="add-group-friend">
                                             <input type="text" />

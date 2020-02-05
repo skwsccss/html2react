@@ -30,7 +30,7 @@ export default class ProfileGift extends Component {
                     <span className="row">
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">
@@ -40,7 +40,7 @@ export default class ProfileGift extends Component {
                         </span>
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">
@@ -50,7 +50,7 @@ export default class ProfileGift extends Component {
                         </span>
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">
@@ -60,7 +60,7 @@ export default class ProfileGift extends Component {
                         </span>
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">
@@ -74,7 +74,7 @@ export default class ProfileGift extends Component {
                     <span className="row">
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">
@@ -84,7 +84,7 @@ export default class ProfileGift extends Component {
                         </span>
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">
@@ -94,7 +94,7 @@ export default class ProfileGift extends Component {
                         </span>
                         <span className="col-6 col-sm-3 col-md-6 d-flex align-items-center gift-box-section">
                             <span className="gift-img">
-                                <img alt="no-img" src="/images/cycle-gift.jpg" />
+                                <img alt="no-img" src="/css/dist/theme01/images/cycle-gift.jpg" />
                                 <span className="gift-txt">Cycle</span>
                             </span>
                             <span className="sender-info">

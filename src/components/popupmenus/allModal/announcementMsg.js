@@ -20,7 +20,7 @@ export default class AnnouncementMsg extends Component {
                                 <div className="sm-10-pad">
                                     <div className="announcement-top-section d-flex align-items-center">
                                         <a href="#gallery" className="gallery-icon mr-4">
-                                            <img src="/images/announcement-icon.png" alt="no img" />
+                                            <img src="/css/dist/theme01/images/announcement-icon.png" alt="no img" />
                                         </a>
                                         <div className="room-select-dropdown">
                                             <div className="d-flex align-items-center">

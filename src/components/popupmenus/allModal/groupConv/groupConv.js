@@ -22,10 +22,10 @@ export default class GroupConversation extends Component {
                             <span className="mark-read-btn">
                                 <span className="d-flex">
                                     <button type="button" className="maximize" data-dismiss="modal" aria-label="maximize" title="Maximize">
-                                        <span aria-hidden="true"><img src="/images/maximize-icon.png" className="img-fluid" alt="no img" /></span>
+                                        <span aria-hidden="true"><img src="/css/dist/theme01/images/maximize-icon.png" className="img-fluid" alt="no img" /></span>
                                     </button>
                                     <button type="button" className="minimize groupconversation-area" data-dismiss="modal" aria-label="minimize" title="Minimize">
-                                        <span aria-hidden="true"><img src="/images/minimize-icon.png" className="img-fluid" alt="no img" /></span>
+                                        <span aria-hidden="true"><img src="/css/dist/theme01/images/minimize-icon.png" className="img-fluid" alt="no img" /></span>
                                     </button>
                                     <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                         <span aria-hidden="true">X</span>
@@ -80,12 +80,12 @@ export default class GroupConversation extends Component {
                                                     <span className="btn-title">Press to talk</span>
                                                     <span href="#mic" className="sm-video-btn lock-btn">
                                                         <span className="voice-option mic-action" title="Mic">
-                                                            <img src="/images/lg-mic-icon.png" className="img-fluid lock-mic" alt="no img" />
-                                                            <img src="/images/lg-mic-on.png" className="img-fluid unlock-mic" alt="no img" />
+                                                            <img src="/css/dist/theme01/images/lg-mic-icon.png" className="img-fluid lock-mic" alt="no img" />
+                                                            <img src="/css/dist/theme01/images/lg-mic-on.png" className="img-fluid unlock-mic" alt="no img" />
                                                         </span>
                                                         <span className="voice-lock lock-action" title="Lock">
-                                                            <img src="/images/lg-lock-icon.png" className="img-fluid lock-mic" alt="no img" />
-                                                            <img src="/images/lg-unlock.png" className="img-fluid unlock-mic" alt="no img" />
+                                                            <img src="/css/dist/theme01/images/lg-lock-icon.png" className="img-fluid lock-mic" alt="no img" />
+                                                            <img src="/css/dist/theme01/images/lg-unlock.png" className="img-fluid unlock-mic" alt="no img" />
                                                         </span>
                                                     </span>
 
@@ -93,7 +93,7 @@ export default class GroupConversation extends Component {
                                                 <div className="text-center">
                                                     <span className="btn-title">Rais Hand</span>
                                                     <span href="#video" className="sm-video-btn hand">
-                                                        <span className="voice-option" title="Mic"><img src="/images/hand.png" className="img-fluid imagePath" alt="no img" /></span>
+                                                        <span className="voice-option" title="Mic"><img src="/css/dist/theme01/images/hand.png" className="img-fluid imagePath" alt="no img" /></span>
                                                     </span>
                                                 </div>
                                             </div>
@@ -105,10 +105,10 @@ export default class GroupConversation extends Component {
                                                 <i className="sprite header-more-ico"></i>
                                             </div>
                                             <div className="dropdown-menu mobile-head-moremenu">
-                                                <a className="dropdown-item red-txt z-disable change-groupname-popup" href="#change-groupname-popup" title="Change Groupname"><img src="/images/rename-icon.png" className="mr-2" alt="no img" />Change Groupname</a>
-                                                <a className="dropdown-item red-txt z-disable delete-popup" href="#delete-popup" title="Delete this Group"><img src="/images/delete-icon.png" className="mr-2" alt="no img" />Delete this Group</a>
-                                                <a className="dropdown-item red-txt z-disable report-group-popup" href="#report-group-popup" title="Report this Group"><img src="/images/report-icon.png" className="mr-2" alt="no img" />Report this Group</a>
-                                                <a className="dropdown-item red-txt z-disable exit-group-popup" href="#exit-group-popup" title="Exit the Group"><img src="/images/exit-icon.png" className="mr-2" alt="no img" />Exit the Group</a>
+                                                <a className="dropdown-item red-txt z-disable change-groupname-popup" href="#change-groupname-popup" title="Change Groupname"><img src="/css/dist/theme01/images/rename-icon.png" className="mr-2" alt="no img" />Change Groupname</a>
+                                                <a className="dropdown-item red-txt z-disable delete-popup" href="#delete-popup" title="Delete this Group"><img src="/css/dist/theme01/images/delete-icon.png" className="mr-2" alt="no img" />Delete this Group</a>
+                                                <a className="dropdown-item red-txt z-disable report-group-popup" href="#report-group-popup" title="Report this Group"><img src="/css/dist/theme01/images/report-icon.png" className="mr-2" alt="no img" />Report this Group</a>
+                                                <a className="dropdown-item red-txt z-disable exit-group-popup" href="#exit-group-popup" title="Exit the Group"><img src="/css/dist/theme01/images/exit-icon.png" className="mr-2" alt="no img" />Exit the Group</a>
                                             </div>
                                         </div>
                                         {/* <!--<a href="">

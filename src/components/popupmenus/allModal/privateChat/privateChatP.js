@@ -15,10 +15,10 @@ export default class PrivateChatPopup extends Component {
                             <span className="mark-read-btn">
                                 <span className="d-flex">
                                     <button type="button" data-id="privatechat-popup" className="maximize maximize-privateChat" data-dismiss="modal" aria-label="maximize" title="Maximize">
-                                        <span aria-hidden="true"><img src="/images/maximize-icon.png" className="img-fluid" alt="no img" /></span>
+                                        <span aria-hidden="true"><img src="/css/dist/theme01/images/maximize-icon.png" className="img-fluid" alt="no img" /></span>
                                     </button>
                                     <button type="button" className="minimize chatbody-area" data-dismiss="modal" aria-label="minimize" title="Minimize">
-                                        <span aria-hidden="true"><img src="/images/minimize-icon.png" className="img-fluid" alt="no img" /></span>
+                                        <span aria-hidden="true"><img src="/css/dist/theme01/images/minimize-icon.png" className="img-fluid" alt="no img" /></span>
                                     </button>
                                     <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                         <span aria-hidden="true">X</span>

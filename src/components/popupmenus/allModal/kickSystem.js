@@ -18,7 +18,7 @@ export default class KickSystem extends Component {
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-2 m-text-center mob-col-12">
                                     <div className="img-box">
-                                        <img src="/images/lg-kick-icon.png" className="img-fluid" alt="no img" />
+                                        <img src="/css/dist/theme01/images/lg-kick-icon.png" className="img-fluid" alt="no img" />
                                     </div>
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Mute System</div></div>
                                 </div>

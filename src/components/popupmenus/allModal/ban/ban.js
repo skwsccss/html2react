@@ -5,7 +5,7 @@ export default class Ban extends Component {
         const { banIP, duration, reason, deviceBan, room, started, operator } = this.props;
         return (
             <tr>
-                <td className="ban-user"><b className="tablesaw-cell-label">Ban User</b><span className="tablesaw-cell-content"><img src="/images/ban-profile-pic.png" className="mr-1" alt="no img" />kanyo cube</span></td>
+                <td className="ban-user"><b className="tablesaw-cell-label">Ban User</b><span className="tablesaw-cell-content"><img src="/css/dist/theme01/images/ban-profile-pic.png" className="mr-1" alt="no img" />kanyo cube</span></td>
                 <td><b className="tablesaw-cell-label">Ban IP</b><span className="tablesaw-cell-content">{banIP}</span></td>
                 <td><b className="tablesaw-cell-label">Duration</b><span className="tablesaw-cell-content">{duration}</span></td>
                 <td><b className="tablesaw-cell-label">Reason</b><span className="tablesaw-cell-content">{reason}</span></td>

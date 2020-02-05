@@ -11,18 +11,18 @@ class UsersTab extends Component {
             <li key={index} className={index % 2 === 0 ? 'blue-text' : 'pink-text'}>
                 <span className="arrow-right-caret"></span>
                 <span>
-                    <img alt="avatar" src={`/images/${user.userLevel}.png`} className="img-fluid imagePath" title={`User-${user.userLevel}`} />
+                    <img alt="avatar" src={`/css/dist/theme01/images/${user.userLevel}.png`} className="img-fluid imagePath" title={`User-${user.userLevel}`} />
                 </span>
                 <span className="profile-avtar">
-                    <img alt="avatar" src={"/images/chat-photo.jpg"} className="img-fluid" />
+                    <img alt="avatar" src={"/css/dist/theme01/images/chat-photo.jpg"} className="img-fluid" />
                     <span className={`${user.status}-signal`}>&nbsp;</span>
                 </span>
                 <span>{user.name}</span>
                 <span className="float-right">
                     <a href="#video01-popup" className="calling-icon">
-                        <img alt="avatar" src={`/images/${user.actionTitle}.png`} title={user.actionTitle} className="img-fluid m-t-xs m-r-sm call-popup imagePath" />
+                        <img alt="avatar" src={`/css/dist/theme01/images/${user.actionTitle}.png`} title={user.actionTitle} className="img-fluid m-t-xs m-r-sm call-popup imagePath" />
                     </a>
-                    <img alt="avatar" src={`/images/${user.gender === 'Men' ? 'men' : 'women'}.png`} title={user.gender} className="img-fluid m-t-xs imagePath" />
+                    <img alt="avatar" src={`/css/dist/theme01/images/${user.gender === 'Men' ? 'men' : 'women'}.png`} title={user.gender} className="img-fluid m-t-xs imagePath" />
                 </span>
             </li>
         ))

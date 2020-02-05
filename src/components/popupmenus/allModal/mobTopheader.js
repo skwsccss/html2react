@@ -12,7 +12,7 @@ export default class MobTopHeader extends Component {
                         </div>
                         <div className="avtar-info">
                             <div className="float-left profile-avtar">
-                                <img src="/images/chat-photo.jpg" className="img-fluid" alt="avatarinfo" />
+                                <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="avatarinfo" />
                                 <span className="status-signal">&nbsp;</span>
                             </div>
                             <div className="status-dropdown">
@@ -23,7 +23,7 @@ export default class MobTopHeader extends Component {
                                                 <span className="user-detail">
                                                     <span className="d-flex align-items-center">
                                                         <span>
-                                                            <img src="/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="cartImg" />
+                                                            <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="cartImg" />
                                                         </span>
                                                         <span>
                                                             <span className="user-name-sm">Heng liang</span><br />
@@ -32,7 +32,7 @@ export default class MobTopHeader extends Component {
                                                     </span>
                                                 </span>
                                                 <span className="credit-txt">
-                                                    <img src="/images/credit.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="cartImg" />1000<img src="/images/cart.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="cartimg" />
+                                                    <img src="/css/dist/theme01/images/credit.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="cartImg" />1000<img src="/css/dist/theme01/images/cart.png" className="img-fluid m-l-sm m-r-sm m-w-14" alt="cartimg" />
                                                 </span>
                                             </span>
                                             <span>
@@ -47,10 +47,10 @@ export default class MobTopHeader extends Component {
                                         <a className="dropdown-item" href="#href"><span className="status-ico in-visible"></span>Invisible</a>
                                     </li>
                                     <li className="seprator account-link">
-                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
-                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
+                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
+                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
                                     </li>
-                                    <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
+                                    <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
                                 </ul>
                             </div>
                         </div>

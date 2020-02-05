@@ -11,7 +11,7 @@ export default class MainboardProfileHeader extends Component {
                         </span>
                         <span className="avtar-info">
                             <span className="float-left profile-avtar">
-                                <img alt="chatphoto" src={"/images/chat-photo.jpg"} className="img-fluid" />
+                                <img alt="chatphoto" src={"/css/dist/theme01/images/chat-photo.jpg"} className="img-fluid" />
                                 <span className="status-signal">&nbsp;</span>
                             </span>
                             <span className="status-dropdown">
@@ -22,7 +22,7 @@ export default class MainboardProfileHeader extends Component {
                                                 <span className="user-detail">
                                                     <span className="d-flex align-items-center">
                                                         <span>
-                                                            <img alt="crown" src={"/images/crown.png"} className="img-fluid m-r-sm m-w-14" title="User-Level1" />
+                                                            <img alt="crown" src={"/css/dist/theme01/images/crown.png"} className="img-fluid m-r-sm m-w-14" title="User-Level1" />
                                                         </span>
                                                         <span>
                                                             <span className="user-name-sm">Heng liang</span><br />
@@ -31,7 +31,7 @@ export default class MainboardProfileHeader extends Component {
                                                     </span>
                                                 </span>
                                                 <span className="credit-txt">
-                                                    <img alt="credit" src={"/images/credit.png"} className="img-fluid m-l-sm m-r-sm m-w-14" />1000<img alt="cart" src={"/images/cart.png"} className="img-fluid m-l-sm m-r-sm m-w-14" />
+                                                    <img alt="credit" src={"/css/dist/theme01/images/credit.png"} className="img-fluid m-l-sm m-r-sm m-w-14" />1000<img alt="cart" src={"/css/dist/theme01/images/cart.png"} className="img-fluid m-l-sm m-r-sm m-w-14" />
                                                 </span>
                                             </span>
                                             <span>
@@ -46,10 +46,10 @@ export default class MainboardProfileHeader extends Component {
                                         <a className="dropdown-item" href="#1" title="Invisible"><span className="status-ico in-visible"></span>Invisible</a>
                                     </li>
                                     <li className="seprator account-link">
-                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup"  title="My Account"><img alt="right" src={"/images/right-icon.png"} className="img-fluid" />My Account</a>
-                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup"title="Change Avatar"><img alt="right" src={"/images/right-icon.png"} className="img-fluid" />Change Avatar</a>
+                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup"  title="My Account"><img alt="right" src={"/css/dist/theme01/images/right-icon.png"} className="img-fluid" />My Account</a>
+                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup"title="Change Avatar"><img alt="right" src={"/css/dist/theme01/images/right-icon.png"} className="img-fluid" />Change Avatar</a>
                                     </li>
-                                    <li><a className="dropdown-item logout" href="#1" title="Logout"><img alt="logout" src={"/images/logout.png"} className="img-fluid" />Logout</a></li>
+                                    <li><a className="dropdown-item logout" href="#1" title="Logout"><img alt="logout" src={"/css/dist/theme01/images/logout.png"} className="img-fluid" />Logout</a></li>
                                 </ul>
                             </span>
                         </span>

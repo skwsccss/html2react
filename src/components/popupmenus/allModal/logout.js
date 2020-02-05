@@ -17,7 +17,7 @@ export default class Logout extends Component {
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-2 m-text-center d-flex align-items-center justify-content-center mob-col-12">
                                     <div className="img-box">
-                                        <img src="/images/logout-icon.png" className="img-fluid image-34" alt="logout" />
+                                        <img src="/css/dist/theme01/images/logout-icon.png" className="img-fluid image-34" alt="logout" />
                                     </div>
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Logout</div></div>
                                 </div>

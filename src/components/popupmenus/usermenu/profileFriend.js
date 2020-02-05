@@ -7,49 +7,49 @@ export default class ProfileFriend extends Component {
             <tr key={index}>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>
                 <td>
                     <span className="friends-list">
-                        <img alt="no-img" className="mar-left-2" src="/images/friend-photo.jpg" />
+                        <img alt="no-img" className="mar-left-2" src="/css/dist/theme01/images/friend-photo.jpg" />
                         <span className="friend-name">{item.name}</span>
                     </span>
                 </td>

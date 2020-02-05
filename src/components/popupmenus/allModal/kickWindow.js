@@ -16,7 +16,7 @@ export default class KickWindow extends Component {
                         <div className="modal-body">
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-2 m-text-center">
-                                    <img src="/images/lg-kick-icon.png" className="img-fluid" alt="no img" />
+                                    <img src="/css/dist/theme01/images/lg-kick-icon.png" className="img-fluid" alt="no img" />
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Kick Windows</div></div>
                                 </div>
                                 <div className="col-12 col-md-10 pl-2 confirm-txt m-text-center">

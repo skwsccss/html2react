@@ -7,7 +7,7 @@ export default class PrivateMsgList extends Component {
             <div className="col-12 m-b-sm d-flex align-items-start" key={index}>
                 <div className="profile-pics btn-group dropright">
                     <span className="dropdown-open">
-                        <img src="/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="noimg" />
+                        <img src="/css/dist/theme01/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="noimg" />
                         <span className="arrow-left-caret"></span>
                     </span>
                 </div>
@@ -31,7 +31,7 @@ export default class PrivateMsgList extends Component {
                 <div className="col-12 m-b-sm d-flex align-items-start">
                     <div className="profile-pics btn-group dropright">
                         <span className="dropdown-open">
-                            <img src="/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="noimg" />
+                            <img src="/css/dist/theme01/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="noimg" />
                             <span className="arrow-left-caret"></span>
                         </span>
                     </div>
@@ -39,12 +39,12 @@ export default class PrivateMsgList extends Component {
                         <span className="d-flex m-left-block">
                             <span className="btn-group">
                                 <span className="image-receive">
-                                    <img src="/images/receive-image.jpg" alt="noimg" />
-                                    <a href="#download" title="Download"><img src="/images/download-icon.png" alt="noimg" /></a>
+                                    <img src="/css/dist/theme01/images/receive-image.jpg" alt="noimg" />
+                                    <a href="#download" title="Download"><img src="/css/dist/theme01/images/download-icon.png" alt="noimg" /></a>
                                 </span>
                                 <span className="image-receive">
-                                    <img src="/images/receive-image.jpg" alt="noimg" />
-                                    <a href="#download" title="Download"><img src="/images/download-icon.png" alt="noimg" /></a>
+                                    <img src="/css/dist/theme01/images/receive-image.jpg" alt="noimg" />
+                                    <a href="#download" title="Download"><img src="/css/dist/theme01/images/download-icon.png" alt="noimg" /></a>
                                 </span>
                             </span>
                         </span>
@@ -54,7 +54,7 @@ export default class PrivateMsgList extends Component {
                 <div className="col-12 m-b-sm d-flex align-items-start">
                     <div className="profile-pics btn-group dropright">
                         <span className="dropdown-open">
-                            <img src="/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="noimg" />
+                            <img src="/css/dist/theme01/images/profile-pics/02.png" className="img-fluid rounded-circle b-user-pics mCS_img_loaded" alt="noimg" />
                             <span className="arrow-left-caret"></span>
                         </span>
                     </div>
@@ -69,8 +69,8 @@ export default class PrivateMsgList extends Component {
                             </span>
                         </div>
                         <div className="request-block">
-                            <span className="mr-3 mt-2"><img src="/images/decline.png" className="img-fluid mr-2" title="Decline" alt="noimg" /><strong>Decline</strong></span>
-                            <span className="mr-3 mt-2"><img src="/images/accept.png" className="img-fluid mr-2" title="Accept" alt="noimg" /><strong>Accept</strong></span>
+                            <span className="mr-3 mt-2"><img src="/css/dist/theme01/images/decline.png" className="img-fluid mr-2" title="Decline" alt="noimg" /><strong>Decline</strong></span>
+                            <span className="mr-3 mt-2"><img src="/css/dist/theme01/images/accept.png" className="img-fluid mr-2" title="Accept" alt="noimg" /><strong>Accept</strong></span>
                         </div>
                     </div>
 

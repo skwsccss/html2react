@@ -25,14 +25,14 @@ export default class PrivateFooter extends Component {
                         <div className="col-12">
                             <span className="photo-frame">
                                 <a href="#change-avtar-popup" className="z-disable change-avtar-popup">
-                                    <img src="/images/chat-photo.jpg" className="img-fluid z-disable" alt="nom" />
+                                    <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid z-disable" alt="nom" />
                                     <span className="status-signal">&nbsp;</span>
                                 </a>
                             </span>
                             <textarea className="chat-input" typeof="text"></textarea>
                             {/* <!--<input className="chat-input" />--> */}
                             <button className="sendbtn theme-bg">
-                                <span>SEND<img src="/images/send-arrow.png" className="img-fluid ml-2" alt="noimg" /></span>
+                                <span>SEND<img src="/css/dist/theme01/images/send-arrow.png" className="img-fluid ml-2" alt="noimg" /></span>
                             </button>
                         </div>
                     </div>

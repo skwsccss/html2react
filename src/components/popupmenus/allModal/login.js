@@ -5,18 +5,18 @@ class Login extends Component {
         return (
             <div className="modal01 footer-links login-register login-modal" id="login">
                 <span className="login-back back-close-btn desk-hidden mob-display">
-                    <span><img src="/images/white-back-arrow.png" className="img-fluid back-arrow m-l-n" alt="noimg" /></span>
+                    <span><img src="/css/dist/theme01/images/white-back-arrow.png" className="img-fluid back-arrow m-l-n" alt="noimg" /></span>
                 </span>
                 <div className="modal-dialog modal-dialog-centered login-popup">
                     <div className="modal-content">
 
                         <div className="modal-header">
-                            <div className="popup-logo"><img src="/images/login-logo.png" alt="noimg"/></div>
+                            <div className="popup-logo"><img src="/css/dist/theme01/images/login-logo.png" alt="noimg"/></div>
                             <h4 className="modal-title">LOGIN</h4>
                         </div>
                         <div className="alert-msg">
                             <div className="alert-box">
-                                <img src="/images/alert-icon.png" className="mr-2" alt="noimg" />
+                                <img src="/css/dist/theme01/images/alert-icon.png" className="mr-2" alt="noimg" />
                                 Message if the username or password is wrong
                         </div>
                         </div>

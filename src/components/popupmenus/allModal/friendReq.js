@@ -18,7 +18,7 @@ export default class FriendRequest extends Component {
                                 <div className="friend-request-box d-flex align-items-center">
                                     <div className="w-60 text-center m-b-xs">
                                         <div className=" mob-border v-c-60">
-                                            <img src="/images/add-friend-icon.png" className="img-fluid" alt="noimg" />
+                                            <img src="/css/dist/theme01/images/add-friend-icon.png" className="img-fluid" alt="noimg" />
                                         </div>
                                         <div className="popup-label desk-hidden mob-display">Friend Request</div>
                                     </div>

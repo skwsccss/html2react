@@ -17,7 +17,7 @@ export default class Report extends Component {
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-2 m-text-center d-flex align-items-center justify-content-center mob-col-12">
                                     <div className="img-box">
-                                        <img src="/images/reported-icon.png" className="img-fluid image-34" alt="no" />
+                                        <img src="/css/dist/theme01/images/reported-icon.png" className="img-fluid image-34" alt="no" />
                                     </div>
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Report Group</div></div>
                                 </div>

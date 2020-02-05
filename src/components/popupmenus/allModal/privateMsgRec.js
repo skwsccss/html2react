@@ -18,7 +18,7 @@ export default class PrivateMsgRec extends Component {
                             <div className="row no-gutters align-items-center  justify-content-center">
                                 <div className="col-12 d-flex justify-content-center col-md-2 m-text-center mob-col-12">
                                     <div className="img-box ban-image">
-                                        <img src="/images/private-msg-icon.png" className="img-fluid" alt="no img" />
+                                        <img src="/css/dist/theme01/images/private-msg-icon.png" className="img-fluid" alt="no img" />
                                     </div>
                                     <div className="desk-hidden visible-sm margin-b-5"><div className="gift-name">Private Message</div></div>
                                 </div>

@@ -148,7 +148,7 @@ export default class SendGift extends Component {
                                 <div className="row">
                                     <div className="col-sm-2 col-3 text-center m-b-xs">
                                         <div className="gift-image">
-                                            <a href="#ref" title="Lolipop"><img src="/images/gifts/01.png" className="img-fluid" alt="no img" /></a>
+                                            <a href="#ref" title="Lolipop"><img src="/css/dist/theme01/images/gifts/01.png" className="img-fluid" alt="no img" /></a>
                                         </div>
                                         <div className="gift-name">Lolipop</div>
                                         <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>

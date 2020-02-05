@@ -29,13 +29,13 @@ export default class VCurrencyShop extends Component {
                                 <div className="row">
                                     <div className="col-12 col-md-2 mob-cente-align">
                                         <div className="inner-heading">
-                                            <div> <img src="/images/xlg-credit-icon.png" alt="noimage" /></div>
+                                            <div> <img src="/css/dist/theme01/images/xlg-credit-icon.png" alt="noimage" /></div>
                                             <div className="xs-text">
                                                 Buy credit to upgrade your account or your friends account
                                         </div>
                                         </div>
                                         <div className="inner-heading">
-                                            <div> <img src="/images/xlg-gift-box.png" alt="noimage" /></div>
+                                            <div> <img src="/css/dist/theme01/images/xlg-gift-box.png" alt="noimage" /></div>
                                             <div className="xs-text"> Buy credit to Send gift to your friends</div>
                                         </div>
                                     </div>
