@@ -63,9 +63,9 @@ export default class ListBan extends Component {
                     </table>
                 </div>
                 <div className="modal-btn-group modal-btn-links mt-2 mb-3">
-                                            <a className="btn lg-btn theme-bg mob-radius-btn z-disable delete-popup" href="#delete-popup" title="Delete Selected">Delete Selected</a>
-                                            <a href="#deleteall" className="btn lg-btn theme-bg mob-radius-btn cancel-btn" title="Delete All">Delete All</a>
-                                            <a href="#cancel" className="btn lg-btn dark-gray-bg mob-radius-btn cancel-btn" title="Cancel">Cancel</a>
+                                            <a className="btn lg-btn theme-bg mob-radius-btn z-disable delete-popup" href="#delete-popup" data-toggle="tooltip" title="Delete Selected">Delete Selected</a>
+                                            <a href="#deleteall" className="btn lg-btn theme-bg mob-radius-btn cancel-btn" data-toggle="tooltip" title="Delete All">Delete All</a>
+                                            <a href="#cancel" className="btn lg-btn dark-gray-bg mob-radius-btn cancel-btn" data-toggle="tooltip" title="Cancel">Cancel</a>
                 </div>
             </div>
         )

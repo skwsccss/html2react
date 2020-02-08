@@ -10,12 +10,12 @@ export default class MembershipPlan extends Component {
                         <span className="d-flex align-items-center">
                             <img src="/css/dist/theme01/images/vip.png" className="img-fluid plan-icon" alt="noimg" />{title}
                         </span>
-                        <span className="pointer-icon" title="VIP Membership plans"><img src="/css/dist/theme01/images/info.png" className="img-fluid" alt="no img" /></span>
+                        <span className="pointer-icon" data-toggle="tooltip" title="VIP Membership plans"><img src="/css/dist/theme01/images/info.png" className="img-fluid" alt="no img" /></span>
                     </div>
                     <div className="select-plans">
                         <label className="radio-container">
                             <span className="theme-txt-color">
-                                <i className="sprite gift-credit-ico" title="Credits-ico"></i>{price} /
+                                <i className="sprite gift-credit-ico" data-toggle="tooltip" title="Credits-ico"></i>{price} /
                             </span>
                             <span>&nbsp;Month</span>
                             <input className="z-disable" type="radio" name="radio" />

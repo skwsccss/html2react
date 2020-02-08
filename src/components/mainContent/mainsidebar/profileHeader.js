@@ -27,7 +27,7 @@ export default class ProfileHeader extends Component {
                 </div>
                 <div className="col-3">
                     <span className={`btn-group dropdown user-more-menu`}>
-                        <button className="profile-menu dropdown-toggle" title="User Menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="sprite menu-ico"></i></button>
+                        <button className="profile-menu dropdown-toggle" data-toggle="tooltip" title="User Menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i className="sprite menu-ico"></i></button>
                         <UserMoreMenu />
                     </span>
                 </div>

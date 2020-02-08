@@ -4,7 +4,7 @@ export default class ReportSystem extends Component {
     render() {
         return (
             <span id="user-report-system" className="user-report-dropdown submenu width-count">
-                <span className="user-name theme-bg">Kanyo cube<span className="detail-close-btn" title="Close">X</span></span>
+                <span className="user-name theme-bg">Kanyo cube<span className="detail-close-btn" data-toggle="tooltip" title="Close">X</span></span>
                 <span className="menu-content-block">
                     <span className="white-bg">
                         <span className="row d-flex justify-content-center mb-1">
@@ -49,8 +49,8 @@ export default class ReportSystem extends Component {
                             </span>
                         </span>
                         <span className="modal-btn-group modal-btn-links">
-                            <a className="btn sm-btn theme-bg mob-radius-btn z-disable" href="#s" title="Send">Send</a>
-                            <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn"href="#3" title="Cancel">Cancel</a>
+                            <a className="btn sm-btn theme-bg mob-radius-btn z-disable" href="#s" data-toggle="tooltip" title="Send">Send</a>
+                            <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn"href="#3" data-toggle="tooltip" title="Cancel">Cancel</a>
                         </span>
                     </span>
                 </span>

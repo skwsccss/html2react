@@ -60,7 +60,7 @@ export default class CacheSetting extends Component {
                             <span className="lg-txt">Delete all my conversation</span>
                         </div>
                         <div className="col-3 modal-btn-links">
-                            <a href="#doit" className="btn doit-btn theme-bg mob-radius-btn cancel-btn" title="Do It">Do it</a>
+                            <a href="#doit" className="btn doit-btn theme-bg mob-radius-btn cancel-btn"  data-toggle="tooltip" title="Do It">Do it</a>
                         </div>
                     </div>
                     <div className="row m-tb-15 no-gutters mt-3 align-items-center">
@@ -68,14 +68,14 @@ export default class CacheSetting extends Component {
                             <span className="lg-txt">Delete all my friend conversation</span>
                         </div>
                         <div className="col-3 modal-btn-links">
-                            <a href="#doit" className="btn doit-btn theme-bg mob-radius-btn cancel-btn" title="Do It">Do it</a>
+                            <a href="#doit" className="btn doit-btn theme-bg mob-radius-btn cancel-btn"  data-toggle="tooltip" title="Do It">Do it</a>
                         </div>
                     </div>
                 </div>
                 <div className="modal-btn-group modal-btn-links mt-2 mb-3">
-                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#save" title="Save & Apply">Save & Apply</a>
-                    <a href="#Apply" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-2" title="Apply">Apply</a>
-                    <a href="#Cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" title="Cancel">Cancel</a>
+                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#save"  data-toggle="tooltip" title="Save & Apply">Save & Apply</a>
+                    <a href="#Apply" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-2"  data-toggle="tooltip" title="Apply">Apply</a>
+                    <a href="#Cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1"  data-toggle="tooltip" title="Cancel">Cancel</a>
                 </div>
             </div>
         )

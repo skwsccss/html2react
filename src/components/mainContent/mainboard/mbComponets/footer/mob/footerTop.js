@@ -14,12 +14,12 @@ export default class FooterTop extends Component {
                         </span>
                         {/* <!--emojis dropup--> */}
                         <div className="btn-group dropup emojis ">
-                            <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" title="Emojis">
+                            <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" title="Emojis">
                                 <i className="sprite emojis-ico"></i>
                             </span>
                         </div>
                         <div className="mob-txt-editor">
-                            <a href="#q" title="text-Editor"><i className="sprite texteditor-ico"></i></a>
+                            <a href="#q" data-toggle="tooltip" title="text-Editor"><i className="sprite texteditor-ico"></i></a>
                         </div>
                     </div>
                     <div className="input-area">
@@ -27,10 +27,10 @@ export default class FooterTop extends Component {
                         {/* <!--<input className="chat-input" placeholder="Type a Message" />--> */}
                     </div>
                     <div className="position-right">
-                        <a href="#3 " title="Voice"><i className="sprite voice-ico"></i></a>
-                        <a href="#3 " title="Attachment"><i className="sprite attachment-ico"></i></a>
-                        <a href="#3 " title="Photo"><i className="sprite photo-ico"></i></a>
-                        <a href="#3 " title="Send Message"><i className="sprite send-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Voice"><i className="sprite voice-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Attachment"><i className="sprite attachment-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Photo"><i className="sprite photo-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Send Message"><i className="sprite send-ico"></i></a>
                     </div>
                 </div>
                 <div className="row align-items-center justify-content-between private-chat-input" style={{ display: 'none' }}>
@@ -43,12 +43,12 @@ export default class FooterTop extends Component {
                         </span>
                         {/* <!--emojis dropup--> */}
                         <div className="btn-group dropup emojis ">
-                            <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" title="Emojis">
+                            <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" title="Emojis">
                                 <i className="sprite emojis-ico"></i>
                             </span>
                         </div>
                         <div className="mob-txt-editor">
-                            <a href="#q" title="text-Editor"><i className="sprite texteditor-ico"></i></a>
+                            <a href="#q" data-toggle="tooltip" title="text-Editor"><i className="sprite texteditor-ico"></i></a>
                         </div>
                     </div>
                     <div className="input-area">
@@ -56,10 +56,10 @@ export default class FooterTop extends Component {
                         {/* <!--<input className="chat-input" placeholder="Type a Message" />--> */}
                     </div>
                     <div className="position-right">
-                        <a href="#3 " title="Voice"><i className="sprite voice-ico"></i></a>
-                        <a href="#3 " title="Attachment"><i className="sprite attachment-ico"></i></a>
-                        <a href="#3 " title="Photo"><i className="sprite photo-ico"></i></a>
-                        <a href="#3 " title="Send Message"><i className="sprite send-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Voice"><i className="sprite voice-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Attachment"><i className="sprite attachment-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Photo"><i className="sprite photo-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Send Message"><i className="sprite send-ico"></i></a>
                     </div>
                 </div>
                 <div className="row align-items-center justify-content-between group-conversation-input" style={{ display: 'none' }}>
@@ -72,12 +72,12 @@ export default class FooterTop extends Component {
                         </span>
                         {/* <!--emojis dropup--> */}
                         <div className="btn-group dropup emojis">
-                            <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" title="Emojis">
+                            <span className="mob-emojis-toggle" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" title="Emojis">
                                 <i className="sprite emojis-ico"></i>
                             </span>
                         </div>
                         <div className="mob-txt-editor">
-                            <a href="#q" title="text-Editor"><i className="sprite texteditor-ico"></i></a>
+                            <a href="#q" data-toggle="tooltip" title="text-Editor"><i className="sprite texteditor-ico"></i></a>
                         </div>
                     </div>
                     <div className="input-area">
@@ -85,10 +85,10 @@ export default class FooterTop extends Component {
                         {/* <!--<input className="chat-input" placeholder="Type a Message" />--> */}
                     </div>
                     <div className="position-right">
-                        <a href="#3 " title="Voice"><i className="sprite voice-ico"></i></a>
-                        <a href="#3 " title="Attachment"><i className="sprite attachment-ico"></i></a>
-                        <a href="#3 " title="Photo"><i className="sprite photo-ico"></i></a>
-                        <a href="#3 " title="Send Message"><i className="sprite send-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Voice"><i className="sprite voice-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Attachment"><i className="sprite attachment-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Photo"><i className="sprite photo-ico"></i></a>
+                        <a href="#3 " data-toggle="tooltip" title="Send Message"><i className="sprite send-ico"></i></a>
                     </div>
                 </div>
 

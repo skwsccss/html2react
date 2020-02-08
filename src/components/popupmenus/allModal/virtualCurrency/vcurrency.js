@@ -12,7 +12,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="main-amount"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid mr-2" alt="noimg" /><span className="purchase-amount">100</span></div>
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div><div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="main-amount"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid mr-2" alt="noimg" /><span className="purchase-amount">100</span></div>
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div><div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -38,7 +38,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="main-amount"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid mr-2" alt="noimg" /><span className="purchase-amount">100</span></div>
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div> <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="main-amount"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid mr-2" alt="noimg" /><span className="purchase-amount">100</span></div>
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div><div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="main-amount"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid mr-2" alt="noimg" /><span className="purchase-amount">100</span></div>
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div> <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="main-amount"><img src="/css/dist/theme01/images/lg-credit.png" className="img-fluid mr-2" alt="noimg" /><span className="purchase-amount">100</span></div>
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div> <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -91,7 +91,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div>
                             <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div>
                             <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -119,7 +119,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div>
                             <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -133,7 +133,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div>
                             <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -147,7 +147,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div>
                             <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>
@@ -161,7 +161,7 @@ export default class VirtualCurrency extends Component {
                                 <div className="usd-price"><span className="theme-txt-color"><strong>Price :</strong></span> <span><strong>50</strong> USD</span></div>
                             </div>
                             <div className="buy-credit-btn">
-                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup" title="Buy Now">Buy Now</a>
+                                <a className="btn sm-btn theme-bg cancel-btn order-1 z-disable purchase-popup" href="#purchase-popup"  data-toggle="tooltip" title="Buy Now">Buy Now</a>
                             </div>
                         </div>
                     </div>

@@ -98,9 +98,9 @@ export default class SoundSetting extends Component {
 
                 </div>
                 <div className="modal-btn-group modal-btn-links mt-2 mb-3">
-                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#save" title="Save & Apply">Save & Apply</a>
-                    <a href="#Apply" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-2" title="Apply">Apply</a>
-                    <a href="#Cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" title="Cancel">Cancel</a>
+                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#save"  data-toggle="tooltip" title="Save & Apply">Save & Apply</a>
+                    <a href="#Apply" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-2"  data-toggle="tooltip" title="Apply">Apply</a>
+                    <a href="#Cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1"  data-toggle="tooltip" title="Cancel">Cancel</a>
                 </div>
             </div>
         )

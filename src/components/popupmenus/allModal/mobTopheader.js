@@ -23,7 +23,7 @@ export default class MobTopHeader extends Component {
                                                 <span className="user-detail">
                                                     <span className="d-flex align-items-center">
                                                         <span>
-                                                            <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="cartImg" />
+                                                            <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" data-toggle="tooltip" title="User-Level1" alt="cartImg" />
                                                         </span>
                                                         <span>
                                                             <span className="user-name-sm">Heng liang</span><br />
@@ -36,7 +36,7 @@ export default class MobTopHeader extends Component {
                                                 </span>
                                             </span>
                                             <span>
-                                                <span className="close-info" title="Close"> X</span>
+                                                <span className="close-info" data-toggle="tooltip" title="Close"> X</span>
                                             </span>
                                         </div>
                                     </li>
@@ -47,10 +47,10 @@ export default class MobTopHeader extends Component {
                                         <a className="dropdown-item" href="#href"><span className="status-ico in-visible"></span>Invisible</a>
                                     </li>
                                     <li className="seprator account-link">
-                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
-                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
+                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" data-toggle="tooltip" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
+                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" data-toggle="tooltip" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
                                     </li>
-                                    <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
+                                    <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" data-toggle="tooltip" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -65,9 +65,9 @@ export default class MobTopHeader extends Component {
                             </a>
                         </div> :
                         <div className="moremenu d-flex align-items-center">
-                            <a href="#create-group-popup" className="icons-rounded create-group-popup" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
-                            <span className="theme-bg  video-call icons-rounded" title="Video Call"><i className="sprite video-ico z-disable"></i></span>
-                            <span className="icons-rounded voice-call" title="Voice Call"><i className="sprite call-ico z-disable"></i></span>
+                            <a href="#create-group-popup" className="icons-rounded create-group-popup" data-toggle="tooltip" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
+                            <span className="theme-bg  video-call icons-rounded" data-toggle="tooltip" title="Video Call"><i className="sprite video-ico z-disable"></i></span>
+                            <span className="icons-rounded voice-call" data-toggle="tooltip" title="Voice Call"><i className="sprite call-ico z-disable"></i></span>
                             <button className="mob-user-menu">
                                 <i className="sprite header-more-ico z-disable"></i>
                                 <span className="arrow-right-caret"></span>

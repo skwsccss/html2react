@@ -4,17 +4,17 @@ import MobTopHeader from './mobTopheader';
 export default class Purchase extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links" id="purchase-popup" tabIndex="-1" role="dialog" aria-labelledby="purchase-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links show transform" id="purchase-popup" tabIndex="-1" role="dialog" aria-labelledby="purchase-popup" aria-hidden="true">
                 <div className="modal-dialog purchase-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Complete Your Purchase</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title='COMPLETE PURCHASE' />
+                        <MobTopHeader data-toggle="tooltip" title='COMPLETE PURCHASE' />
                         <div className="modal-body">
                             <div className="row align-items-center mob-box-white">
                                 <div className="col-6 font-20 theme-txt-color bold-500">

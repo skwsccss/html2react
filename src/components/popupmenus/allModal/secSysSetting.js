@@ -4,17 +4,17 @@ import MobTopHeader from './mobTopheader'
 export default class SecSysSetting extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links ui-widget" id="security-setting-popup" tabIndex="-1" role="dialog" aria-labelledby="security-setting-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget show transform" id="security-setting-popup" tabIndex="-1" role="dialog" aria-labelledby="security-setting-popup" aria-hidden="true">
                 <div className="modal-dialog security-setting-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>Security System Settings</strong><span className="mark-read-btn">
-                                <button type="button" className="close add-ban-tab" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close add-ban-tab" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title='SECURITY SYSTEM SETTINGS' />
+                        <MobTopHeader data-toggle="tooltip" title='SECURITY SYSTEM SETTINGS' />
                         <div className="modal-body">
                             <div className="security-setting-popup">
                                 <div className="row">
@@ -132,8 +132,8 @@ export default class SecSysSetting extends Component {
                                                 </div>
                                             </div>
                                             <div className="modal-btn-group modal-btn-links mt-2 mb-3">
-                                                <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-2 z-disable background-process-hide exceed-limit-popup" href="#exceed-limit-popup" title="Save & Apply">Save & Apply</a>
-                                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" title="Cancel">Cancel</a>
+                                                <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-2 z-disable background-process-hide exceed-limit-popup" href="#exceed-limit-popup" data-toggle="tooltip" title="Save & Apply">Save & Apply</a>
+                                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" data-toggle="tooltip" title="Cancel">Cancel</a>
                                             </div>
                                         </div>
                                     </div>

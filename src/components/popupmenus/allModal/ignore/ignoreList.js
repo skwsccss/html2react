@@ -7,17 +7,17 @@ import IgnorePrivateVideo from './ignorePrivateVideo';
 export default class IgnoreList extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links" id="ignore-list-popup" tabIndex="-1" role="dialog" aria-labelledby="ignore-list-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links show transform" id="ignore-list-popup" tabIndex="-1" role="dialog" aria-labelledby="ignore-list-popup" aria-hidden="true">
                 <div className="modal-dialog ignore-list-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Ignore List</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"  data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title='IGNORE LIST' />
+                        <MobTopHeader  data-toggle="tooltip" title='IGNORE LIST' />
                         <div className="modal-body">
                             <div className="ignore-list-popup">
                                 <div className="sm-15-pad">

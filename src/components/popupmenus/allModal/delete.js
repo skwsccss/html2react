@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class Delete extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links transform center-transform" id="delete-popup" tabIndex="-1" role="dialog" aria-labelledby="delete-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links transform center-transform show" id="delete-popup" tabIndex="-1" role="dialog" aria-labelledby="delete-popup" aria-hidden="true">
                 <div className="modal-dialog delete-model actions-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Delete Group</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -26,8 +26,8 @@ export default class Delete extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center mt-0 justify-content-center">
-                                <a href="#done" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" title="Done">Done</a>
-                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" title="Cancel">Cancel</a>
+                                <a href="#done" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" data-toggle="tooltip" title="Done">Done</a>
+                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" data-toggle="tooltip" title="Cancel">Cancel</a>
                             </div>
                         </div>
 

@@ -95,9 +95,9 @@ body .ui-tooltip {
   padding: unset;
 }
 
-.dropdown-menu.emojis-list02{
+.dropdown-menu.emojis-list02 {
   width: 280px;
-  height:260px;
+  height: 260px;
   top: -270px;
   padding: unset;
 }
@@ -124,10 +124,17 @@ body .ui-tooltip {
   top: 180px;
   left: 415px;
 }
+
+.modal01 {
+  top: 426px;
+  left: 705px;
+}
+
 /* .navbar.row.mob-show.top-header.pl-0.align-items-center.room-header {
   margin-left: 0px !important;
   margin-right: 0px !important;
 } */
+
 /* .container-fluid .navbar.row{
   margin-left: 0px !important;
   margin-right: 0px !important;

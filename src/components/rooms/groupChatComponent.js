@@ -20,9 +20,9 @@ class GroupChatComponent extends Component {
                         </span>
                     </div>
                     <div className="d-flex justify-content-end align-items-center">
-                        <a href="#video-call" className="room-opt-btn chat-btn" title="video-call"><i className="room-ico-sprite theme-videocall-ico"></i></a>
-                        <a href="#voidCall" className="room-opt-btn chat-btn" title="voice-call"><i className="room-ico-sprite theme-voicecall-ico"></i></a>
-                        <a href="#chatroom" className="room-opt-btn chat-btn" title="chat-room"><i className="room-ico-sprite theme-chat-ico"></i></a>
+                        <a href="#video-call" className="room-opt-btn chat-btn" data-toggle="tooltip" title="video-call"><i className="room-ico-sprite theme-videocall-ico"></i></a>
+                        <a href="#voidCall" className="room-opt-btn chat-btn" data-toggle="tooltip" title="voice-call"><i className="room-ico-sprite theme-voicecall-ico"></i></a>
+                        <a href="#chatroom" className="room-opt-btn chat-btn" data-toggle="tooltip" title="chat-room"><i className="room-ico-sprite theme-chat-ico"></i></a>
                     </div>
                 </div>
             </div>

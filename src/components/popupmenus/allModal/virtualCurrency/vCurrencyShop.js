@@ -5,17 +5,17 @@ import VirtualCurrency from './vcurrency'
 export default class VCurrencyShop extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links" id="virtual-currency-popup" tabIndex="-1" role="dialog" aria-labelledby="virtual-currency-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links show transform" id="virtual-currency-popup" tabIndex="-1" role="dialog" aria-labelledby="virtual-currency-popup" aria-hidden="true">
                 <div className="modal-dialog virtual-currency-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Virtual Currency Shop</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title="VIRTUAL CURRENCY" />
+                        <MobTopHeader data-toggle="tooltip" title="VIRTUAL CURRENCY" />
                         <div className="modal-body">
                             <div className="virtual-currency-popup">
                                 <div className="row mb-3">

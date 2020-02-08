@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class MuteSystem extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links" id="mute-system-popup" tabIndex="-1" role="dialog" aria-labelledby="ban-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links show transform" id="mute-system-popup" tabIndex="-1" role="dialog" aria-labelledby="ban-popup" aria-hidden="true">
                 <div className="modal-dialog mute-system-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Mute Window</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -37,7 +37,7 @@ export default class MuteSystem extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center justify-content-center mt-2">
-                                <a href="#ok" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" title="Ok">Ok</a>
+                                <a href="#ok" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" data-toggle="tooltip" title="Ok">Ok</a>
                             </div>
                         </div>
 

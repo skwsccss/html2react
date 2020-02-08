@@ -4,12 +4,12 @@ export default class KickSystem extends Component {
     render() {
         return (
             // <!--Kick system popup-->
-            <div className="modal01 fadeIn footer-links" id="kick-system-popup" tabIndex="-1" role="dialog" aria-labelledby="kick-system-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links show" id="kick-system-popup" tabIndex="-1" role="dialog" aria-labelledby="kick-system-popup" aria-hidden="true">
                 <div className="modal-dialog kick-system-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Mute Window</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -32,7 +32,7 @@ export default class KickSystem extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center justify-content-center mt-2">
-                                <a href="#ok" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" title="Ok">Ok</a>
+                                <a href="#ok" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" data-toggle="tooltip" title="Ok">Ok</a>
                             </div>
                         </div>
 

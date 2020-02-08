@@ -16,17 +16,17 @@ export default class UserReported extends Component {
             <ReportedAction key={index} username={item.username} reason={item.reason} />
         ))
         return (
-            <div className="modal01 fadeIn footer-links" id="user-reported-popup" tabIndex="-1" role="dialog" aria-labelledby="purchase-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links show transform" id="user-reported-popup" tabIndex="-1" role="dialog" aria-labelledby="purchase-popup" aria-hidden="true">
                 <div className="modal-dialog user-reported-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>User Reported</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close"  data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title='USER REPORTED' />
+                        <MobTopHeader  data-toggle="tooltip" title='USER REPORTED' />
                         <div className="modal-body">
                             <table className="repoted-table">
                                 <thead>

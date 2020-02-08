@@ -18,16 +18,16 @@ export default class EditProfile extends Component {
                         <div className="col-12 col-md-10 pl-3">
                             <div className="profile-user-name mb-3">
                                 <span className="d-flex">
-                                    <span className="mr-1 hidden-mob"><img src="/css/dist/theme01/images/xlg-taj.png" title="User-Level1" alt="no img" /></span>
-                                    <span className="mr-1 desk-hidden mob-display"><img src="/css/dist/theme01/images/crown.png" title="User-Level1" alt="no img" /></span>
+                                    <span className="mr-1 hidden-mob"><img src="/css/dist/theme01/images/xlg-taj.png"  data-toggle="tooltip" title="User-Level1" alt="no img" /></span>
+                                    <span className="mr-1 desk-hidden mob-display"><img src="/css/dist/theme01/images/crown.png"  data-toggle="tooltip" title="User-Level1" alt="no img" /></span>
                                     <span className="xlg-txt">
                                         Username <span className="theme-txt-color member-txt">Member</span>
                                     </span>
-                                    <a className="account-upgrade z-disable hidden-mob upgrade-popup" href="#upgrade-popup" title="Upgrade-Popup"><i className="sprite upgrade-ico"></i>Upgrade your account</a>
+                                    <a className="account-upgrade z-disable hidden-mob upgrade-popup" href="#upgrade-popup"  data-toggle="tooltip" title="Upgrade-Popup"><i className="sprite upgrade-ico"></i>Upgrade your account</a>
                                 </span>
                             </div>
                             <div className="m-center">
-                                <a className="account-upgrade z-disable desk-hidden mob-display upgrade-popup" href="#upgrade-popup" title="Upgrade-Popup"><i className="sprite upgrade-ico"></i>Upgrade your account</a>
+                                <a className="account-upgrade z-disable desk-hidden mob-display upgrade-popup" href="#upgrade-popup"  data-toggle="tooltip" title="Upgrade-Popup"><i className="sprite upgrade-ico"></i>Upgrade your account</a>
                             </div>
 
                             <div className="profile-user-details mb-2">
@@ -80,9 +80,9 @@ export default class EditProfile extends Component {
                     </div>
                 </div>
                 <div className="modal-btn-group modal-btn-links mt-2 mb-3">
-                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable" href="#save" title="Save & Apply">Save & Apply</a>
-                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" href="#apply" title="Apply">Apply</a>
-                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" href="#cancel" title="Cancel">Cancel</a>
+                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable" href="#save"  data-toggle="tooltip" title="Save & Apply">Save & Apply</a>
+                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" href="#apply"  data-toggle="tooltip" title="Apply">Apply</a>
+                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" href="#cancel"  data-toggle="tooltip" title="Cancel">Cancel</a>
                 </div>
             </div>
         )

@@ -4,17 +4,17 @@ import MobTopHeader from './mobTopheader'
 export default class SendAnnouncement extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links center-msg-box01" id="send-announcement-popup" tabIndex="-1" role="dialog" aria-labelledby="send-announcement-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links center-msg-box01 show transform" id="send-announcement-popup" tabIndex="-1" role="dialog" aria-labelledby="send-announcement-popup" aria-hidden="true">
                 <div className="modal-dialog send-announcement-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Send Announcement</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title='SEND ANNOUNCEMENT' />
+                        <MobTopHeader data-toggle="tooltip" title='SEND ANNOUNCEMENT' />
                         <div className="modal-body">
                             <div className="send-announcement-popup">
                                 <div className="sm-10-pad">
@@ -53,14 +53,14 @@ export default class SendAnnouncement extends Component {
                                     </div>
                                     <div className="announcement-block">
                                         <div className="add-media">
-                                            <span className="announcement-emojis-toggle d-block" title="Emojis">
+                                            <span className="announcement-emojis-toggle d-block" data-toggle="tooltip" title="Emojis">
                                                 <i className="sprite emojis-ico"></i>
                                             </span>
                                             <span>
-                                                <a href="#text" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
+                                                <a href="#text" data-toggle="tooltip" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
                                             </span>
                                             <span>
-                                                <a href="#text" title="Voice"><i className="sprite voice-ico"></i></a>
+                                                <a href="#text" data-toggle="tooltip" title="Voice"><i className="sprite voice-ico"></i></a>
                                             </span>
                                         </div>
                                     </div>
@@ -70,8 +70,8 @@ export default class SendAnnouncement extends Component {
                                     </div>
 
                                     <div className="modal-btn-group  modal-footer modal-btn-links mt-2 mb-3">
-                                        <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-2 z-disable background-process-hide announcement-message-popup" href="#announcement-message-popup" title="Send">Send</a>
-                                        <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" title="Cancel">Cancel</a>
+                                        <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-2 z-disable background-process-hide announcement-message-popup" href="#announcement-message-popup" data-toggle="tooltip" title="Send">Send</a>
+                                        <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" data-toggle="tooltip" title="Cancel">Cancel</a>
                                     </div>
                                 </div>
                             </div>

@@ -30,9 +30,9 @@ export default class ProfileInfo extends Component {
                         <span className="profile-info-txt gray-light-bg">
                             <span>
                                 <a className="dropdown-item open-popup" href="#private"><i className="sprite plus-ico"></i>Private Chat</a>
-                                <a className="dropdown-item open-popup gift-popup" href="#gift-popup" title="Gift-Popup"><i className="sprite gift-box01-ico"></i>Send Gift</a>
-                                <a className="dropdown-item open-popup upgrade-popup" href="#upgrade-popup" title="Upgrade-Popup"><i className="sprite upgrade-ico"></i>Upgrade from him/her</a>
-                                <a className="dropdown-item open-popup ignore-list-popup" href="#ignore-list-popup" title="Ignore List"><i className="sprite ignore-ico"></i>Ignore</a>
+                                <a className="dropdown-item open-popup gift-popup" href="#gift-popup" data-toggle="tooltip" title="Gift-Popup"><i className="sprite gift-box01-ico"></i>Send Gift</a>
+                                <a className="dropdown-item open-popup upgrade-popup" href="#upgrade-popup" data-toggle="tooltip" title="Upgrade-Popup"><i className="sprite upgrade-ico"></i>Upgrade from him/her</a>
+                                <a className="dropdown-item open-popup ignore-list-popup" href="#ignore-list-popup" data-toggle="tooltip" title="Ignore List"><i className="sprite ignore-ico"></i>Ignore</a>
                             </span>
                             <a className="dropdown-item show-more-menu view-full-user" href="#view-full">View full user menu <i className="more-profile-menu"></i></a>
                             {/* <!--<a className="dropdown-item less-more-menu" href="#">View full user menu <img src="css/dist/theme01/images/less-profile-menu.png" /></a>--> */}

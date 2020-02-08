@@ -20,18 +20,18 @@ export default class SidebarSearch extends Component {
                 <div className="col-12 search-bar">
                     <div className="search-input user-search show">
                         <input placeholder="Search People" type="text" />
-                        <button title="Search"><i className="sprite search-ico"></i></button>
+                        <button data-toggle="tooltip" title="Search"><i className="sprite search-ico"></i></button>
                     </div>
                     <div className="search-input friend-search">
                         <input placeholder="Friend search" type="text" />
-                        <button title="Search Menu"><i className="sprite search-ico"></i></button>
+                        <button data-toggle="tooltip" title="Search Menu"><i className="sprite search-ico"></i></button>
                     </div>
                     <div className="search-input room-search">
                         <input placeholder="Room search" type="text" />
-                        <button title="Search Menu"><i className="sprite search-ico"></i></button>
+                        <button data-toggle="tooltip" title="Search Menu"><i className="sprite search-ico"></i></button>
                     </div>
                     <span className={`btn-group dropdown`}>
-                        <span className={`search-menu`} data-toggle="dropdown" aria-haspopup="true" aria-expanded={toggle} title="Search Menu" onClick={this.toggleSearchMenu}><i className="sprite search-menu-ico"></i></span>
+                        <span className={`search-menu`} data-toggle="dropdown" aria-haspopup="true" aria-expanded={toggle} data-toggle="tooltip" title="Search Menu" onClick={this.toggleSearchMenu}><i className="sprite search-menu-ico"></i></span>
                         <span className={`dropdown-menu`} >
                             <a className="dropdown-item" href="#q"><i className="sprite male-search-ico"></i>Show only male</a>
                             <a className="dropdown-item" href="#q"><i className="sprite female-search-ico"></i>Show only female</a>

@@ -636,7 +636,7 @@ $(document).ready(function () {
     GiftinDataTableResponsive();
     GiftoutDataTableResponsive();
     UpgradeDataTableResponsive();
-    Tooltips();
+    // Tooltips();
 
     var chatListheight = jQuery(window).height();
     var iphoneChatListDiff = chatListheight - 115;
@@ -1609,250 +1609,251 @@ function ScrollInit() {
         $('.backdrop').removeClass('show');
     });
 })(jQuery);
+
 //$('#list-ban-tab').on('click', function () {
 //    DataTableResponsive();
 //});
 
 
-$('.private-message-request').click(() => {
-    openReceiveUpgradePopup('private-message-request')
-})
+// $('.private-message-request').click(() => {
+//     openReceiveUpgradePopup('private-message-request')
+// })
 
-$('.ignore-list-popup').click(() => {
-    openReceiveUpgradePopup('ignore-list-popup')
-})
-$('.friend-request-popup').click(() => {
-    openReceiveUpgradePopup('friend-request-popup')
-})
+// $('.ignore-list-popup').click(() => {
+//     openReceiveUpgradePopup('ignore-list-popup')
+// })
+// $('.friend-request-popup').click(() => {
+//     openReceiveUpgradePopup('friend-request-popup')
+// })
 
-$('.silent-mute-window-popup').click(() => {
-    openReceiveUpgradePopup('mute-window-popup')
-})
-$('.kick-window-popup').click(() => {
-    openReceiveUpgradePopup('kick-window-popup')
-})
-$('.ban-popup').click(() => {
-    openReceiveUpgradePopup('ban-popup')
-})
-$('.OpenRealPopup').click(() => {
-    OpenRealPopup()
-})
-$('.OpenReal').click(() => {
-    OpenRealPopup()
-})
-$('.view-profile').click(() => {
-    MobFullDisplay('view-profile')
-})
+// $('.silent-mute-window-popup').click(() => {
+//     openReceiveUpgradePopup('mute-window-popup')
+// })
+// $('.kick-window-popup').click(() => {
+//     openReceiveUpgradePopup('kick-window-popup')
+// })
+// $('.ban-popup').click(() => {
+//     openReceiveUpgradePopup('ban-popup')
+// })
+// $('.OpenRealPopup').click(() => {
+//     OpenRealPopup()
+// })
+// $('.OpenReal').click(() => {
+//     OpenRealPopup()
+// })
+// $('.view-profile').click(() => {
+//     MobFullDisplay('view-profile')
+// })
 
-$('.gift-popup').click(() => {
-    openReceiveUpgradePopup('gift-popup');
-})
-$('.upgrade-popup').click(() => {
-    openReceiveUpgradePopup('upgrade-popup')
-})
+// $('.gift-popup').click(() => {
+//     openReceiveUpgradePopup('gift-popup');
+// })
+// $('.upgrade-popup').click(() => {
+//     openReceiveUpgradePopup('upgrade-popup')
+// })
 
-$('.ignore-list-popup').click(() => {
-    openReceiveUpgradePopup('ignore-list-popup')
-})
+// $('.ignore-list-popup').click(() => {
+//     openReceiveUpgradePopup('ignore-list-popup')
+// })
 
-$('.view-full-user').click(() => {
-    openReceiveUpgradePopup('view-full-user')
-})
+// $('.view-full-user').click(() => {
+//     openReceiveUpgradePopup('view-full-user')
+// })
 
-$('.myaccount-popup').click(() => {
-    openReceiveUpgradePopup('myaccount-popup')
-})
+// $('.myaccount-popup').click(() => {
+//     openReceiveUpgradePopup('myaccount-popup')
+// })
 
-$('.change-avtar-popup').click(() => {
-    openReceiveUpgradePopup('change-avtar-popup')
-})
+// $('.change-avtar-popup').click(() => {
+//     openReceiveUpgradePopup('change-avtar-popup')
+// })
 
-$('.logout-popup').click(() => {
-    openReceiveUpgradePopup('logout-popup')
-})
+// $('.logout-popup').click(() => {
+//     openReceiveUpgradePopup('logout-popup')
+// })
 
-$('.notification-popup').click(() => {
-    openReceiveUpgradePopup('notification-popup')
-})
+// $('.notification-popup').click(() => {
+//     openReceiveUpgradePopup('notification-popup')
+// })
 
-$('.send-announcement-popup').click(() => {
-    openReceiveUpgradePopup('send-announcement-popup')
-})
+// $('.send-announcement-popup').click(() => {
+//     openReceiveUpgradePopup('send-announcement-popup')
+// })
 
-$('.user-reported-popup').click(() => {
-    openReceiveUpgradePopup('user-reported-popup')
-})
+// $('.user-reported-popup').click(() => {
+//     openReceiveUpgradePopup('user-reported-popup')
+// })
 
-$('.settingbox-popup').click(() => {
-    openReceiveUpgradePopup('settingbox-popup')
-})
+// $('.settingbox-popup').click(() => {
+//     openReceiveUpgradePopup('settingbox-popup')
+// })
 
-$('.banmanagment-popup').click(() => {
-    openReceiveUpgradePopup('banmanagment-popup')
-})
+// $('.banmanagment-popup').click(() => {
+//     openReceiveUpgradePopup('banmanagment-popup')
+// })
 
-$('.create-group-popup').click(() => {
-    openReceiveUpgradePopup('create-group-popup')
-})
+// $('.create-group-popup').click(() => {
+//     openReceiveUpgradePopup('create-group-popup')
+// })
 
-$('.about-app-popup').click(() => {
-    openReceiveUpgradePopup('about-app-popup')
-})
+// $('.about-app-popup').click(() => {
+//     openReceiveUpgradePopup('about-app-popup')
+// })
 
-$('.contactus-popup').click(() => {
-    openReceiveUpgradePopup('contactus-popup')
-})
+// $('.contactus-popup').click(() => {
+//     openReceiveUpgradePopup('contactus-popup')
+// })
 
-$('.help-popup').click(() => {
-    openReceiveUpgradePopup('help-popup')
-})
+// $('.help-popup').click(() => {
+//     openReceiveUpgradePopup('help-popup')
+// })
 
-$('.terms-popup').click(() => {
-    openReceiveUpgradePopup('terms-popup')
-})
+// $('.terms-popup').click(() => {
+//     openReceiveUpgradePopup('terms-popup')
+// })
 
-$('.virtual-currency-popup').click(() => {
-    openReceiveUpgradePopup('virtual-currency-popup')
-})
+// $('.virtual-currency-popup').click(() => {
+//     openReceiveUpgradePopup('virtual-currency-popup')
+// })
 
-$('.saythanks-popup').click(() => {
-    openReceiveUpgradePopup('saythanks-popup')
-})
+// $('.saythanks-popup').click(() => {
+//     openReceiveUpgradePopup('saythanks-popup')
+// })
 
-$('.upgrade-room-popup').click(() => {
-    openReceiveUpgradePopup('upgrade-room-popup')
-})
+// $('.upgrade-room-popup').click(() => {
+//     openReceiveUpgradePopup('upgrade-room-popup')
+// })
 
-$('.purchase-popup').click(() => {
-    openReceiveUpgradePopup('purchase-popup')
-})
+// $('.purchase-popup').click(() => {
+//     openReceiveUpgradePopup('purchase-popup')
+// })
 
-$('.country-ban-popup').click(() => {
-    openReceiveUpgradePopup('country-ban-popup')
-})
+// $('.country-ban-popup').click(() => {
+//     openReceiveUpgradePopup('country-ban-popup')
+// })
 
-$('.mute-system-popup').click(() => {
-    openReceiveUpgradePopup('mute-system-popup')
-})
+// $('.mute-system-popup').click(() => {
+//     openReceiveUpgradePopup('mute-system-popup')
+// })
 
-$('.kick-system-popup').click(() => {
-    openReceiveUpgradePopup('kick-system-popup')
-})
+// $('.kick-system-popup').click(() => {
+//     openReceiveUpgradePopup('kick-system-popup')
+// })
 
-$('.list-ban-tab').click(() => {
-    DataTableWidth('list-ban-tab')
-})
+// $('.list-ban-tab').click(() => {
+//     DataTableWidth('list-ban-tab')
+// })
 
-$('.add-ban-tab').click(() => {
-    DataTableWidth('add-ban-tab')
-})
+// $('.add-ban-tab').click(() => {
+//     DataTableWidth('add-ban-tab')
+// })
 
-$('.system-ban-popup').click(() => {
-    openReceiveUpgradePopup('system-ban-popup')
-})
+// $('.system-ban-popup').click(() => {
+//     openReceiveUpgradePopup('system-ban-popup')
+// })
 
-$('.mute-window-popup').click(() => {
-    openReceiveUpgradePopup('mute-window-popup')
-})
+// $('.mute-window-popup').click(() => {
+//     openReceiveUpgradePopup('mute-window-popup')
+// })
 
-$('.kick-window-popup').click(() => {
-    openReceiveUpgradePopup('kick-window-popup')
-})
+// $('.kick-window-popup').click(() => {
+//     openReceiveUpgradePopup('kick-window-popup')
+// })
 
-$('.ban-popup').click(() => {
-    openReceiveUpgradePopup('ban-popup')
-})
+// $('.ban-popup').click(() => {
+//     openReceiveUpgradePopup('ban-popup')
+// })
 
-$('#theme01').click(() => {
-    changeTheme('theme01')
-})
-$('#blue').click(() => {
-    changeTheme('blue')
-})
-$('#dark-blue').click(() => {
-    changeTheme('dark-blue')
-})
-$('#purple').click(() => {
-    changeTheme('purple')
-})
-$('#vinous').click(() => {
-    changeTheme('vinous')
-})
+// $('#theme01').click(() => {
+//     changeTheme('theme01')
+// })
+// $('#blue').click(() => {
+//     changeTheme('blue')
+// })
+// $('#dark-blue').click(() => {
+//     changeTheme('dark-blue')
+// })
+// $('#purple').click(() => {
+//     changeTheme('purple')
+// })
+// $('#vinous').click(() => {
+//     changeTheme('vinous')
+// })
 
-$('.notification-popup-notification-menu').click(() => {
-    OpenHeaderPopup('notification-popup', 'notification-menu')
-})
+// $('.notification-popup-notification-menu').click(() => {
+//     OpenHeaderPopup('notification-popup', 'notification-menu')
+// })
 
-$('.openchat-popup-opencaht-menu').click(() => {
-    OpenHeaderPopup('openchat-popup', 'opencaht-menu')
-})
+// $('.openchat-popup-opencaht-menu').click(() => {
+//     OpenHeaderPopup('openchat-popup', 'opencaht-menu')
+// })
 
-$('.video-popup').click(() => {
-    openReceiveUpgradePopup('video-popup')
-})
+// $('.video-popup').click(() => {
+//     openReceiveUpgradePopup('video-popup')
+// })
 
 
-$('.groupconversation-popup').click(() => {
-    openReceiveUpgradePopup('groupconversation-popup')
-})
+// $('.groupconversation-popup').click(() => {
+//     openReceiveUpgradePopup('groupconversation-popup')
+// })
 
-$('.exceed-limit-popup').click(() => {
-    openReceiveUpgradePopup('exceed-limit-popup')
-})
+// $('.exceed-limit-popup').click(() => {
+//     openReceiveUpgradePopup('exceed-limit-popup')
+// })
 
-$('.wait-system-popup').click(() => {
-    openReceiveUpgradePopup('wait-system-popup')
-})
+// $('.wait-system-popup').click(() => {
+//     openReceiveUpgradePopup('wait-system-popup')
+// })
 
-$('.announcement-message-popup').click(() => {
-    openReceiveUpgradePopup('announcement-message-popup')
-})
+// $('.announcement-message-popup').click(() => {
+//     openReceiveUpgradePopup('announcement-message-popup')
+// })
 
-$('.privatechat-popup').click(() => {
-    openReceiveUpgradePopup('privatechat-popup')
-})
+// $('.privatechat-popup').click(() => {
+//     openReceiveUpgradePopup('privatechat-popup')
+// })
 
-$('.change-groupname-popup').click(() => {
-    openReceiveUpgradePopup('change-groupname-popup')
-})
+// $('.change-groupname-popup').click(() => {
+//     openReceiveUpgradePopup('change-groupname-popup')
+// })
 
-$('.exit-group-popup').click(() => {
-    openReceiveUpgradePopup('exit-group-popup')
-})
+// $('.exit-group-popup').click(() => {
+//     openReceiveUpgradePopup('exit-group-popup')
+// })
 
-$('.video-broadcast').click(() => {
-    MininizePopup('video-broadcast')
-})
+// $('.video-broadcast').click(() => {
+//     MininizePopup('video-broadcast')
+// })
 
-$('.min-video-call').click(() => {
-    MininizePopup('video-call')
-})
+// $('.min-video-call').click(() => {
+//     MininizePopup('video-call')
+// })
 
-$('.chatbody-area').click(() => {
-    MininizePopup('chatbody-area')
-})
-$('.groupconversation-area').click(() => {
-    openReceiveUpgradePopup('groupconversation-area')
-})
-$('.delete-popup').click(() => {
-    openReceiveUpgradePopup('delete-popup')
-})
-$('.report-group-popup').click(() => {
-    openReceiveUpgradePopup('report-group-popup')
-})
-$('.full-groupconversation-popup').click(() => {
-    openReceiveUpgradePopup('full-groupconversation-popup')
-})
+// $('.chatbody-area').click(() => {
+//     MininizePopup('chatbody-area')
+// })
+// $('.groupconversation-area').click(() => {
+//     openReceiveUpgradePopup('groupconversation-area')
+// })
+// $('.delete-popup').click(() => {
+//     openReceiveUpgradePopup('delete-popup')
+// })
+// $('.report-group-popup').click(() => {
+//     openReceiveUpgradePopup('report-group-popup')
+// })
+// $('.full-groupconversation-popup').click(() => {
+//     openReceiveUpgradePopup('full-groupconversation-popup')
+// })
 
-$('.camera-request-popup').click(() => {
-    openReceiveUpgradePopup('camera-request-popup')
-})
-$('.loginpopup').click(() => {
-    openLoginRregisterPopup('login')
-})
-$('.register-popup').click(() => {
-    openLoginRregisterPopup('register')
-})
+// $('.camera-request-popup').click(() => {
+//     openReceiveUpgradePopup('camera-request-popup')
+// })
+// $('.loginpopup').click(() => {
+//     openLoginRregisterPopup('login')
+// })
+// $('.register-popup').click(() => {
+//     openLoginRregisterPopup('register')
+// })
 
 $('#closeAllPopup').click(() => {
     $('.modal01').removeClass('show');

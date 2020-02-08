@@ -8,17 +8,17 @@ import PasswordSetting from './password';
 export default class SettingBox extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links ui-widget" id="settingbox-popup" tabIndex="-1" role="dialog" aria-labelledby="settingbox-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget show transform" id="settingbox-popup" tabIndex="-1" role="dialog" aria-labelledby="settingbox-popup" aria-hidden="true">
                 <div className="modal-dialog settingbox-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>Setting Box</strong><span className="mark-read-btn">
-                                <button type="button" className="close add-ban-tab" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close add-ban-tab" data-dismiss="modal" aria-label="Close"  data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTobHeader title='Setting Box' />
+                        <MobTobHeader  data-toggle="tooltip" title='Setting Box' />
                         <div className="modal-body">
                             <div className="setting-popup">
                                 <div className="row">

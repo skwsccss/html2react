@@ -4,17 +4,17 @@ import MobTopHeader from './mobTopheader'
 export default class TermsAndCondition extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links transform center-transform" id="terms-popup" tabIndex="-1" role="dialog" aria-labelledby="terms-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links transform center-transform show" id="terms-popup" tabIndex="-1" role="dialog" aria-labelledby="terms-popup" aria-hidden="true">
                 <div className="modal-dialog content-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>Terms & Conditions</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title="Terms & Conditions" />
+                        <MobTopHeader data-toggle="tooltip" title="Terms & Conditions" />
                         <div className="modal-body">
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-12 pl-2 m-pl-0 confirm-txt m-text-center">

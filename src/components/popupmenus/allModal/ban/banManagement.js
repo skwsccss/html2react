@@ -5,17 +5,17 @@ import ListBan from './listBan';
 export default class BanManagement extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links ui-widget ui-widget-content" id="banmanagment-popup" tabIndex="-1" role="dialog" aria-labelledby="banmanagment-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget ui-widget-content show transform" id="banmanagment-popup" tabIndex="-1" role="dialog" aria-labelledby="banmanagment-popup" aria-hidden="true">
                 <div className="modal-dialog banmanagment-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>Ban Managment</strong><span className="mark-read-btn">
-                                <button type="button" className="close add-ban-tab" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close add-ban-tab" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title='Ban Management' />
+                        <MobTopHeader data-toggle="tooltip" title='Ban Management' />
                         <div className="modal-body">
                             <div className="ban-managment-popup">
                                 <div className="row">
@@ -136,8 +136,8 @@ export default class BanManagement extends Component {
                                                 </div>
                                             </div>
                                             <div className="modal-btn-group modal-btn-links">
-                                                <a className="btn lg-btn theme-bg mob-radius-btn z-disable cancel-btn system-ban-popup" href="#system-ban-popup" title="Save & Apply">Save & Apply</a>
-                                                <a href="#cancel" className="btn lg-btn dark-gray-bg mob-radius-btn cancel-btn" title="Cancel">Cancel</a>
+                                                <a className="btn lg-btn theme-bg mob-radius-btn z-disable cancel-btn system-ban-popup" href="#system-ban-popup" data-toggle="tooltip" title="Save & Apply">Save & Apply</a>
+                                                <a href="#cancel" className="btn lg-btn dark-gray-bg mob-radius-btn cancel-btn" data-toggle="tooltip" title="Cancel">Cancel</a>
                                             </div>
                                         </div>
                                         <ListBan />

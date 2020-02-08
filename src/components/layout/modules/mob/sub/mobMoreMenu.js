@@ -17,7 +17,7 @@ export default class MobMoreMenu extends Component {
                         <i className="sprite header-more-ico"></i>
                     </div>
                     <div className="dropdown-menu mobile-head-moremenu">
-                        <a className="dropdown-item" href="#1" title="Moderated Chat"><i className="sprite mchat-ico mr-2"></i>Turn on moderatated chat</a>
+                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Moderated Chat"><i className="sprite mchat-ico mr-2"></i>Turn on moderatated chat</a>
                         <div className="btn-group dropdown-item hide-show-btn" id="status" data-toggle="buttons">
                             <label className="btn btn-default btn-on btn-xs active">
                                 <input type="radio" value="1" name="multifeatured_module[module_id][status]" defaultChecked="checked" />Show
@@ -26,15 +26,15 @@ export default class MobMoreMenu extends Component {
                                 <input type="radio" value="0" name="multifeatured_module[module_id][status]" />Hide
                             </label>
                         </div>
-                        <a className="dropdown-item" href="#security-setting-popup" onClick={this.clicked} title="Security Setting"><i className="sprite security-ico mr-2"></i>Secutiry option</a>
-                        <a className="dropdown-item" href="#2" title="Clear Screen"><i className="sprite clear-ico mr-2"></i>Clear screen for all</a>
-                        <a className="dropdown-item" href="#send-announcement-popup" onClick={this.clicked} title="Send Announcment"><i className="sprite announcement-ico mr-2"></i>Send announcment</a>
-                        <a className="dropdown-item" href="#banmanagment-popup" onClick={this.clicked} title="Ban Management">
+                        <a className="dropdown-item" href="#security-setting-popup" onClick={this.clicked} data-toggle="tooltip" title="Security Setting"><i className="sprite security-ico mr-2"></i>Secutiry option</a>
+                        <a className="dropdown-item" href="#2" data-toggle="tooltip" title="Clear Screen"><i className="sprite clear-ico mr-2"></i>Clear screen for all</a>
+                        <a className="dropdown-item" href="#send-announcement-popup" onClick={this.clicked} data-toggle="tooltip" title="Send Announcment"><i className="sprite announcement-ico mr-2"></i>Send announcment</a>
+                        <a className="dropdown-item" href="#banmanagment-popup" onClick={this.clicked} data-toggle="tooltip" title="Ban Management">
                             <i className="sprite ban-managment-ico mr-2"></i>Ban management
                         </a>
-                        <a className="dropdown-item" href="#1" title="Stop Scrolling"><i className="sprite scroll-ico mr-2"></i>Stop scrolling</a>
-                        <a className="dropdown-item" href="#1" title="Clear Screen"><i className="sprite clear-ico mr-2"></i>Clear screen for all</a>
-                        <a className="dropdown-item" href="#1" title="Turn Off Sound"><i className="sprite sound-ico mr-2"></i>Turn off sound</a>
+                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Stop Scrolling"><i className="sprite scroll-ico mr-2"></i>Stop scrolling</a>
+                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Clear Screen"><i className="sprite clear-ico mr-2"></i>Clear screen for all</a>
+                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Turn Off Sound"><i className="sprite sound-ico mr-2"></i>Turn off sound</a>
                     </div>
 
                 </div>

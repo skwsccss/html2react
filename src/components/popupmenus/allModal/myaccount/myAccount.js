@@ -7,17 +7,17 @@ import CreditActivity from './creditActivity'
 export default class MyAccount extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links ui-widget" id="myaccount-popup" tabIndex="-1" role="dialog" aria-labelledby="myaccount-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget show transform" id="myaccount-popup" tabIndex="-1" role="dialog" aria-labelledby="myaccount-popup" aria-hidden="true">
                 <div className="modal-dialog myaccount-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>My Account</strong><span className="mark-read-btn">
-                                <button type="button" className="close add-ban-tab'" data-dismiss="modal" aria-label="Close" title="Close">
+                                <button type="button" className="close add-ban-tab'" data-dismiss="modal" aria-label="Close"  data-toggle="tooltip" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader title="MY ACCOUNT" />
+                        <MobTopHeader  data-toggle="tooltip" title="MY ACCOUNT" />
                         <div className="modal-body">
                             <div className="myaccount-popup">
                                 <div className="row">

@@ -15,7 +15,7 @@ export default class MyProfile extends Component {
                         <div className="col-12 col-md-10 pl-3 m-pl-0">
                             <div className="profile-user-name">
                                 <span className="mr-1 hidden-mob"><img src="/css/dist/theme01/images/xlg-taj.png" alt="noimg" /></span>
-                                <span className="mr-1 desk-hidden mob-display"><img src="/css/dist/theme01/images/crown.png" title="User-Level1" alt="noimg" /></span>
+                                <span className="mr-1 desk-hidden mob-display"><img src="/css/dist/theme01/images/crown.png"  data-toggle="tooltip" title="User-Level1" alt="noimg" /></span>
                                 <span className="xlg-txt theme-txt-color">Username</span>
                             </div>
                             <div className="profile-user-details">
@@ -47,15 +47,15 @@ export default class MyProfile extends Component {
                                     <span className="theme-txt-color">Credits:</span>
                                     <span className="xlg-txt">50,254,55</span>
                                 </span>
-                                <button type="submit" title="Buy-Credits" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup" style={{fontSize: "small"}} href="#virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button>
+                                <button type="submit"  data-toggle="tooltip" title="Buy-Credits" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup" style={{fontSize: "small"}} href="#virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className="modal-btn-group modal-btn-links mt-2 mb-3">
-                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#save" title="Save & Apply">Save & Apply</a>
-                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-2" href="#apply" title="Apply">Apply</a>
-                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1"  href="#cancel"title="Cancel">Cancel</a>
+                    <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#save"  data-toggle="tooltip" title="Save & Apply">Save & Apply</a>
+                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-2" href="#apply"  data-toggle="tooltip" title="Apply">Apply</a>
+                    <a className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1"  href="#cancel" data-toggle="tooltip" title="Cancel">Cancel</a>
                 </div>
             </div>
         )
