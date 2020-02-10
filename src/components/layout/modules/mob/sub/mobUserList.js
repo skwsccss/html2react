@@ -12,7 +12,7 @@ class MobUserList extends Component {
                         <span>
                             <img
                                 src={"/blue-taj.png"}
-                                className="img-fluid imagePath" data-toggle="tooltip" title={user.userLevel} alt="userlist"/>
+                                className="img-fluid imagePath" title={user.userLevel} alt="userlist"/>
                         </span> :
                         <span>&nbsp;</span>
                 }
@@ -26,16 +26,16 @@ class MobUserList extends Component {
                     {user.actionImg ?
                         <a href="#1" className="calling-icon">
                             <img src={"/css/dist/theme01/images/hand.png"}
-                                data-toggle="tooltip" title="Raise Hand"
+                                title="Raise Hand"
                                 className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" alt="userlist" />
                         </a> :
                         ''}
-                    {/* {user.actionImg ? <a href="#1" className="calling-icon"> <img src={require(user.actionImg)} data-toggle="tooltip" title="Raise Hand" className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" /></a> : ''} */}
+                    {/* {user.actionImg ? <a href="#1" className="calling-icon"> <img src={require(user.actionImg)} title="Raise Hand" className="imagePath img-fluid m-t-xs m-r-xs call-popup w-13" /></a> : ''} */}
                     <img src={
                         `/css/dist/theme01/images${user.gender === 'Men' ?
                             "/men.png" :
                             "/women.png"}`}
-                        data-toggle="tooltip" title={user.gender}
+                        title={user.gender}
                         className="img-fluid m-t-xs imagePath" alt="userlist" />
                 </span>
             </li >
@@ -46,11 +46,11 @@ class MobUserList extends Component {
                     <div className="col-12 search-bar">
                         <div className="search-input show">
                             <input placeholder="User search" type="text" />
-                            <button data-toggle="tooltip" title="Search Menu"><i className="sprite search-ico"></i></button>
+                            <button title="Search Menu"><i className="sprite search-ico"></i></button>
                         </div>
 
                         <span className="btn-group dropdown">
-                            <span className="search-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" title="User Menu"><i className="sprite search-menu-ico"></i></span>
+                            <span className="search-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="User Menu"><i className="sprite search-menu-ico"></i></span>
                             <span className="dropdown-menu">
                                 <a className="dropdown-item" href="#a"><i className="sprite male-search-ico"></i>Show only male</a>
                                 <a className="dropdown-item" href="#a"><i className="sprite female-search-ico"></i>Show only female</a>

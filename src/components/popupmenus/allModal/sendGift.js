@@ -1,48 +1,25 @@
 import React, { Component } from 'react'
 import MobTopHeader from './mobTopheader'
 import Gift from './gift';
-import { OpenModal, HideModal } from "../../../actions/modalConductorAction";
-import { connect } from 'react-redux'
-import PropTypes from 'prop-types';
-import * as types from '../../../actions/actionConstants';
 
-class SendGift extends Component {
-    constructor(props) {
-        super(props);
-        this.hide = this.hide.bind(this)
-        this.open = this.open.bind(this)
-
-    }
-    componentDidMount() {
-        window.$('[data-toggle="tooltip"]').tooltip();
-    }
-    componentWillUnmount() {
-        window.$('[data-toggle="tooltip"]').tooltip('destroy');
-    }
-    open(name) {
-        this.props.OpenModal(name)
-    }
-    hide() {
-        this.props.HideModal();
-    }
+export default class SendGift extends Component {
     render() {
         const gifts = ['Lolipop', 'Heart', 'Claps', 'Flower', 'Lolipop', 'Heart', 'Claps', 'Flower', 'Lolipop', 'Heart', 'Claps', 'Flower']
         const result = gifts.map((item, index) => (
             <Gift name={item} index={index % 4} key={index} />
         ))
-
         return (
-            <div className="modal01 fadeIn footer-links ui-widget show transform" id="gift-popup" tabIndex="-1" role="dialog" aria-labelledby="gift-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links ui-widget" id="gift-popup" tabIndex="-1" role="dialog" aria-labelledby="gift-popup" aria-hidden="true">
                 <div className="modal-dialog gift-model sm-modal modal-dialog-centered" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>Hi</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close" onClick={this.hide} >
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader data-toggle="tooltip" title='Send Gift' />
+                        <MobTopHeader title='Send Gift' alt="noimg" />
                         <div className="modal-body">
                             <div className="gift-popup">
                                 <div className="row">
@@ -171,10 +148,10 @@ class SendGift extends Component {
                                 <div className="row">
                                     <div className="col-sm-2 col-3 text-center m-b-xs">
                                         <div className="gift-image">
-                                            <a href="#ref" data-toggle="tooltip" title="Lolipop"><img src="/css/dist/theme01/images/gifts/01.png" className="img-fluid" alt="no img" /></a>
+                                            <a href="#ref" title="Lolipop"><img src="/css/dist/theme01/images/gifts/01.png" className="img-fluid" alt="no img" /></a>
                                         </div>
                                         <div className="gift-name">Lolipop</div>
-                                        <div className="gift-credit"><i className="sprite gift-credit-ico" data-toggle="tooltip" title="Credits-ico"></i>1000</div>
+                                        <div className="gift-credit"><i className="sprite gift-credit-ico" title="Credits-ico"></i>1000</div>
                                     </div>
                                     <div className="col-sm-10 col-9">
                                         <form className="gift-send-form">
@@ -187,10 +164,10 @@ class SendGift extends Component {
                                                 <input type="text" className="form-control z-disable" id="amount" placeholder="1" />
                                             </div>
                                             <div className="form-group credit-info-txt">
-                                                <div className="sm-fonts"><span className="credit-ttl">You need to pay :</span><span><i className="sprite gift-credit-ico" data-toggle="tooltip" title="Credits-ico"></i> 1000 Credits</span></div>
+                                                <div className="sm-fonts"><span className="credit-ttl">You need to pay :</span><span><i className="sprite gift-credit-ico" title="Credits-ico"></i> 1000 Credits</span></div>
                                                 <div className="sm-fonts d-100-between mob-full-width">
-                                                    <div><span className="credit-ttl">Your credits :</span><span><i className="sprite gift-credit-ico" data-toggle="tooltip" title="Credits-ico"></i> 0</span></div>
-                                                    <a data-toggle="tooltip" title="Buy-Credits" href="#virtual-currenc-popup" onClick={()=>{this.props.OpenModal(types.VIRTUAL_CURRENCY_SHOP)}} className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</a>
+                                                    <div><span className="credit-ttl">Your credits :</span><span><i className="sprite gift-credit-ico" title="Credits-ico"></i> 0</span></div>
+                                                    <a title="Buy-Credits" href="#virtual-currenc-popup" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</a>
                                                 </div>
                                             </div>
                                         </form>
@@ -198,8 +175,8 @@ class SendGift extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links">
-                                <button className="btn sm-btn theme-bg mob-radius-btn z-disabe saythanks-popup" href="#saythanks-popup" data-toggle="tooltip" title="Send">Send</button>
-                                <button href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-dismiss="modal" data-toggle="tooltip" title="Cancel" onClick={() => { this.props.HideModal() }}>Cancel</button>
+                                <a className="btn sm-btn theme-bg mob-radius-btn z-disabe saythanks-popup" href="#saythanks-popup" title="Send">Send</a>
+                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-dismiss="modal" title="Cancel">Cancel</a>
                             </div>
                         </div>
 
@@ -209,15 +186,3 @@ class SendGift extends Component {
         )
     }
 }
-SendGift.propsTypes = {
-    OpenModal: PropTypes.func.isRequired,
-    HideModal: PropTypes.func.isRequired
-}
-
-const mapDispatchToProps = ({
-    OpenModal,
-    HideModal
-})
-
-const SendGiftMapped = connect(null, mapDispatchToProps)(SendGift)
-export default SendGiftMapped;

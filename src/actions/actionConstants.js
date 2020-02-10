@@ -19,58 +19,79 @@ export const FETCH_ROOM_TABS = 'FETCH_ROOM_TABS';
 export const FETCH_ROOM_TABS_FAILED = 'FETCH_ROOM_TABS_FAILED';
 export const FETCH_ROOM_TABS_SUCCESS = 'FETCH_ROOM_TABS_SUCCESS';
 
-export const OPEN_MODAL = 'OPEN_MODAL'
-export const HIDE_MODAL = 'HIDE_MODAL'
-export const OPENED_MODAL = 'OPENED_MODAL'
-export const HIDED_MODAL = 'HIDED_MODAL'
+// Crud Form Table
+export const FETCH_DATA_FORM = 'FETCH_DATA_FORM';
+export const ADD_NEW = 'ADD_NEW';
+export const CLOSE_FORM = 'CLOSE_FORM';
+export const SUBMIT_DATA = 'SUBMIT_DATA';
+export const REMOVE_ROW_FORM = 'REMOVE_ROW_FORM';
+export const EDIT_ROW_FORM = 'EDIT_ROW_FORM';
+export const FETCHING_DONE = 'FETCHING_DONE';
 
-// MODAL NAMES
-export const MORE_MENU_POPUP = 'MORE_MENU_POPUP'
-export const MOBILE_FRIEND_LIST = 'MOBILE_FRIEND_LIST'
-export const NOTIFICATION = 'NOTIFICATION'
-export const CHANGE_AVATAR = 'CHANGE_AVATAR'
-export const SEND_GIFT = 'SEND_GIFT'
-export const UPGRADE_MEMBERSHIP = 'UPGRADE_MEMBERSHIP'
-export const SAY_THANKS = 'SAY_THANKS'
-export const PURCHASE = 'PURCHASE'
-export const RECEIVE_UPGRADE = 'RECEIVE_UPGRADE'
-export const BAN_WINDOW = 'BAN_WINDOW'
-export const MUTE_WINDOW = 'MUTE_WINDOW'
-export const MUTE_SYSTEM = 'MUTE_SYSTEM'
-export const KICK_WINDOW = 'KICK_WINDOW'
-export const KICK_SYSTEM = 'KICK_SYSTEM'
-export const BAN_MANAGEMENT = 'BAN_MANAGEMENT'
-export const USER_REPORTED = 'USER_REPORTED'
-export const SETTING_BOX = 'SETTING_BOX'
-export const IGNORE_LIST = 'IGNORE_LIST'
-export const CREATE_GROUP = 'CREATE_GROUP'
-export const SEC_SYS_SETTING = 'SEC_SYS_SETTING'
-export const EXCEED_LIMIT = 'EXCEED_LIMIT'
-export const SEC_WAIT_SYSTEM = 'SEC_WAIT_SYSTEM'
-export const SEND_ANNOUNCEMENT = 'SEND_ANNOUNCEMENT'
-export const ANNOUNCEMENT_MSG = 'ANNOUNCEMENT_MSG'
-export const FRIEND_REQUEST = 'FRIEND_REQUEST'
-export const CAMERA_MIC = 'CAMERA_MIC'
-export const COUNTRY_BAN = 'COUNTRY_BAN'
-export const BANNED_SYS_MSG = 'BANNED_SYS_MSG'
-export const PRIVATE_MSG_REQ = 'PRIVATE_MSG_REQ'
-export const MY_ACCOUNT = 'MY_ACCOUNT'
-export const NOTICE = 'NOTICE'
-export const VIRTUAL_CURRENCY_SHOP = 'VIRTUAL_CURRENCY_SHOP'
-export const OPEN_CHAT = 'OPEN_CHAT'
-export const VIDEO_BOX1 = 'VIDEO_BOX1'
-export const VIDEO_BOX = 'VIDEO_BOX'
-export const PRIVATE_CHAT = 'PRIVATE_CHAT'
-export const GROUP_CONVERSATION = 'GROUP_CONVERSATION'
-export const GROUP_CONVERSATION_FULL = 'GROUP_CONVERSATION_FULL'
-export const UPGRADE_ROOM = 'UPGRADE_ROOM'
-export const DELETE = 'DELETE'
-export const REPORT = 'REPORT'
-export const EXIT = 'EXIT'
-export const CHANGE_GROUP_NAME = 'CHANGE_GROUP_NAME'
-export const LOG_OUT = 'LOG_OUT'
-export const ABOUT_APP = 'ABOUT_APP'
-export const TERMS_AND_CONDITION = 'TERMS_AND_CONDITION'
-export const CONTACT_US = 'CONTACT_US'
-export const HELP = 'HELP'
-export const OPEN_CHAT_MENU = 'OPEN_CHAT_MENU'
+// Social Media
+export const FETCH_TIMELINE_DATA = 'FETCH_TIMELINE_DATA';
+export const FETCH_COMMENT_DATA = 'FETCH_COMMENT_DATA';
+export const POST = 'POST';
+export const POST_COMMENT = 'POST_COMMENT';
+export const TOGGLE_LIKE = 'TOGGLE_LIKE';
+
+// Ecommerce
+export const FETCH_PRODUCT_DATA = 'FETCH_PRODUCT_DATA';
+export const SEARCH_PRODUCT = 'SEARCH_PRODUCT';
+export const SHOW_DETAIL_PRODUCT = 'SHOW_DETAIL_PRODUCT';
+export const ADD_TO_CART = 'ADD_TO_CART';
+export const DELETE_CART_ITEM = 'DELETE_CART_ITEM';
+export const CHECKOUT = 'CHECKOUT';
+
+// Contact
+export const FETCH_CONTACT_DATA = 'FETCH_CONTACT_DATA';
+export const SHOW_DETAIL_CONTACT = 'SHOW_DETAIL_CONTACT';
+export const HIDE_DETAIL = 'HIDE_DETAIL';
+export const ADD_CONTACT = 'ADD_CONTACT';
+export const EDIT_CONTACT = 'EDIT_CONTACT';
+export const SUBMIT_CONTACT = 'SUBMIT_CONTACT';
+export const CLOSE_CONTACT_FORM = 'CLOSE_CONTACT_FORM';
+export const DELETE_CONTACT = 'DELETE_CONTACT';
+export const TOGGLE_FAVORITE = 'TOGGLE_FAVORITE';
+export const SEARCH_CONTACT = 'SEARCH_CONTACT';
+
+// Chat
+export const FETCH_CHAT_DATA = 'FETCH_CHAT_DATA';
+export const SHOW_CHAT = 'SHOW_CHAT';
+export const HIDE_CHAT = 'HIDE_CHAT';
+export const SEND_CHAT = 'SEND_CHAT';
+export const DELETE_CONVERSATION = 'DELETE_CONVERSATION';
+
+// Email
+export const FETCH_EMAIL_DATA = 'FETCH_EMAIL_DATA';
+export const OPEN_MAIL = 'OPEN_MAIL';
+export const FILTER_MAIL = 'FILTER_MAIL';
+export const COMPOSE_MAIL = 'COMPOSE_MAIL';
+export const DISCARD_MESSAGE = 'DISCARD_MESSAGE';
+export const SEARCH_MAIL = 'SEARCH_MAIL';
+export const SEND_MAIL = 'SEND_MAIL';
+export const MOVE_TO = 'MOVE_TO';
+export const DELETE_MAIL = 'DELETE_MAIL';
+export const TOGGLE_STARED = 'TOGGLE_STARED';
+
+// Calendar
+export const FETCH_CALENDAR_DATA = 'FETCH_CALENDAR_DATA';
+export const ADD_EVENT = 'ADD_EVENT';
+export const DISCARD_EVENT = 'DISCARD_EVENT';
+export const SUBMIT_EVENT = 'SUBMIT_EVENT';
+export const DELETE_EVENT = 'DELETE_EVENT';
+
+// Task Board
+export const FETCH_BOARD_DATA = 'FETCH_BOARD_DATA';
+export const ADD_BOARD = 'ADD_BOARD';
+export const DISCARD_BOARD = 'DISCARD_BOARD';
+export const SUBMIT_BOARD = 'SUBMIT_BOARD';
+export const DELETE_BOARD = 'DELETE_BOARD';
+
+// Notification Form
+export const CLOSE_NOTIF = 'CLOSE_NOTIF';
+
+
+//custom actions
+
+// export const FETCH_

@@ -21,7 +21,7 @@ export default class CreateGroup extends Component {
                 </div>
                 <div className="hidden-mob btn-right-position">
                     <div className="modal-btn-group modal-btn-links">
-                        <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#add" data-toggle="tooltip" title="Add">Add</a>
+                        <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3" href="#add" title="Add">Add</a>
                     </div>
                 </div>
                 <div className="desk-hidden mob-display center-checkbox">
@@ -38,12 +38,12 @@ export default class CreateGroup extends Component {
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Create Group</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader data-toggle="tooltip" title='CREATE GROUP' />
+                        <MobTopHeader title='CREATE GROUP' />
                         <div className="modal-body">
                             <div className="create-group-popup">
                                 <div className="sm-10-pad">
@@ -64,8 +64,8 @@ export default class CreateGroup extends Component {
                                         </div>
                                         <div className="col-4 col-sm-4 hidden-mob">
                                             <div className="modal-btn-group modal-btn-links">
-                                                <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3 groupconversation-popup" href="#groupconversation-popup" data-toggle="tooltip" title="Done">Done</a>
-                                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" data-toggle="tooltip" title="Cancel">Cancel</a>
+                                                <a className="btn sm-btn theme-bg mob-radius-btn z-disable m-order-3 groupconversation-popup" href="#groupconversation-popup" title="Done">Done</a>
+                                                <a href="#cancel" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" title="Cancel">Cancel</a>
                                             </div>
                                         </div>
                                     </div>
@@ -77,11 +77,11 @@ export default class CreateGroup extends Component {
                                                 <div className="search-bar theme-light-bg">
                                                     <div className="search-input show">
                                                         <input placeholder="user search" type="text" />
-                                                        <button data-toggle="tooltip" title="Search"><i className="sprite search-ico"></i></button>
+                                                        <button title="Search"><i className="sprite search-ico"></i></button>
                                                     </div>
                                                     {/* <!--Searchbar Dropdown--> */}
                                                     <span className="btn-group dropdown">
-                                                        <span className="search-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-toggle="tooltip" title="Search Menu"><i className="sprite search-menu-ico"></i></span>
+                                                        <span className="search-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" title="Search Menu"><i className="sprite search-menu-ico"></i></span>
                                                         <span className="dropdown-menu dropdown-menu-right">
                                                             <a className="dropdown-item" href="#show"><i className="sprite male-search-ico"></i>Show only male</a>
                                                             <a className="dropdown-item" href="#show"><i className="sprite female-search-ico"></i>Show only female</a>

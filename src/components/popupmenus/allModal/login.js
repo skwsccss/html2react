@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Login extends Component {
     render() {
         return (
-            <div className="modal01 footer-links login-register login-modal show transform" id="login">
+            <div className="modal01 footer-links login-register login-modal" id="login">
                 <span className="login-back back-close-btn desk-hidden mob-display">
                     <span><img src="/css/dist/theme01/images/white-back-arrow.png" className="img-fluid back-arrow m-l-n" alt="noimg" /></span>
                 </span>

@@ -22,7 +22,7 @@ export default class MainboardProfileHeader extends Component {
                                                 <span className="user-detail">
                                                     <span className="d-flex align-items-center">
                                                         <span>
-                                                            <img alt="crown" src={"/css/dist/theme01/images/crown.png"} className="img-fluid m-r-sm m-w-14" data-toggle="tooltip" title="User-Level1" />
+                                                            <img alt="crown" src={"/css/dist/theme01/images/crown.png"} className="img-fluid m-r-sm m-w-14" title="User-Level1" />
                                                         </span>
                                                         <span>
                                                             <span className="user-name-sm">Heng liang</span><br />
@@ -35,21 +35,21 @@ export default class MainboardProfileHeader extends Component {
                                                 </span>
                                             </span>
                                             <span>
-                                                <span className="close-info" data-toggle="tooltip" title="Close"> X</span>
+                                                <span className="close-info" title="Close"> X</span>
                                             </span>
                                         </div>
                                     </li>
                                     <li className="seprator">
-                                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Online"><span className="status-ico online"></span>Online</a>
-                                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Busy"><span className="status-ico busy"></span>Busy</a>
-                                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Away"><span className="status-ico away"></span>Away</a>
-                                        <a className="dropdown-item" href="#1" data-toggle="tooltip" title="Invisible"><span className="status-ico in-visible"></span>Invisible</a>
+                                        <a className="dropdown-item" href="#1" title="Online"><span className="status-ico online"></span>Online</a>
+                                        <a className="dropdown-item" href="#1" title="Busy"><span className="status-ico busy"></span>Busy</a>
+                                        <a className="dropdown-item" href="#1" title="Away"><span className="status-ico away"></span>Away</a>
+                                        <a className="dropdown-item" href="#1" title="Invisible"><span className="status-ico in-visible"></span>Invisible</a>
                                     </li>
                                     <li className="seprator account-link">
-                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup"  data-toggle="tooltip" title="My Account"><img alt="right" src={"/css/dist/theme01/images/right-icon.png"} className="img-fluid" />My Account</a>
-                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup"data-toggle="tooltip" title="Change Avatar"><img alt="right" src={"/css/dist/theme01/images/right-icon.png"} className="img-fluid" />Change Avatar</a>
+                                        <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup"  title="My Account"><img alt="right" src={"/css/dist/theme01/images/right-icon.png"} className="img-fluid" />My Account</a>
+                                        <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup"title="Change Avatar"><img alt="right" src={"/css/dist/theme01/images/right-icon.png"} className="img-fluid" />Change Avatar</a>
                                     </li>
-                                    <li><a className="dropdown-item logout" href="#1" data-toggle="tooltip" title="Logout"><img alt="logout" src={"/css/dist/theme01/images/logout.png"} className="img-fluid" />Logout</a></li>
+                                    <li><a className="dropdown-item logout" href="#1" title="Logout"><img alt="logout" src={"/css/dist/theme01/images/logout.png"} className="img-fluid" />Logout</a></li>
                                 </ul>
                             </span>
                         </span>

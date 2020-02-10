@@ -31,7 +31,7 @@ export default class PositionRelative extends Component {
             <li className="blue-text" key={index}>
                 <span className="arrow-right-caret"></span>
                 <span>
-                    <img src="/css/dist/theme01/images/gold-taj.png" className="img-fluid imagePath"  data-toggle="tooltip" title="User-Level1" alt="no" />
+                    <img src="/css/dist/theme01/images/gold-taj.png" className="img-fluid imagePath" title="User-Level1" alt="no" />
                 </span>
                 <span className="profile-avtar">
                     <img src="/css/dist/theme01/images/chat-photo.jpg" className="img-fluid" alt="no" />
@@ -40,9 +40,9 @@ export default class PositionRelative extends Component {
                 <span>kanyo cube</span>
                 <span className="float-right">
                     <a href="#video01-popup" className="calling-icon">
-                        <img src="/css/dist/theme01/images/video.png"  data-toggle="tooltip" title="Video-Call" className="img-fluid m-t-xs m-r-sm call-popup imagePath" alt="no" />
+                        <img src="/css/dist/theme01/images/video.png" title="Video-Call" className="img-fluid m-t-xs m-r-sm call-popup imagePath" alt="no" />
                     </a>
-                    <img src="/css/dist/theme01/images/men.png"  data-toggle="tooltip" title="Men" className="img-fluid m-t-xs imagePath" alt="no" />
+                    <img src="/css/dist/theme01/images/men.png" title="Men" className="img-fluid m-t-xs imagePath" alt="no" />
                 </span>
             </li>
         ))
@@ -57,16 +57,16 @@ export default class PositionRelative extends Component {
                             <div className="row no-gutters mb-01 align-items-center justify-content-between white-bg">
                                 <div className="col-auto ">
                                     <Emojis index='02' />
-                                    <a href="#Photo"  data-toggle="tooltip" title="Photo"><i className="sprite photo-ico"></i></a>
-                                    <a href="#Text-Editor"  data-toggle="tooltip" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
-                                    <a href="#Attachmen"  data-toggle="tooltip" title="Attachment"><i className="sprite attachment-ico"></i></a>
-                                    <a href="#Voice"  data-toggle="tooltip" title="Voice"><i className="sprite voice-ico"></i></a>
+                                    <a href="#Photo" title="Photo"><i className="sprite photo-ico"></i></a>
+                                    <a href="#Text-Editor" title="Text-Editor"><i className="sprite texteditor-ico"></i></a>
+                                    <a href="#Attachmen" title="Attachment"><i className="sprite attachment-ico"></i></a>
+                                    <a href="#Voice" title="Voice"><i className="sprite voice-ico"></i></a>
                                 </div>
                                 <div className="col-auto float-right d-flex">
-                                    <a href="#create-group-popup" className="gicons-rounded hide create-group-popup"  data-toggle="tooltip" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
-                                    <a href="#camera-request-popup" className="theme-bg gicons-rounded hide camera-request-popup"  data-toggle="tooltip" title="Video Call"><i className="sprite video-ico z-disable"></i></a>
-                                    <a href="#voice" className="gicons-rounded hide"  data-toggle="tooltip" title="Voice Call"><i className="sprite call-ico z-disable"></i></a>
-                                    <button className="groupconversation-window"  data-toggle="tooltip" title="Show Video"><i className="sprite right-ico"></i></button>
+                                    <a href="#create-group-popup" className="gicons-rounded hide create-group-popup" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
+                                    <a href="#camera-request-popup" className="theme-bg gicons-rounded hide camera-request-popup" title="Video Call"><i className="sprite video-ico z-disable"></i></a>
+                                    <a href="#voice" className="gicons-rounded hide" title="Voice Call"><i className="sprite call-ico z-disable"></i></a>
+                                    <button className="groupconversation-window" title="Show Video"><i className="sprite right-ico"></i></button>
                                 </div>
                             </div>
                             <div className="row no-gutters align-items-center justify-content-between white-bg input-area">
@@ -88,9 +88,9 @@ export default class PositionRelative extends Component {
                 </div>
                 <div className="group-conversation-block show">
                     <div className="d-flex align-items-center justify-content-end mb-3 pr-3">
-                        <a href="#create-group-popup" className="icons-rounded create-group-popup"  data-toggle="tooltip" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
-                        <a href="#camera-request-popup" className="theme-bg icons-rounded camera-request-popup"  data-toggle="tooltip" title="Video Call"><i className="sprite video-ico z-disable"></i></a>
-                        <a href="#voicecall" className="icons-rounded"  data-toggle="tooltip" title="Voice Call"><i className="sprite call-ico z-disable"></i></a>
+                        <a href="#create-group-popup" className="icons-rounded create-group-popup" title="Create Group"><i className="sprite user-add-ico z-disable"></i></a>
+                        <a href="#camera-request-popup" className="theme-bg icons-rounded camera-request-popup" title="Video Call"><i className="sprite video-ico z-disable"></i></a>
+                        <a href="#voicecall" className="icons-rounded" title="Voice Call"><i className="sprite call-ico z-disable"></i></a>
                     </div>
                     <div className="m-l-sm font-8"> ONLINE FRIENDS</div>
                     <div className="scroll-sec">

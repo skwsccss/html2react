@@ -4,7 +4,7 @@ export default class ShowRealInfo extends Component {
     render() {
         return (
             <span id="real-info" className="real-info-dropdown submenu width-count">
-                <span className="user-name theme-bg">Kanyo cube<span className="detail-close-btn" data-toggle="tooltip" title="Close">X</span></span>
+                <span className="user-name theme-bg">Kanyo cube<span className="detail-close-btn" title="Close">X</span></span>
                 <span className="menu-content-block">
                     <span className="white-bg">
                         <span className="row d-flex justify-content-center mb-1">

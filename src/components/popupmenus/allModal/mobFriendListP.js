@@ -14,7 +14,7 @@ class MobileFriendList extends Component {
             <li key={index} className={index % 2 === 0 ? 'blue-text' : 'pink-text'}>
                 <span className="arrow-right-caret"></span>
                 <span>
-                    <img alt="avatar" src={`/images/${friend.userLevel}.png`} className="img-fluid imagePath" data-toggle="tooltip" title={`User-${friend.userLevel}`} />
+                    <img alt="avatar" src={`/images/${friend.userLevel}.png`} className="img-fluid imagePath" title={`User-${friend.userLevel}`} />
                 </span>
                 <span className="profile-avtar">
                     <img alt="avatar" src={"/images/chat-photo.jpg"} className="img-fluid" />
@@ -23,17 +23,17 @@ class MobileFriendList extends Component {
                 <span>{friend.name}</span>
                 <span className="float-right">
                     <a href="#video01-popup" className="calling-icon">
-                        <img alt="avatar" src={`/images/${friend.actionTitle}.png`} data-toggle="tooltip" title={friend.actionTitle} className="img-fluid m-t-xs m-r-sm call-popup imagePath" />
+                        <img alt="avatar" src={`/images/${friend.actionTitle}.png`} title={friend.actionTitle} className="img-fluid m-t-xs m-r-sm call-popup imagePath" />
                     </a>
-                    <img alt="avatar" src={`/images/${friend.gender === 'Men' ? 'men' : 'women'}.png`} data-toggle="tooltip" title={friend.gender} className="img-fluid m-t-xs imagePath" />
+                    <img alt="avatar" src={`/images/${friend.gender === 'Men' ? 'men' : 'women'}.png`} title={friend.gender} className="img-fluid m-t-xs imagePath" />
                 </span>
             </li>
         ))
         return (
-            <div className="modal01 fadeIn friends-list footer-links header-popup show transform" id="friends-popup" tabIndex="-1" role="dialog" aria-labelledby="friends-popup" aria-hidden="true">
+            <div className="modal01 fadeIn friends-list footer-links header-popup" id="friends-popup" tabIndex="-1" role="dialog" aria-labelledby="friends-popup" aria-hidden="true">
                 <div className="modal-dialog friends-model sm-modal" role="document">
                     <div className="modal-content">
-                        <MobTopHeader data-toggle="tooltip" title="Friends" />
+                        <MobTopHeader title="Friends" />
                         <div className="modal-body openchat-scroll">
                             <div className="friend-list-box">
                                 <div className="title-block">

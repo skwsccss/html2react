@@ -4,17 +4,17 @@ import MobTopHeader from './mobTopheader'
 export default class AboutApp extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links transform center-transform show" id="about-app-popup" tabIndex="-1" role="dialog" aria-labelledby="about-app-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links transform center-transform" id="about-app-popup" tabIndex="-1" role="dialog" aria-labelledby="about-app-popup" aria-hidden="true">
                 <div className="modal-dialog content-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>About the App</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader data-toggle="tooltip" title="About the App" />
+                        <MobTopHeader title="About the App" />
                         <div className="modal-body">
                             <div className="row no-gutters">
                                 <div className="col-12 col-md-12 pl-2 m-pl-0 confirm-txt m-text-center">

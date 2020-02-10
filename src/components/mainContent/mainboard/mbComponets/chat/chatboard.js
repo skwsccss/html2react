@@ -45,7 +45,7 @@ export default class ChatBoard extends Component {
                         <span className="perm-btn-block font-12">
                             {
                                 item.accoption.map((option, key) => (
-                                    <button className="chat-accept-btn" data-toggle="tooltip" title={option} key={key}>
+                                    <button className="chat-accept-btn" title={option} key={key}>
                                         <img src={`/css/dist/theme01/images/${option !== 'Rejection' ? 'accept' : 'reject'}-icon.png`} alt="butnimage" /><span className="action-txt"> {option}</span>
                                     </button>
                                 ))}

@@ -1,21 +1,6 @@
 import { put, takeEvery, takeLatest, all } from 'redux-saga/effects';
 
-import {
-    FETCH_ROOMS,
-    FETCH_ROOMS_FAILED,
-    FETCH_ROOMS_SUCCESS,
-    FETCH_USER,
-    FETCH_USER_SUCCESS,
-    FETCH_USER_FAILED,
-    FETCH_FRIEND,
-    FETCH_FRIEND_SUCCESS,
-    FETCH_FRIEND_FAILED,
-    FETCH_ROOM_TABS,
-    FETCH_ROOM_TABS_FAILED,
-    FETCH_ROOM_TABS_SUCCESS, 
-    OPENED_MODAL, HIDED_MODAL, 
-    OPEN_MODAL, HIDE_MODAL
-} from '../actions/actionConstants';
+import { FETCH_ROOMS, FETCH_ROOMS_FAILED, FETCH_ROOMS_SUCCESS, FETCH_USER, FETCH_USER_SUCCESS, FETCH_USER_FAILED, FETCH_FRIEND, FETCH_FRIEND_SUCCESS, FETCH_FRIEND_FAILED, FETCH_ROOM_TABS, FETCH_ROOM_TABS_FAILED, FETCH_ROOM_TABS_SUCCESS } from '../actions/actionConstants';
 import { Rooms } from '../api/roomsData';
 import { Users } from '../api/users';
 import { roomTabs } from '../api/roomTab';
@@ -57,21 +42,11 @@ function* fetchRoomTabs() {
     }
 }
 
-function* OpenModal({ modalName }) {
-    yield put({ type: OPENED_MODAL, payload: modalName });
-}
-
-function* HideModal() {
-    yield put({ type: HIDED_MODAL })
-}
-
 function* actionWatcher() {
     yield takeLatest(FETCH_ROOMS, fetchRooms);
     yield takeEvery(FETCH_USER, fetchUsers);
     yield takeEvery(FETCH_FRIEND, fetchFriend);
     yield takeEvery(FETCH_ROOM_TABS, fetchRoomTabs);
-    yield takeEvery(OPEN_MODAL, OpenModal);
-    yield takeEvery(HIDE_MODAL, HideModal);
 }
 
 

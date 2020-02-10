@@ -55,20 +55,20 @@ export default class UpgradeMembership extends Component {
             }
         ]
         const membershiplist = data.map((item, index) => (
-            <MembershipPlan data-toggle="tooltip" title={item.title} price={item.price} key={index} color={index % 2 === 0 ? 'purple-bg' : 'green-bg'} />
+            <MembershipPlan title={item.title} price={item.price} key={index} color={index % 2 === 0 ? 'purple-bg' : 'green-bg'} />
         ))
         return (
-            <div className="modal01 fadeIn footer-links show transform" id="upgrade-popup" tabIndex="-1" role="dialog" aria-labelledby="upgrade-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links" id="upgrade-popup" tabIndex="-1" role="dialog" aria-labelledby="upgrade-popup" aria-hidden="true">
                 <div className="modal-dialog upgrade-model md-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between  hidden-sm">
                             <strong>Upgrade</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
                         </span>
-                        <MobTopHeader data-toggle="tooltip" title='UPGRADE' />
+                        <MobTopHeader title='UPGRADE' />
                         <div className="modal-body">
                             <div className="white-bg upgrade-details">
                                 <div className="transparent-bg">
@@ -101,13 +101,13 @@ export default class UpgradeMembership extends Component {
                                         <label className="float-left" htmlFor="friendname">Months</label>
                                     </div>
                                     <div className="upgrade-info-text">
-                                        <div className="sm-fonts"><span className="credit-ttl">You need to pay :</span><span><i className="sprite gift-credit-ico" data-toggle="tooltip" title="Credits-ico"></i> 1000</span></div>
-                                        <div className="sm-fonts d-100-between"><div><span className="credit-ttl">Your credits :</span><span><i className="sprite gift-credit-ico" data-toggle="tooltip" title="Credits-ico"></i> 0</span></div><button type="submit" href="#virtual-currency-popup" data-toggle="tooltip" title="Buy-Credits" className="btn sm-btn theme-bg m-l-50 hidden-sm z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button></div>
+                                        <div className="sm-fonts"><span className="credit-ttl">You need to pay :</span><span><i className="sprite gift-credit-ico" title="Credits-ico"></i> 1000</span></div>
+                                        <div className="sm-fonts d-100-between"><div><span className="credit-ttl">Your credits :</span><span><i className="sprite gift-credit-ico" title="Credits-ico"></i> 0</span></div><button type="submit" href="#virtual-currency-popup" title="Buy-Credits" className="btn sm-btn theme-bg m-l-50 hidden-sm z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</button></div>
                                     </div>
                                     <div className="modal-footer modal-btn-links">
-                                        <a data-toggle="tooltip" title="Buy-Credits" href="#virtual-currency-popup" className="btn sm-btn d-flex theme-bg m-l-50 desk-hidden mob-radius-btn visible-sm z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</a>
-                                        <a className="btn sm-btn theme-bg mob-radius-btn cancel-btn" data-dismiss="modal" data-toggle="tooltip" title="Cancel" href="#cancel">Cancel</a>
-                                        <a className="btn sm-btn dark-gray-bg mob-radius-btn z-disable upgrade-room-popup" href="#upgrade-room-popup" id="upgrade-btn" data-toggle="tooltip" title="Upgrade">Upgrade</a>
+                                        <a title="Buy-Credits" href="#virtual-currency-popup" className="btn sm-btn d-flex theme-bg m-l-50 desk-hidden mob-radius-btn visible-sm z-disable virtual-currency-popup"><i className="sprite white-cart-ico"></i>Buy Credits</a>
+                                        <a className="btn sm-btn theme-bg mob-radius-btn cancel-btn" data-dismiss="modal" title="Cancel" href="#cancel">Cancel</a>
+                                        <a className="btn sm-btn dark-gray-bg mob-radius-btn z-disable upgrade-room-popup" href="#upgrade-room-popup" id="upgrade-btn" title="Upgrade">Upgrade</a>
                                     </div>
                                 </div>
                             </div>

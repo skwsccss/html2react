@@ -9,10 +9,10 @@ export default class ReportedAction extends Component {
                 <td>{reason}</td>
                 <td className="action-center">
                     <div>
-                        <a className="action-btn background-process-hide z-disable mute-window-popup" href="#mute-window-popup"  data-toggle="tooltip" title="Mute"><i className="sprite mute-ico"></i>Mute</a>
-                        <a className="action-btn z-disable kick-window-popup" href="#kick-window-popup"  data-toggle="tooltip" title="Kick"><i className="sprite kick-ico"></i>Kick</a>
-                        <a className="action-btn z-disable ban-popup" href="#ban-popup"  data-toggle="tooltip" title="ban"><i className="sprite ban-ico"></i>Ban</a>
-                        <a href="#viewprofile" className="action-btn popup mob-profile-window z-disable"  data-toggle="tooltip" title="View Profile"><i className="sprite profile-ico"></i>View Profile<span className="arrow-right-caret"></span></a>
+                        <a className="action-btn background-process-hide z-disable mute-window-popup" href="#mute-window-popup" title="Mute"><i className="sprite mute-ico"></i>Mute</a>
+                        <a className="action-btn z-disable kick-window-popup" href="#kick-window-popup" title="Kick"><i className="sprite kick-ico"></i>Kick</a>
+                        <a className="action-btn z-disable ban-popup" href="#ban-popup" title="ban"><i className="sprite ban-ico"></i>Ban</a>
+                        <a href="#viewprofile" className="action-btn popup mob-profile-window z-disable" title="View Profile"><i className="sprite profile-ico"></i>View Profile<span className="arrow-right-caret"></span></a>
                     </div>
                 </td>
             </tr>

@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class Notification extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn notification-list footer-links01 show transform" id="notification-popup" tabIndex="-1" role="dialog" aria-labelledby="notification-popup" aria-hidden="true">
+            <div className="modal01 fadeIn notification-list footer-links01" id="notification-popup" tabIndex="-1" role="dialog" aria-labelledby="notification-popup" aria-hidden="true">
                 <div className="modal-dialog notification-model sm-modal" role="document">
                     <div className="modal-content">
                         <div className="row  mob-top-header align-items-center header-shadow">
@@ -25,7 +25,7 @@ export default class Notification extends Component {
                                                             <span className="user-detail">
                                                                 <span className="d-flex align-items-center">
                                                                     <span>
-                                                                        <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" data-toggle="tooltip" title="User-Level1" alt="cartImg" />
+                                                                        <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="cartImg" />
                                                                     </span>
                                                                     <span>
                                                                         <span className="user-name-sm">Heng liang</span><br />
@@ -38,7 +38,7 @@ export default class Notification extends Component {
                                                             </span>
                                                         </span>
                                                         <span>
-                                                            <span className="close-info" data-toggle="tooltip" title="Close"> X</span>
+                                                            <span className="close-info" title="Close"> X</span>
                                                         </span>
                                                     </div>
                                                 </li>
@@ -49,10 +49,10 @@ export default class Notification extends Component {
                                                     <a className="dropdown-item" href="#href"><span className="status-ico in-visible"></span>Invisible</a>
                                                 </li>
                                                 <li className="seprator account-link">
-                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" data-toggle="tooltip" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
-                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" data-toggle="tooltip" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
+                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
+                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
                                                 </li>
-                                                <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" data-toggle="tooltip" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
+                                                <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -79,8 +79,8 @@ export default class Notification extends Component {
                                             <span className="notification-msg"><strong>Lín  Zhèng</strong> invited you to join Group Chat.</span>
                                             <span className="notification-time">05:00 PM</span>
                                             <span className="modal-btn-group justify-content-start pt-1 pb-1 d-flex">
-                                                <span className="d-flex mr-2 btn sm-btn theme-bg mob-radius-btn z-disable m-order-2 z-disable" data-toggle="tooltip" title="Send">Accept</span>
-                                                <span className="d-flex btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" data-toggle="tooltip" title="Cancel">Decline</span>
+                                                <span className="d-flex mr-2 btn sm-btn theme-bg mob-radius-btn z-disable m-order-2 z-disable" title="Send">Accept</span>
+                                                <span className="d-flex btn sm-btn dark-gray-bg mob-radius-btn cancel-btn m-order-1" title="Cancel">Decline</span>
                                             </span>
                                         </span>
                                     </a>

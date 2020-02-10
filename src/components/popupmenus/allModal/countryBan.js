@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class CountryBan extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links show transform" id="country-ban-popup" tabIndex="-1" role="dialog" aria-labelledby="country-ban-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links" id="country-ban-popup" tabIndex="-1" role="dialog" aria-labelledby="country-ban-popup" aria-hidden="true">
                 <div className="modal-dialog country-ban-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Countries Banned System</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -39,7 +39,7 @@ export default class CountryBan extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center justify-content-center mt-2">
-                                <a href="#contactus" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" data-toggle="tooltip" title="Contact Us">Contact Us</a>
+                                <a href="#contactus" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" title="Contact Us">Contact Us</a>
                             </div>
                         </div>
                     </div>

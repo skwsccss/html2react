@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class Exit extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links transform center-transform show" id="exit-group-popup" tabIndex="-1" role="dialog" aria-labelledby="exit-group-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links transform center-transform" id="exit-group-popup" tabIndex="-1" role="dialog" aria-labelledby="exit-group-popup" aria-hidden="true">
                 <div className="modal-dialog exit-group-model actions-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Exit Group</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -26,8 +26,8 @@ export default class Exit extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center mt-0 justify-content-center">
-                                <a href="#Yes" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" data-toggle="tooltip" title="Yes">Yes</a>
-                                <a href="#Cancel" className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" data-toggle="tooltip" title="No">Cancel</a>
+                                <a href="#Yes" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" title="Yes">Yes</a>
+                                <a href="#Cancel" className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" title="No">Cancel</a>
                             </div>
                         </div>
 

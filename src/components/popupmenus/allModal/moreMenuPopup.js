@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class MoreMenuPopup extends Component {
     render() {
         return (
-            <div className="modal fadeIn more-menu footer-links show transform" id="moremenu-popup" tabIndex="-1" role="dialog" aria-labelledby="chat-popup" aria-hidden="true">
+            <div className="modal fadeIn more-menu footer-links" id="moremenu-popup" tabIndex="-1" role="dialog" aria-labelledby="chat-popup" aria-hidden="true">
                 <div className="modal-dialog modal-dialog-centered chat-model sm-modal" role="document">
                     <div className="modal-content">
                         <div className="row  mob-top-header align-items-center">
@@ -24,10 +24,10 @@ export default class MoreMenuPopup extends Component {
                                                     <span>
                                                         <span className="user-name-sm d-flex align-items-center">
                                                             <span className="d-flex align-items-center">
-                                                                <img src="/css/dist/theme01/images/crown.png" className="img-fluid mr-2 m-w-14" data-toggle="tooltip" title="User-Level1" alt="no-img" />
+                                                                <img src="/css/dist/theme01/images/crown.png" className="img-fluid mr-2 m-w-14" title="User-Level1" alt="no-img" />
                                                             </span>Heng liang
                                                     </span>
-                                                        <span className="d-flex align-items-center"><span className="d-flex align-items-center"><img src="/css/dist/theme01/images/my-account.png" className="img-fluid mr-2 m-w-14" data-toggle="tooltip" title="my-account" alt="no-img" /></span>My Account </span>
+                                                        <span className="d-flex align-items-center"><span className="d-flex align-items-center"><img src="/css/dist/theme01/images/my-account.png" className="img-fluid mr-2 m-w-14" title="my-account" alt="no-img" /></span>My Account </span>
                                                     </span>
                                                 </span>
                                             </span>
@@ -41,8 +41,8 @@ export default class MoreMenuPopup extends Component {
                                                     <a className="dropdown-item" href="#dropdown"><span className="status-ico in-visible"></span>Invisible</a>
                                                 </li>
                                                 <li className="seprator account-link">
-                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" data-toggle="tooltip" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />My Account</a>
-                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" data-toggle="tooltip" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />Change Avatar</a>
+                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />My Account</a>
+                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="no-img" />Change Avatar</a>
                                                 </li>
                                                 <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="no-img" />Logout</a></li>
                                             </ul>
@@ -64,8 +64,8 @@ export default class MoreMenuPopup extends Component {
                                             <span>Your Credits :</span><span className="theme-txt-color bold-600"> 1000</span>
                                         </div>
                                         <div className="btn-group menu-list">
-                                            <a className="btn sm-btn theme-bg z-disable upgrade-popup" data-toggle="tooltip" title="Upgrade Account" href="#upgrade-popup"><i className="sprite upgrade-white-ico"></i>Upgrade Account</a>
-                                            <a className="btn sm-btn theme-bg" data-toggle="tooltip" title="Buy Credit" href="#buycredit"><i className="sprite buy-credit-ico"></i>Buy Credit</a>
+                                            <a className="btn sm-btn theme-bg z-disable upgrade-popup" title="Upgrade Account" href="#upgrade-popup"><i className="sprite upgrade-white-ico"></i>Upgrade Account</a>
+                                            <a className="btn sm-btn theme-bg" title="Buy Credit" href="#buycredit"><i className="sprite buy-credit-ico"></i>Buy Credit</a>
                                         </div>
                                     </div>
                                 </div>
@@ -84,7 +84,7 @@ export default class MoreMenuPopup extends Component {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="z-disable" href="#send-announcement-popup send-announcement-popup" data-toggle="tooltip" title="Send Announcment">
+                                    <a className="z-disable" href="#send-announcement-popup send-announcement-popup" title="Send Announcment">
                                         <span className="float-left"><i className="sprite announcement-ico"></i>Send Announcement</span>
                                         <span className="float-right"> <i className="right-arrow-ico"></i></span>
                                     </a>
@@ -160,7 +160,7 @@ export default class MoreMenuPopup extends Component {
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#logout-popup" className="z-disable logout-popup" data-toggle="tooltip" title="logout">
+                                    <a href="#logout-popup" className="z-disable logout-popup" title="logout">
                                         <span className="float-left"><i className="sprite logout-ico"></i>Logout</span>
                                         <span className="float-right"> <i className="right-arrow-ico"></i></span>
                                     </a>

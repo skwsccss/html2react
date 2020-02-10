@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class FriendRequest extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links center-msg-box small-box-popup show transform" id="friend-request-popup" tabIndex="-1" role="dialog" aria-labelledby="friend-request-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links center-msg-box small-box-popup" id="friend-request-popup" tabIndex="-1" role="dialog" aria-labelledby="friend-request-popup" aria-hidden="true">
                 <div className="modal-dialog friend-request-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Friend Request</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -36,9 +36,9 @@ export default class FriendRequest extends Component {
                         </div>
 
                         <div className="modal-btn-group modal-footer modal-btn-links popup-btns d-flex align-items-center justify-content-center">
-                            <a href="#accept" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" data-toggle="tooltip" title="Accept">Accept</a>
-                            <a href="#reject" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-dismiss="modal" data-toggle="tooltip" title="Reject">Reject</a>
-                            <a href="#ignore" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-dismiss="modal" data-toggle="tooltip" title="Ignore">Ignore</a>
+                            <a href="#accept" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn" title="Accept">Accept</a>
+                            <a href="#reject" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-dismiss="modal" title="Reject">Reject</a>
+                            <a href="#ignore" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-dismiss="modal" title="Ignore">Ignore</a>
                         </div>
                     </div>
                 </div>

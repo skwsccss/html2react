@@ -8,7 +8,7 @@ export default class Notice extends Component {
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between">
                             <strong>Notice</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -31,8 +31,8 @@ export default class Notice extends Component {
                                 </div>
                             </div>
                             <div className="modal-btn-group modal-btn-links popup-btns d-flex align-items-center justify-content-center">
-                                <button href="#yes" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" data-toggle="tooltip" title="Yes">Yes</button>
-                                <button className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" data-toggle="tooltip" title="No">NO</button>
+                                <button href="#yes" className="btn sm-btn theme-bg mob-radius-btn m-r-sm cancel-btn order-1" title="Yes">Yes</button>
+                                <button className="btn sm-btn dark-gray-bg mob-radius-btn m-r-sm cancel-btn order-2" title="No">NO</button>
                             </div>
                         </div>
 

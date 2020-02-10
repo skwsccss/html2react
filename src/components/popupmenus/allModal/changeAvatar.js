@@ -3,12 +3,12 @@ import React, { Component } from 'react'
 export default class ChangeAvatar extends Component {
     render() {
         return (
-            <div className="modal01 fadeIn footer-links show transform" id="change-avtar-popup" tabIndex="-1" role="dialog" aria-labelledby="change-avtar-popup" aria-hidden="true">
+            <div className="modal01 fadeIn footer-links " id="change-avtar-popup" tabIndex="-1" role="dialog" aria-labelledby="change-avtar-popup" aria-hidden="true">
                 <div className="modal-dialog change-avtar-model sm-modal" role="document">
                     <div className="modal-content">
                         <span className="box-title theme-bg justify-content-between hidden-sm">
                             <strong>Change Avatar</strong><span className="mark-read-btn">
-                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" data-toggle="tooltip" title="Close">
+                                <button type="button" className="close" data-dismiss="modal" aria-label="Close" title="Close">
                                     <span aria-hidden="true">X</span>
                                 </button>
                             </span>
@@ -32,7 +32,7 @@ export default class ChangeAvatar extends Component {
                                                             <span className="user-detail">
                                                                 <span className="d-flex align-items-center">
                                                                     <span>
-                                                                        <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" data-toggle="tooltip" title="User-Level1" alt="cartImg" />
+                                                                        <img src="/css/dist/theme01/images/crown.png" className="img-fluid m-r-sm m-w-14" title="User-Level1" alt="cartImg" />
                                                                     </span>
                                                                     <span>
                                                                         <span className="user-name-sm">Heng liang</span><br />
@@ -45,7 +45,7 @@ export default class ChangeAvatar extends Component {
                                                             </span>
                                                         </span>
                                                         <span>
-                                                            <span className="close-info" data-toggle="tooltip" title="Close"> X</span>
+                                                            <span className="close-info" title="Close"> X</span>
                                                         </span>
                                                     </div>
                                                 </li>
@@ -56,10 +56,10 @@ export default class ChangeAvatar extends Component {
                                                     <a className="dropdown-item" href="#href"><span className="status-ico in-visible"></span>Invisible</a>
                                                 </li>
                                                 <li className="seprator account-link">
-                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" data-toggle="tooltip" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
-                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" data-toggle="tooltip" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
+                                                    <a className="dropdown-item z-disable myaccount-popup" href="#myaccount-popup" title="My Account"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="account" />My Account</a>
+                                                    <a className="dropdown-item z-disable change-avtar-popup" href="#change-avtar-popup" title="Change Avatar"><img src="/css/dist/theme01/images/right-icon.png" className="img-fluid" alt="changeavatar" />Change Avatar</a>
                                                 </li>
-                                                <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" data-toggle="tooltip" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
+                                                <li><a className="dropdown-item logout z-disable logout-popup" href="#logout-popup" title="Logout"><img src="/css/dist/theme01/images/logout.png" className="img-fluid" alt="logout" />Logout</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -91,19 +91,19 @@ export default class ChangeAvatar extends Component {
                                                 <div className="pagination-container five-row">
                                                     <div className="row">
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/05.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/05.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -113,25 +113,25 @@ export default class ChangeAvatar extends Component {
                                                 <div className="pagination-container show five-row">
                                                     <div className="row">
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/05.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/05.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/06.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/06.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -141,16 +141,16 @@ export default class ChangeAvatar extends Component {
                                                 <div className="pagination-container five-row">
                                                     <div className="row">
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                         <div className="avatar-images text-center m-b-xs">
-                                                            <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="no-img" /></a>
+                                                            <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="no-img" /></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -160,22 +160,22 @@ export default class ChangeAvatar extends Component {
                                             <div className="custom-avatar-txt">Custome Avatar</div>
                                             <div className="row custom-avatar-img">
                                                 <div className="avatar-images text-center m-b-xs">
-                                                    <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="noimg" /></a>
+                                                    <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/01.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
                                                 <div className="avatar-images text-center m-b-xs">
-                                                    <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="noimg" /></a>
+                                                    <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/02.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
                                                 <div className="avatar-images text-center m-b-xs">
-                                                    <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="noimg" /></a>
+                                                    <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/03.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
                                                 <div className="avatar-images text-center m-b-xs">
-                                                    <a href="#href" data-toggle="tooltip" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="noimg" /></a>
+                                                    <a href="#href" title="Avatar01"><img src="/css/dist/theme01/images/avatar/04.jpg" className="img-fluid" alt="noimg" /></a>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="modal-btn-group">
-                                            <button type="button" className="btn sm-btn theme-bg mob-radius-btn" data-toggle="tooltip" title="Submit">Submit</button>
-                                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" data-toggle="tooltip" title="Cancel">Cancel</button>
+                                            <button type="button" className="btn sm-btn theme-bg mob-radius-btn" title="Submit">Submit</button>
+                                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn cancel-btn" title="Cancel">Cancel</button>
                                         </div>
                                     </div>
                                     <div className="avatar-view-box order-2">
@@ -183,8 +183,8 @@ export default class ChangeAvatar extends Component {
                                             <img src="/css/dist/theme01/images/avtar-view.png" className="img-fluid" alt="noimg" />
                                         </div>
                                         <div className="modal-btn-links">
-                                            <button type="button" data-toggle="tooltip" title="Upload Avatar" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right">Upload avatar</button>
-                                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn" data-toggle="tooltip" title="Webcam Avatar">Webcam avatar</button>
+                                            <button type="button" title="Upload Avatar" className="btn sm-btn center-btn theme-bg mob-radius-btn float-right">Upload avatar</button>
+                                            <button type="button" className="btn sm-btn dark-gray-bg mob-radius-btn" title="Webcam Avatar">Webcam avatar</button>
                                         </div>
                                     </div>
                                 </div>

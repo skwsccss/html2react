@@ -13,10 +13,10 @@ export default class OpenChatPopup extends Component {
             <ChatPopupList key={index} username={item.username} msg={item.msg} />
         ))
         return (
-            <div className="modal01 fadeIn openchat-list footer-links01 header-popup show transform" id="openchat-popup" tabIndex="-1" role="dialog" aria-labelledby="openchat-popup" aria-hidden="true">
+            <div className="modal01 fadeIn openchat-list footer-links01 header-popup" id="openchat-popup" tabIndex="-1" role="dialog" aria-labelledby="openchat-popup" aria-hidden="true">
                 <div className="modal-dialog openchat-model sm-modal" role="document">
                     <div className="modal-content">
-                        <MobTopHeader data-toggle="tooltip" title="CHATS" />
+                        <MobTopHeader title="CHATS" />
                         <div className="modal-body openchat-scroll">
                             <div className="openchat-box">
                                 <div className="mob-delete-right">

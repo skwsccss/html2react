@@ -5,7 +5,7 @@ export default class MobMsgInput extends Component {
         return (
             <div className="footer-middle d-flex align-items-center justify-content-between">
                 <div className="col-2-5 footer-menu d-flex justify-content-center">
-                    <a href="#q" data-toggle="tooltip" title="Room Area" className="room-footer-menu" id="closeAllPopup">
+                    <a href="#q" title="Room Area" className="room-footer-menu" id="closeAllPopup">
                         <div className="text-center menu-btns active">
                             <span><i className="sprite room-menu-ico"></i></span>
                             <span>ROOMS</span>
@@ -13,7 +13,7 @@ export default class MobMsgInput extends Component {
                     </a>
                 </div>
                 <div className="col-2-5 footer-menu d-flex justify-content-center">
-                    <a href="#q" data-toggle="tooltip" title="Live Area" data-id="#video-popup">
+                    <a href="#q" title="Live Area" data-id="#video-popup">
                         <div className="text-center menu-btns">
                             <span><i className="sprite live-ico"></i></span>
                             <span>LIVE</span>
@@ -21,7 +21,7 @@ export default class MobMsgInput extends Component {
                     </a>
                 </div>
                 <div className="col-2-5 footer-menu d-flex justify-content-center">
-                    <a href="#q" data-toggle="tooltip" title="Chat List" data-id="#openchat-popup">
+                    <a href="#q" title="Chat List" data-id="#openchat-popup">
                         <div className="text-center menu-btns">
                             <span><i className="sprite chat-add-ico"></i></span>
                             <span>CHATS</span>
@@ -29,7 +29,7 @@ export default class MobMsgInput extends Component {
                     </a>
                 </div>
                 <div className="col-2-5 footer-menu d-flex justify-content-center">
-                    <a href="#q" data-toggle="tooltip" title="Chat List" data-id="#friends-popup">
+                    <a href="#q" title="Chat List" data-id="#friends-popup">
                         <div className="text-center menu-btns">
                             <span><i className="sprite friends-menu-ico"></i></span>
                             <span>FRIENDS</span>
@@ -38,7 +38,7 @@ export default class MobMsgInput extends Component {
                     </a>
                 </div>
                 <div className="col-2-5 footer-menu d-flex justify-content-center">
-                    <a href="#q" data-toggle="tooltip" title="Moremenu-Popup" data-id="#moremenu-popup">
+                    <a href="#q" title="Moremenu-Popup" data-id="#moremenu-popup">
                         <div className="text-center menu-btns">
                             <span><i className="sprite more-menu-ico"></i></span>
                             <span>MORE</span>
